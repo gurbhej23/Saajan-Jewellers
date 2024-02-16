@@ -1,0 +1,420 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto,'Poppins',sans-serif;
+    text-decoration: none;
+    font-size: 17px;
+    line-height: 28px;
+    color: #686868;
+}
+
+h4{
+    color: #001244;
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+
+p{
+    /* color: #001244; */
+    margin-bottom: 15px;
+}
+
+form{
+    margin-bottom: 15px;
+}
+
+section a{
+    text-decoration: none;
+    color: #009fd7;
+}
+
+.button input{ 
+    font-size: 15px;
+    color: #fff;
+    background-color: #009fd7;
+    border: 1px;
+    border-radius: 6px;
+    height: 50px;
+    padding: 0 20px;
+    font-weight: 800;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.button input:hover{
+    background-color: #001244;
+}
+
+.content{
+    background-color: #fff;
+    margin: 0 auto;
+    width: 1349px;
+}
+
+.header-section{
+    padding: 5px 0;
+}
+ 
+.uppersection{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 15px;
+}
+.logo {
+    width: 200px
+}
+.logo a {
+    display: inline-block;
+}
+
+.navbar{
+    float: right;
+    word-spacing: 12px;
+    padding: 20px 0px 0 35px; 
+}
+
+.navbar .nav{
+    display: flex;
+}
+
+.navbar a{ 
+    padding: 0 25px;
+    word-spacing: 0;
+    /* transition: 1s; */
+    color: #001244; 
+}
+
+.navbar a:hover{
+    color: #009FD6;
+}
+
+.drop-down{
+    position: relative;
+    cursor: pointer;
+}
+
+.dropdown{ 
+    position: absolute;
+    right: 0;
+    top: 3px;
+    transition: 0.5s;
+}
+
+.dropdown:hover{
+    transform: rotate(180deg);
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    width: 205px;
+    left: 15px;
+    top: 35px;
+    background: #fff;
+    box-shadow: 2px 3px 12px 0px #37bdb624;
+    border-radius: 11px;
+    padding: 17px 0;
+}
+
+.dropdown-content:hover{
+    display: block;
+}
+
+.dropdown-content li{
+    list-style: none; 
+}
+
+.banner-section{
+    position: relative;
+    background-color: #eff9fc;
+    padding-top: 39px; 
+    border-end-end-radius: 80px;
+    height: 500px;
+} 
+
+.banner-text{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.banner-section h1{
+    font-size: 39px;
+    color: #001244;
+    width: 65%;
+    padding-left: 80px; 
+    line-height: 60px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.banner-section small{
+    color: #001244;
+    font-size: 32px;
+    line-height: 45px;
+}
+
+.banner-section img{
+    width: 87%;
+    padding-left: 60px; 
+}
+
+.banner-section span{ 
+    font-weight: 300;
+    margin-top: 5px;
+}
+ 
+.form{
+    padding-top: 35px;
+    padding-left: 80px;
+}
+
+.form h2{
+    padding-bottom: 15px;
+    font-size: 21px;
+    font-weight: 800;
+    font-family: sans-serif;
+    color: #009fd7;
+}
+
+.form .input{
+    position: relative;
+    float: inline-start;
+    border: 1px solid #ffffff;
+    border-radius:11px;
+    width: 34%;
+    height: 50px;
+    padding: 0 30px 0 20px;
+    margin-right: 18px;
+}
+
+.profile-user{
+    background-image: url(assets/images/nexogic/usr.svg);
+    background-repeat: no-repeat;
+    background-position: center right 10px;
+}
+
+.work-station{
+    background: #e7def7;
+    padding: 30px 0;
+}
+
+.work-text{
+    width: 42%; 
+}
+
+.work-image{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.work-image img{
+    position: relative;
+    width: 550px;
+    overflow: hidden;
+}
+
+.work-image, .right-image{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;    
+}
+
+.work-image h4{
+    display: none;
+}
+
+.video-label{
+    border-radius: 0 0 10px 10px;
+    background-color: #001244;
+    padding: 16px 30px;
+    color: #fff;
+}
+
+.play-btn{
+    position: absolute; 
+}
+
+.play-img{
+    width: 45px;
+}
+
+.work-banner{
+    display: flex;
+    align-items: center; 
+    justify-content: space-evenly;
+}
+
+.left-ban{
+    flex-direction: row-reverse;
+}
+
+.work-text span{
+    color: #001244;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.work-text ul{
+    list-style: none;
+    margin: 15px 0;
+}
+
+.work-text ul li{
+    position: relative;
+    padding-left: 20px;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+.work-text li:before {
+    content: "";
+    width: 9px;
+    height: 9px;
+    background: #009fd7;
+    position: absolute;
+    top: 9px;
+    left: 0px;
+    border-radius: 5px;
+}
+
+.work-section-7{
+    background-color: #edf8fc;;
+}
+
+@media screen and (max-width:430px) { 
+    .content{
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+    .content .navbar {
+        display: none;
+    }  
+
+    h4{
+        font-size: 24px;
+        margin: 10px  0 10px 0 ;
+        line-height: 30px;
+        /* display: none; */
+    }
+
+    p{
+        font-size: 18px;
+    }  
+
+    .logo img{
+        width: 60%;
+    }
+
+    .navbar{
+        padding: 0;
+    }
+
+    .navbar .nav{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navbar a{
+        font-size: 11px;
+    }
+
+    .button input{
+        font-size: 14px;
+        padding: 0 12px;
+        height: 39px;
+    }
+
+    .banner-text{
+        display: flex;
+        flex-direction: column-reverse;  
+    }
+
+    .banner-section .banner-img {
+        text-align: center;
+    }
+    .banner-section .banner-img img{
+        padding: 0;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .banner-section h1{
+        font-size: 27px;
+        padding: 0;
+        width: 97%;
+        line-height: 30px;
+        /* padding-left: 10px; */
+    }
+
+    .banner-section h1 br{
+        display: none;
+    }
+
+    .banner-section small{
+        font-size: 26px;
+        line-height: 30px;
+    }
+
+    .work-station{
+        padding: 25px 10px;
+    }
+
+      
+    .top-image{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .bottom-image{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .work-image{
+        width: 100%;
+    }
+
+    .work-image img{
+        width: 100%;
+    }
+
+    .work-image h4{
+        display: block;
+        text-align: center;
+    }
+
+    .text-rem h4{
+        display: none;
+    }
+
+    .work-text{
+        width: 100%; 
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .work-text ul{
+        text-align: left;
+    }
+
+    .form{
+        padding-left: 8px;
+        padding-top: 15px;
+    }
+
+    .form h2{
+        padding-bottom: 10px;
+        font-size: 15px;
+    }
+
+    .form .input{
+        width: 95%;
+        margin-bottom: 10px;
+    }
+
+}
