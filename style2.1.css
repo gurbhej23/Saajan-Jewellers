@@ -7,14 +7,19 @@ a {
     text-decoration: none;
 }
 
-/* Cintainer */
-.container{
-    /* background-image: url(assets/images/jewellery/necklace.jpg);
-    background-size: contain;   */
-    background-image: linear-gradient(90deg, #8f3e2b, #f0a85e,#8b3a25)
+/* Cintainer */ 
+section .container{
+    
+    width: 1280px;
+    margin: 0 auto;
 }
- 
+
+.footer-sec .container{
+    width: 1280px;
+    margin: 0 auto;
+}
 .content{
+    background-image: linear-gradient(90deg, #8f3e2b, #f0a85e,#8b3a25);
     margin: 0 auto;
     width: 1349px;
 }
@@ -41,13 +46,13 @@ a {
 }
 
 .search {
+    position: relative;
     float: right;
     width: 35%;
     margin: 16px 35px; 
 }
 
 .search input{
-    position: relative;
     padding: 0 30px;
     font-size: 15px;
     height: 35px;
@@ -59,7 +64,7 @@ a {
 .search span{
     position: absolute;
     z-index: 1;
-    top: 21px;
+    top: 6px;
 }
 
 
@@ -162,25 +167,26 @@ a {
 }
 
 .banner-section img{
-    box-shadow: 0 0 14px 5px #c17d5d;
-    border-radius: 10px;
+    /* box-shadow: 0 0 14px 5px #c17d5d;
+    border-radius: 10px; */
+    width: 100%;
 }
 
 .ban-cont{
-    font-size: 20px;
+    font-size: 36px;
+    text-align: center;
     position: absolute;
-    width: 20%;
-    margin: 10px 0;
-    color: #f0a85e;
+    margin: 15px 0px;
+    color: #f0a85e; 
 }
-                                /* text container */
+                                /* section 1*/
 
 .text-container{
     text-align: center;
 }
 
 .text-container h1{ 
-    display: inline;
+    padding-top: 35px; 
     font-size: 45px;
     color: #490000;
     text-align: center;
@@ -188,18 +194,11 @@ a {
 }
 
 .text-container p{ 
-    color: #490000; 
-    padding-top: 18px; 
+    color: #490000;  
     font-size: 20px;
     font-weight: 900;
     font-style: italic;
 }
-
-.text-container img{
-    margin: 0px 50px 0px 50px;
-}
-
-                                     /* cards */
 
 .card{ 
     border-top-left-radius: 20px;
@@ -241,7 +240,7 @@ a {
     display: flex;
     flex-direction: row; 
     overflow: hidden;
-    height: 200px;
+    /* height: 200px; */
 }
 
 .image-sec .material-symbols-outlined{
@@ -252,7 +251,7 @@ a {
     font-size: 35px;
 }
 
-                                        /* category */
+                                        /* section-2 */
 
 .category{
     text-align: center;
@@ -306,7 +305,7 @@ a {
     color: #490000;
 }
 
-                            /* category-1 */
+                            /* section-3 */
 
 .category-1{
     display: flex;
@@ -320,7 +319,7 @@ a {
 
 .category-1 h2{
     border-radius:  0px 0px 10px 10px;
-    padding: 11px;
+    padding: 12px;
     color: #e1b085;
     float: left;
     width: 72%;
@@ -329,8 +328,6 @@ a {
     text-align: left;
     margin-left: 51px;
 }
-
-                                /* category-1 items */
 
 .items-1{
     display: flex;
@@ -368,17 +365,154 @@ a {
     font-size: 20px;
 }
 
-/* section 3 */
+                                    /* section 4 */
 
-.card-1{
-    /* border-top-left-radius: 20px; */
-    /* border-top-right-radius: 20px; */
-    /* position: relative; */
-    /* width: 243px; */
-    height: 200px;
-    /* margin-right: 20px; */
+.category-2 {
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
 }
 
+.category-2 img{ 
+    height: 240px; 
+}
+
+.category-2 h2{
+    margin-bottom: 10px;
+    font-size: 15px;
+    text-align: left;
+    color: #490000;
+}
+
+.category-2 .price{
+    float: left;
+    display: flex;
+    align-items: flex-end;
+}
+
+.category-2 .price del{
+    color: #6e6e6e;
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+.category-2 .discount-section{
+    font-size: 15px;
+    transform: translate(33px, 3px);
+}
+
+.card-1{
+    margin-left: 50px;
+    padding: 8px;
+    border: 1px solid #490000;
+    /* height: 235px; */
+    background-color: #fff;
+}
+
+.slick-slide {
+    display: flex;
+    justify-content: center;
+}
+
+.slick-slide li {
+    margin: 15px;
+    list-style: none;
+    float: left;
+}
+
+.slick-slide li button{
+    cursor: pointer;
+    border: 0px;
+    background-color: #707070;
+    font-size: 0px;
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+}
+
+.slick-slide li button.active{
+    background-color: #490000;
+}
+
+                                    /* section 5 */
+
+.items-2{
+    position: relative;
+}
+
+.items-2 input{
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+    border-radius: 11px;
+    border: 1px solid #490000;
+    font-size: 15px;
+    padding: 10px;
+    width: 120px;
+    right: 160px;
+    margin: 30px 0;
+    transition: 0.6s ease;
+}
+
+.items-2 input:hover{
+    color: #fff;
+    background-color: #490000;
+}
+
+.schedule-card{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.schedule-card .contact-1{
+    position: relative;
+    height: 195px;
+    width: 345px;
+    background-image: linear-gradient(40deg, #100d0d, #bf1414);
+    border-radius: 20px;
+}
+
+.schedule-card img{
+    width: 50%;
+    float: right;
+    transform: translate(10px);
+}
+
+.schedule-card h6{
+    position: absolute;
+    top: 25px;
+    font-size: 20px;
+    padding: 20px;
+    color: #fff;
+}
+
+.schedule-card input{
+    border: 0px;
+    font-size: 17px;
+    left: 15px;
+    background-color: #f7dab7;
+    bottom: 35px;
+    position: absolute;
+    padding: 8px;
+    width: 28%;
+    text-align: left; 
+}
+
+.schedule-card span{
+    border: 0px; 
+    background-color: #f7dab7;
+    bottom: 35px;
+    /* width: 5%; */
+    padding: 6px;
+    /* height: 31px; */
+    position: absolute; 
+    transition: 0.6s ease;
+} 
+
+.schedule-card span:hover{
+    padding-left: 100px;
+    background-color: #f7dab7;
+}
 
                                     /* footer section */
 .footer-sec{ 
@@ -455,10 +589,6 @@ a {
         ;
     }
 
-    .container{
-        background-size: cover;
-    }
-
     .header-section img{
         width: 9%;
 
@@ -471,13 +601,15 @@ a {
     }
     
     .search{
-        margin: 6px;
-        width: 35%;
+        margin: 10px;
+        height: 43px;
+        width: 95%;
+        float: none;
     }
-    /* section{
-        display: none;
-    } */
-    
+
+    section{
+        /* display: none; */
+    }
     .ban-cont{
         width: 85%;
     }
