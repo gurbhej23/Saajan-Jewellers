@@ -189,15 +189,12 @@ section .container{
     padding-top: 35px; 
     font-size: 45px;
     color: #490000;
-    text-align: center;
-    font-variant: small-caps;
+    text-align: center; 
 }
 
 .text-container p{ 
     color: #490000;  
-    font-size: 20px;
-    font-weight: 900;
-    font-style: italic;
+    font-size: 20px; 
 }
 
 .card{ 
@@ -313,55 +310,55 @@ section .container{
 
 .category-1 img{
     height: 100%;
-    width: 77%;
+    width: 100%;
     border-radius: 10px 10px 0px 0px;
 }
 
-.category-1 h2{
-    border-radius:  0px 0px 10px 10px;
-    padding: 12px;
+.category-1 h2{ 
     color: #e1b085;
-    float: left;
-    width: 72%;
-    font-size: 24px;
-    background: #490000;
-    text-align: left;
-    margin-left: 51px;
+    float: left; 
+    font-size: 24px;   
 }
 
 .items-1{
+    background-color: #490000;
+    border-radius: 10px 10px;
+    width: 90%;
+    margin: 10px; 
     display: flex;
     flex-direction: column;
 }
 
 .info{
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     position: relative;
     cursor: pointer;
 }
 
 .info .explore-more{
-    padding: 10px;
     position: absolute;
+    display: flex;
+    height: 46px;
+    align-items: center;
+    justify-content: flex-end;
+    width: 95%;
     font-size: 20px;
     color: #e1b085;
-    right: 72px;
-    /* top: 3px; */
-    left: 290px;
     transition: 0.6s;
 }
 
 
-.info .explore-more:hover {
-    background-color: #490000;
-    left: 56px;
-    text-align: left;
+.info .explore-more:hover{
+    background-color: #490000; 
+    display: flex;
+    justify-content: space-between;
 }
 
-.info span{
-    position: absolute;
-    color: #e1b085;
-    right: 57px;
-    top: 14px;
+.info span{ 
+    color: #e1b085;  
     font-size: 20px;
 }
 
@@ -371,6 +368,29 @@ section .container{
     display: flex;
     justify-content: space-between;
     overflow: hidden;
+}
+
+.card-1{
+    position: relative;
+    margin-left: 50px;
+    padding: 8px;
+    border: 1px solid #490000;
+    /* height: 235px; */
+    background-color: #fff;
+}
+
+.category-2 .wish-list{ 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    border-radius: 10px;
+    position: absolute;
+    right: 10px; 
+}
+
+.category-2 .wish-list-icon{
+    font-size: 30px;
+    color: #490000;
 }
 
 .category-2 img{ 
@@ -397,16 +417,8 @@ section .container{
 }
 
 .category-2 .discount-section{
-    font-size: 15px;
-    transform: translate(33px, 3px);
-}
-
-.card-1{
-    margin-left: 50px;
-    padding: 8px;
-    border: 1px solid #490000;
-    /* height: 235px; */
-    background-color: #fff;
+    font-size: 12px;
+    transform: translate(40px, 6px);
 }
 
 .slick-slide {
@@ -438,6 +450,10 @@ section .container{
 
 .items-2{
     position: relative;
+    background-color: #490000;
+    border-radius: 10px 10px 10px 10px;
+    width: 90%;
+    margin: 10px; 
 }
 
 .items-2 input{
@@ -507,6 +523,9 @@ section .container{
 .btn:hover{
     width: 80%;
 } 
+.btn-icon{
+    transition: all 0.6s ease;
+}
 
 .btn-icon:hover{
     transform: rotateY(180deg);
