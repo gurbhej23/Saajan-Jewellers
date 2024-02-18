@@ -464,56 +464,53 @@ section .container{
     justify-content: space-evenly;
 }
 
-.schedule-card .contact-1{
+.schedule-card .contact-1{ 
     position: relative;
     height: 195px;
     width: 345px;
     background-image: linear-gradient(40deg, #100d0d, #bf1414);
-    border-radius: 20px;
+    border-radius: 20px; 
+}
+
+.schedule-card .contact-text{  
+    display: flex;
+    justify-content: center;
+    align-items: center; 
 }
 
 .schedule-card img{
     width: 50%;
-    float: right;
-    transform: translate(10px);
 }
 
 .schedule-card h6{
-    position: absolute;
-    top: 25px;
-    font-size: 20px;
-    padding: 20px;
     color: #fff;
+    font-size: 28px;
+    padding: 5px;
 }
 
-.schedule-card input{
-    border: 0px;
-    font-size: 17px;
+ .btn {
+    position: absolute;  
     left: 15px;
-    background-color: #f7dab7;
-    bottom: 35px;
-    position: absolute;
-    padding: 8px;
-    width: 28%;
-    text-align: left; 
-}
-
-.schedule-card span{
-    border: 0px; 
-    background-color: #f7dab7;
-    bottom: 35px;
-    /* width: 5%; */
-    padding: 6px;
-    /* height: 31px; */
-    position: absolute; 
-    transition: 0.6s ease;
+    bottom: 15px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    color: #490000;
+    background-color: #ffffff; 
+    justify-content: space-between;
+    width: 30%;
+    font-size: 12px;
+    transition: all 0.6s ease;
+    border-radius: 10px;
+} 
+ 
+.btn:hover{
+    width: 80%;
 } 
 
-.schedule-card span:hover{
-    padding-left: 100px;
-    background-color: #f7dab7;
+.btn-icon:hover{
+    transform: rotateY(180deg);
 }
-
                                     /* footer section */
 .footer-sec{ 
     background-color: #380100;
