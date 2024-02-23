@@ -90,22 +90,6 @@ section .container{
     color: rgb(0, 0, 0); 
     background-color: #fff;
 }
-
-.nav-bar div #menu1 {
-    display: none;
-    position: absolute;
-    top: 59px;
-    left: 147px;
-    background-color: #fff;
-    padding: 15px
-}
-.nav-bar #menu1 ul li {
-    line-height: 30px;
-    list-style: none;
-}
-.nav-bar:hover #menu1 { 
-    display: block; 
-}
  
 .nav-bar a{
     color: inherit;
@@ -155,6 +139,41 @@ section .container{
     /* background-color: #fff; */
 }  
 
+.banner-section{
+    display: flex;
+    justify-content: space-evenly; 
+    position: relative;
+    margin-top: 50px;
+}
+
+.banner-section img{ 
+    width: 100%;
+    mix-blend-mode: hard-light;
+} 
+                                /* section 1*/
+
+.text-container{
+    text-align: center;
+}
+
+.text-container img{
+    margin: -20px;
+}
+
+.text-container h1{ 
+    padding-top: 35px; 
+    font-size: 45px;
+    color: #490000;
+    text-align: center; text-transform: uppercase;
+    font-family: none;
+}  
+
+.text-container p{ 
+    color: #490000;  
+    font-size: 20px; 
+    padding: 10px;
+}
+
 .category-2 { 
     display: flex; 
     flex-wrap: wrap;
@@ -167,6 +186,7 @@ section .container{
     padding: 8px;
     border: 1px solid #490000; 
     background-color: #fff;
+    border-radius: 10px;
 }
 
 .category-2 .wish-list{ 
@@ -349,8 +369,7 @@ section .container{
 
 @media screen and (max-width:430px) {
     .content{
-        width: 100%
-        ;
+        width: 100%;
     }
 
     section:nth-of-type(9){
@@ -377,7 +396,21 @@ section .container{
     section .container{
         width: 100%;
     }
+
+    .text-container h1{
+        padding: 20px 0px 15px;
+        font-size: 25px;
+    }
+
+    .text-container p{
+        font-size: 15px; 
+        padding: 0px ;
+    }
     
+    .text-container img{
+        margin: 0px;
+    }
+
     .category-1 {
         display: flex;
         flex-direction: column;
@@ -408,6 +441,16 @@ section .container{
         margin-left: 20px;
     }
 
+    .category-2 .wish-list{
+        width: 26px; 
+        top: 11px;
+        right: 10px;
+    }
+
+    .category-2 .wish-list-icon{
+        font-size: 20px;
+    }
+
     .category-2 .wish-list-icon{
         font-size: 20px;
     }
@@ -417,11 +460,12 @@ section .container{
     }
 
     .category-2 h2{
-        font-size: 13px;
+        font-size: 10px;
     }
 
     .category-2 .price{
         float: none;
+        font-size: 12px;
     }
 
     .category-2 .discount-section{
