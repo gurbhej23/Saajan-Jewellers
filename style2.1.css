@@ -9,8 +9,7 @@ a {
 }
 
 /* Cintainer */ 
-section .container{
-    
+section .container{ 
     width: 1280px;
     margin: 0 auto;
 }
@@ -20,7 +19,7 @@ section .container{
     margin: 0 auto;
 }
 .content{
-    background-image: linear-gradient(90deg, #8f3e2b, #f0a85e,#8b3a25);
+    background-image: linear-gradient(90deg, burlywood, #fad8b6, burlywood);
     margin: 0 auto;
     width: 1349px;
 }
@@ -28,6 +27,10 @@ section .container{
 /* header-section */
 .header-section{ 
     background-color: #4d0202;  
+}
+
+.header-section .logo{
+    display: inline;
 }
 
 .header-section img{
@@ -115,7 +118,7 @@ section .container{
 .nav-bar2{
     text-transform: uppercase;
     background: #8d4836;
-    margin-top: 6px ;
+    padding: 16px ;
 }
 
 .nav-bar2 nav{
@@ -245,6 +248,11 @@ section .container{
     font-size: 20px; 
 }
 
+section:nth-of-type(2)
+ .slick-slide{
+    display: none;
+ }
+
 .card{ 
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -271,6 +279,7 @@ section .container{
     text-align: center;
     padding: 0 60px 40px;
     position: relative;
+    cursor: pointer;
 }
 
 .crousel span{
@@ -278,6 +287,10 @@ section .container{
     color: #fff;
     font-size: 50px; 
     transform: translateY(65px);
+}
+
+.crousel span:hover{
+    color: #490000;
 }
 
 .image-sec{  
@@ -353,14 +366,26 @@ section .container{
     position: relative;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    top: -32px;
+    color: #e1b085; 
 }
 
 .explore-more:hover .middle-explore{
-    width: 70px;
+    width: 300px;
+    background-color: #490000;
+}
+
+.explore-left {
+    font-size: 19px;
+    background-color: #490000;
+    padding: 0px 6px;
 }
 
 .middle-explore{
+    transition: all 0.5s ease;
     width: 0px;
 }
                             /* section-3 */
@@ -376,7 +401,7 @@ section .container{
 
 .category-1 h2{ 
     color: #e1b085; 
-    font-size: 24px;   
+    font-size:19px;   
 }
 
 .items-1{     
@@ -387,6 +412,7 @@ section .container{
     width: 90%;
     margin: 10px; 
     display: flex; 
+    height: 385px;
 }
 
 .info{
@@ -397,6 +423,7 @@ section .container{
     align-items: center;
     position: relative;
     cursor: pointer;
+
 }
 /* 
 .info .explore-more{
@@ -662,11 +689,15 @@ section .container{
 }
 
                                     /* footer section */
-.footer-sec{ 
+footer{
     background-color: #380100;
+}
+
+.footer-sec{ 
     margin-top: 45px;
     display: flex; 
     justify-content: space-evenly;  
+    /* border-bottom: 1px solid #e3d686; */
 }
 
 .footer{
@@ -681,7 +712,7 @@ section .container{
 
 .footer h2{
     margin: 30px 0;
-    color: #a8a8a8;
+    color: #e3d686;
     font-size: 25px;
     font-weight: normal;
 }
@@ -700,7 +731,7 @@ section .container{
     position: absolute;
     bottom: 1;
     height: 2px;
-    color: #f7f7f7;
+    color: #e3d686;
     width: 0%;
     transition: 0.5s ease; 
 }
@@ -710,11 +741,11 @@ section .container{
     position: absolute;
     bottom: 1 ; 
     width: 100%; 
-    background-color:#b87676;
+    background-color:#e3d686;
 }
 
 .footer a:hover{
-    color: #b87676; 
+    color: #e3d686; 
 } 
 
 .footer .icon{
@@ -728,28 +759,46 @@ section .container{
     justify-content: space-evenly;
 }
 
+footer .copyright-text{
+    text-align: center;
+    color: #e3d686; 
+    font-size: 20px;
+    padding: 20px 0px;
+}
+
 
 
 @media screen and (max-width:430px) {
     .content{
-        width: 100%
-        ;
+        width: 100%;
     }
 
     section:nth-of-type(9){
         display: none;
     }
     .header-section img{
-        width:15%;
-        transform: translate(150px);
+        width:15%; 
     }
+
+    .logo{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
     .nav-bar{
         display: none;
     }
     .nav-bar2{
-        display: none;
+        /* display: none; */
     }
     
+    .nav-bar2 nav{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
     .search{
         margin: 10px 9px 0px 10px;
         height: 43px;
@@ -775,8 +824,7 @@ section .container{
 
     .banner-section img{
         width: 100%;
-        border-radius: 0px;
-        height: 200px;
+        border-radius: 0px; 
     }
 
     .banner-section-2{
@@ -784,6 +832,10 @@ section .container{
         flex-direction: column;
         align-items: center;
         margin: 10px;
+    }
+
+    .banner-section-2 img{
+        display: none
     }
 
     .banner-section-2 .banner-btn h2{
@@ -809,9 +861,9 @@ section .container{
     }
 
     .banner-btn input{
-        font-size: 10px;
-        padding: 8px;
-        width: 70px;
+        font-size: 15px;
+        padding: 7px;
+        width: 100px;
         margin-bottom: 10px;
     }
 
@@ -826,7 +878,12 @@ section .container{
 
     .text-container p{
         font-size: 15px; 
-        padding: 0px ;
+        padding: 1px ;
+    }
+    
+    section:nth-of-type(2)
+    .slick-slide{
+        display: flex;
     }
 
     .crousel{
@@ -862,6 +919,7 @@ section .container{
     .category .items{
         width: 120px;
         height: 120px;
+        padding-left: 15px;
     }
 
     .category .items h2{
@@ -881,8 +939,10 @@ section .container{
         flex-direction: column;
     }
 
-    .category-1 .items-1{
-        margin: 20px;
+    .category-1 .items-1{ 
+        display: block;
+        width: auto;
+        height: auto;
     }
 
     .category-1 h2{
@@ -894,14 +954,16 @@ section .container{
     }
 
     .category-1 .items-2 input{
-        right:110px;
+        right:140px;
     }
     .info .explore-more{
         font-size: 15px;
         height: 35px;
         width: 350px;
     }
-
+    .explore-more .explore-left{
+        font-size: 21px;
+    }
 
     .category-2 .card-1{
         margin-left: 20px;
@@ -918,7 +980,7 @@ section .container{
     }
 
     .category-2 img{
-        height: 145px;
+        height: 165px;
     }
 
     .category-2 h2{
@@ -957,6 +1019,11 @@ section .container{
     }
 
     .footer .icon{
+        font-size: 12px;
+    }
+
+    footer .copyright-text{
+        padding: 10px 0px;
         font-size: 12px;
     }
 }

@@ -19,15 +19,14 @@ section .container{
     margin: 0 auto;
 }
 .content{
-    background-image: linear-gradient(90deg, #8f3e2b, #f0a85e,#8b3a25);
+    background-image: linear-gradient(90deg, burlywood, #fad8b6, burlywood);
     margin: 0 auto;
     width: 1349px;
 }
 
 /* header-section */
 .header-section{ 
-    background-color: #4d0202; 
-    box-shadow: 5px 2px 8px 3px #682400;
+    background-color: #4d0202;  
 }
 
 .header-section img{
@@ -312,6 +311,7 @@ section .container{
 
 .category-2 .price span{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #490000;
 }
 
 .category-2 .price del{
@@ -434,6 +434,12 @@ section .container{
     justify-content: space-evenly;
 }
 
+footer .copyright-text{
+    text-align: center;
+    color: #e3d686; 
+    font-size: 20px;
+    padding: 20px 0px;
+}
 
 
 @media screen and (max-width:430px) {
