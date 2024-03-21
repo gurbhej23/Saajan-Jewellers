@@ -1,16 +1,16 @@
-                        // function to find prime number based on user input
-let Prime = prompt('Enter a Prime Number', )
+                         // function to login user based on their name
 
-function num(Prime){ 
+let Name = prompt('Enter a Name')
+let Pass = prompt('Enter a Password')
 
-  for(i = 2; i < Prime; i++){
-    if(Prime % i === 0 ){
-      return "It's Not Prime"
-    }
+function user(Name,Pass){
+  if(Name == 'TheAdmin' && Pass == 'Master') {
+    return 'Welcome';
+  } else if(Name == '' || Name == 'null' && Pass == '' || Pass == 'null') {
+    return 'Incorrect';
+  } else {
+    return 'Failed';
   }
-
-  return "It's Prime"
 }
 
-alert(num(Prime))
-
+alert(user(Name,Pass))
