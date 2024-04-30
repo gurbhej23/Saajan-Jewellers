@@ -399,6 +399,10 @@ li, h1, h2, h5, span, p{
     display: flex;
 }
 
+.pdt-center-img img{
+    width: 60%;
+}
+
 .pdt-detail  h2 ,.pdt-price-breakup h2{
     padding: 20px 0; 
     font-size: 30px ;
@@ -433,23 +437,37 @@ li, h1, h2, h5, span, p{
     padding: 15px 0;
 }
                                     /* footer section */
-.footer-sec{ 
+footer{
     background-color: #380100;
-    margin-top: 45px;
-    display: flex; 
-    justify-content: space-evenly;  
 }
 
-.footer{
+.footer-sec{ 
+    margin-top: 45px;
+    display: flex; 
+    justify-content: center;  
+    /* border-bottom: 1px solid #e3d686; */
+}
+
+.footer-res {
+    display: flex;
+    flex: 0.4;
+    text-align: left
+}
+
+.footer {
     margin: 40px 0;
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
+    width: -webkit-fill-available; 
 }
- 
+
+.footer li{
+    list-style: none;
+}
 
 .footer h2{
     margin: 30px 0;
-    color: #a8a8a8;
+    color: #e3d686;
     font-size: 25px;
     font-weight: normal;
 }
@@ -461,6 +479,7 @@ li, h1, h2, h5, span, p{
     line-height: 50px;
     transition: 0.5s;
     position: relative;
+    display: inline;
 }  
 
 .footer a::before{
@@ -468,7 +487,7 @@ li, h1, h2, h5, span, p{
     position: absolute;
     bottom: 1;
     height: 2px;
-    color: #f7f7f7;
+    color: #e3d686;
     width: 0%;
     transition: 0.5s ease; 
 }
@@ -478,22 +497,32 @@ li, h1, h2, h5, span, p{
     position: absolute;
     bottom: 1 ; 
     width: 100%; 
-    background-color:#b87676;
+    background-color:#e3d686;
 }
 
 .footer a:hover{
-    color: #b87676; 
+    color: #e3d686; 
 } 
 
 .footer .icon{
     color: #fff;
     margin-top: 6px;
 }
-
-.footer .footer-icon{
+    
+.footer-icon ul{
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: flex-start;
+}
+
+.footer-icon ul li{
+    width: 45px;
+}
+
+footer .copyright-text{
+    text-align: center;
+    color: #e3d686; 
+    font-size: 20px;
+    padding: 20px 0px;
 }
 
 
@@ -575,34 +604,102 @@ li, h1, h2, h5, span, p{
     }
 
     .pdt-rightside .pdt-para h5{
-        font-size: 13px;
+        font-size: 18px;
+    }
+
+    .pdt-rightside .pdt-star{
+        display: block;
+    }
+
+    .pdt-rightside .pdt-star span{
+        font-size: 40px;
+        margin-left: -10px;
+    }
+    .pdt-rightside .pdt-star p{
+        font-weight: 700;
+        margin-left: -10px;
+        font-size: 18px;
+    }
+    .pdt-guranteed{
+        font-size: 20px;
     }
 
     .pdt-center{
         flex-direction: column;
     }
-
-    .pdt-price-table table {
-        width: 95%;
-        font-size: 12px;
-        line-height: 20px;
+    
+    .pdt-center-img img{
+        width: 100%;
     }
 
-    .footer{
-        margin: 15px 0;
+    .pdt-detail p{
+        font-size: 20px;
+    }
+
+    .pdt-detail-list{
+        font-size: 20px;
+    }
+
+    .pdt-detail h2, .pdt-price-breakup h2 {
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .pdt-price-table table {
+        width: 100%;
+        font-size: 20px;
+        line-height: 40px;
+    }
+
+    .pdt-price-table table th:nth-of-type(2),th:nth-of-type(3),th:nth-of-type(4){
+        display: none;
+    }
+
+    .pdt-price-table table td:nth-of-type(2),td:nth-of-type(3),td:nth-of-type(4){
+        display: none;
+    }
+
+    footer .container{
+        width: auto;
+    }
+
+    .footer-sec{
+        display: flex;
+        flex-direction: column; 
+    }
+
+    .footer-res{
+        display:flex;
+        justify-content: space-evenly;
+        text-align: center;
+    }
+
+    .footer {
+        margin: 15px 0; 
     }
 
     .footer h2{
         margin: 10px 0;
-        font-size: 15px;
+        font-size: 25px;
     }
 
-    .footer a{
-        font-size: 12px;
-        line-height: 23px;
+    .footer a {
+        font-size: 20px;
+        line-height: 35px;
     }
 
     .footer .icon{
         font-size: 12px;
+    }
+    
+    .footer-icon ul{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    footer .copyright-text {
+        padding: 20px 0px;
+        font-size: 20px;
     }
 }

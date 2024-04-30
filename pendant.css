@@ -20,7 +20,7 @@ section .container{
     margin: 0 auto;
 }
 .content{
-    background-image: linear-gradient(90deg, #8f3e2b, #f0a85e,#8b3a25);
+    background-image: linear-gradient(90deg, burlywood, #fad8b6, burlywood);
     margin: 0 auto;
     width: 1349px;
 }
