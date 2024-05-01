@@ -261,6 +261,7 @@ section .container{
 .contact-form{
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
     margin: 20px 0px;
     color: #490000;
 }    
@@ -278,7 +279,7 @@ section .container{
 .contact-1 h1{
     font-weight: 400;
     padding: 10px;
-    border-bottom: 1px solid #f5e39e; 
+    border-bottom: 1px solid #f8d6b3  
 }
  
 .contact-1 address{
@@ -288,6 +289,16 @@ section .container{
     line-height: 35px;
     border-bottom: 1px solid #f5e39e; 
 }
+
+.contact-1 .contact-text .call-btn button{
+    background-color: #f8d6b3;
+    border: 1px solid;
+    font-size: 15px;
+    width: 100px;
+    height: 40px;
+    margin: 7px 0;
+}
+
                                     /* footer section */
 footer{
     background-color: #380100;
