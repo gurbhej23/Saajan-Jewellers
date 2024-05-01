@@ -292,11 +292,16 @@ section .container{
 
 .contact-1 .contact-text .call-btn button{
     background-color: #f8d6b3;
-    border: 1px solid;
+    border: 1px solid #490000;
     font-size: 15px;
     width: 100px;
-    height: 40px;
-    margin: 7px 0;
+    height: 40px;    
+    margin: 8px 15px;
+    border-radius: 5px;
+}
+
+.contact-1 .contact-text .call-btn button a{
+    color: #490000
 }
 
                                     /* footer section */

@@ -531,7 +531,10 @@ footer .copyright-text{
         top: 0;
         text-align: center;
     } 
-
+    .nav-bar2 .nav-link {
+        font-size: 13px;
+        padding: 0px;
+    }
     .dropdown:hover .nav-bar2 .active{
         display: block;
     }
