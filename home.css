@@ -591,14 +591,12 @@ section:nth-of-type(2)
 .items-2 input{
     cursor: pointer;
     position: absolute;
-    bottom: 0;
+    bottom: 25px;
     border-radius: 11px;
     border: 1px solid #490000;
     font-size: 15px;
     padding: 10px;
-    width: 120px;
-    /* right: 140px; */
-    margin: 30px 0;
+    width: 120px; 
     transition: 0.6s ease;
 }
 
@@ -912,14 +910,20 @@ footer .copyright-text{
     }
     .sj-search {
         width: 55vw;
+    } 
+
+    .sj-search-input{
+        justify-content: space-between;
+        height: 18px;
     }
-    .sj-search .sj-search-input input {
-        width: 55vw;
+
+    .sj-search-input input{
+        width: 36vw;
     }
     .sj-hamburger {
         display: block;
         color: #fff;
-        font-size: 30px;
+        font-size: 6vw;
         position: relative;
     }
 
@@ -954,8 +958,7 @@ footer .copyright-text{
     }
 
     .banner-section-2 .banner-btn h2{
-        font-size: 35px;
-        margin-bottom: 25px;
+        font-size: 7vw; 
     }
 
     .banner-section-2 .banner-section-2-1 img{
@@ -984,8 +987,8 @@ footer .copyright-text{
     }
 
     .text-container h1{
-        padding: 20px 0px 15px;
-        font-size: 25px;
+        padding: 90px 0px 15px;
+        font-size: 8vw;
     }
 
     .text-container br{
@@ -993,8 +996,8 @@ footer .copyright-text{
     }
 
     .text-container p{
-        font-size: 20px; 
-        padding: 2px ;
+        font-size: 5vw; 
+        padding: 10px ;
     }
     
     section:nth-of-type(2)
@@ -1023,7 +1026,7 @@ footer .copyright-text{
 
     .card h2{
         padding: 0px;
-        font-size: 20px;
+        font-size: 5vw;
     }
 
     .category{
@@ -1065,15 +1068,18 @@ footer .copyright-text{
 
     .category-1 h2{
         font-size: 22px;
+        position: absolute;
+        top: 0;
     }
 
     .category-1 .items-2{
         width: 95%;
     }
 
-    .category-1 .items-2 input{
-        right:140px;
+    .explore-more{
+        top: -10px;
     }
+ 
     .info .explore-more{
         font-size: 15px;
         height: 35px;
