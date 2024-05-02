@@ -505,14 +505,20 @@ footer .copyright-text{
     }
     .sj-search {
         width: 55vw;
+    } 
+
+    .sj-search-input{
+        justify-content: space-between;
+        height: 18px;
     }
-    .sj-search .sj-search-input input {
-        width: 55vw;
+
+    .sj-search-input input{
+        width: 36vw;
     }
     .sj-hamburger {
         display: block;
         color: #fff;
-        font-size: 30px;
+        font-size: 6vw;
         position: relative;
     }
 
@@ -533,15 +539,20 @@ footer .copyright-text{
         margin: 20px 15px;
         display: flex;
         flex-direction: column;
+        gap: 30px;
     } 
 
     .contact-form .address-sec {
         display: flex;
         flex-direction: row;
-        align-items: center;
+        justify-content: center;
     }
     .contact-form .address-sec address{
-        font-size:20px;
+        display: none;
+    }
+
+    .contact-form .address-sec img{
+        width: 80vw;
     }
     footer .container{
         width: auto;

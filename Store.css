@@ -502,14 +502,20 @@ footer .copyright-text{
     }
     .sj-search {
         width: 55vw;
+    } 
+
+    .sj-search-input{
+        justify-content: space-between;
+        height: 18px;
     }
-    .sj-search .sj-search-input input {
-        width: 55vw;
+
+    .sj-search-input input{
+        width: 36vw;
     }
     .sj-hamburger {
         display: block;
         color: #fff;
-        font-size: 30px;
+        font-size: 6vw;
         position: relative;
     }
 
@@ -526,8 +532,30 @@ footer .copyright-text{
         font-size: 15px;
     }
     
+    .contact-1{
+        font-size: 3vw;
+        width: 80vw;
+        height: 185px;
+    }
+
+    .contact-1 address{
+        font-size: 4vw;
+        padding: 4px 10px;
+        line-height: 26px;
+    }
+
+    .contact-1 .contact-text .call-btn button {
+        font-size: 3vw;
+        width: 23vw;
+        margin: 8px 8px;
+    }
+    .contact-form{
+        flex-direction: column;
+        gap: 15px;
+    }
+
     .contact-form img{
-        width: 100%;
+        width: 94vw;
     }
     .contact-form .address-sec address{
         font-size:20px;
