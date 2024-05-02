@@ -495,6 +495,9 @@ footer .copyright-text{
         width: 100%
         ;
     }
+    .hr-line{
+        display: block;
+    }
 
     section:nth-of-type(9){
         display: none;
@@ -520,7 +523,7 @@ footer .copyright-text{
         /* display: none; */
         padding: 0px;
         position: absolute;
-        z-index: 99;
+        z-index: 999;
     }
     .nav-bar2 .active{
         display: none;
@@ -529,7 +532,7 @@ footer .copyright-text{
         position: inherit;
         top: 0;
         text-align: center;
-    } 
+    }  
 
     .dropdown:hover .nav-bar2 .active{
         display: block;
@@ -594,20 +597,25 @@ footer .copyright-text{
         height: 43px;
         width: 80%;
     }
-
     .sj-links {
         display: none;
     }
     .sj-search {
         width: 55vw;
+    } 
+
+    .sj-search-input{
+        justify-content: space-between;
+        height: 18px;
     }
-    .sj-search .sj-search-input input {
-        width: 55vw;
+
+    .sj-search-input input{
+        width: 36vw;
     }
     .sj-hamburger {
         display: block;
         color: #fff;
-        font-size: 30px;
+        font-size: 6vw;
         position: relative;
     }
 
@@ -638,27 +646,23 @@ footer .copyright-text{
     .info .explore-more{
         font-size: 15px;
         height: 35px;
-    }
-
-
-    .category-2 .card-1{
-        margin-left: 20px;
-    }
+    } 
 
     .category-2 .wish-list-icon{
         font-size: 20px;
     }
 
     .category-2 img{
-        height: 145px;
+        height: 40vw;
     }
 
     .category-2 h2{
-        font-size: 13px;
+        font-size: 4vw;
     }
 
     .category-2 .price{
         float: none;
+        font-size: 4vw;
     }
 
     .category-2 .discount-section{

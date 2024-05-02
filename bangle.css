@@ -601,14 +601,20 @@ footer .copyright-text{
     }
     .sj-search {
         width: 55vw;
+    } 
+
+    .sj-search-input{
+        justify-content: space-between;
+        height: 18px;
     }
-    .sj-search .sj-search-input input {
-        width: 55vw;
+
+    .sj-search-input input{
+        width: 36vw;
     }
     .sj-hamburger {
         display: block;
         color: #fff;
-        font-size: 30px;
+        font-size: 6vw;
         position: relative;
     }
 
@@ -679,16 +685,16 @@ footer .copyright-text{
     }
 
     .category-2 img{
-        height: 180px;
+        height:40vw;
     }
 
     .category-2 h2{
-        font-size: 16px;
+        font-size:4vw;
     }
 
     .category-2 .price{
         float: none;
-        font-size: 16px;
+        font-size: 5vw;
     }
 
     .category-2 .discount-section{

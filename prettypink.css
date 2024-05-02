@@ -601,14 +601,20 @@ footer .copyright-text{
     }
     .sj-search {
         width: 55vw;
+    } 
+
+    .sj-search-input{
+        justify-content: space-between;
+        height: 18px;
     }
-    .sj-search .sj-search-input input {
-        width: 55vw;
+
+    .sj-search-input input{
+        width: 36vw;
     }
     .sj-hamburger {
         display: block;
         color: #fff;
-        font-size: 30px;
+        font-size: 6vw;
         position: relative;
     }
 
@@ -653,12 +659,7 @@ footer .copyright-text{
     .info .explore-more{
         font-size: 15px;
         height: 35px;
-    }
-
-
-    .category-2 .card-1{
-        margin-left: 20px;
-    }
+    } 
 
     .category-2 .wish-list{
         width: 26px; 
@@ -675,16 +676,16 @@ footer .copyright-text{
     }
 
     .category-2 img{
-        height: 145px;
+        height:40vw;
     }
 
     .category-2 h2{
-        font-size: 10px;
+        font-size:4vw;
     }
 
     .category-2 .price{
         float: none;
-        font-size: 12px;
+        font-size: 4vw;
     }
 
     .category-2 .discount-section{
