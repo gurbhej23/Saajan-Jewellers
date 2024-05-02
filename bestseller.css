@@ -688,8 +688,7 @@ footer .copyright-text{
         font-size: 4vw;
     }
 
-    .category-2 .discount-section{
-        transform: translate(0px, -15px);
+    .category-2 .discount-section{ 
         display: flex;
         flex-direction: column;
     }
