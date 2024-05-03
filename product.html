@@ -27,7 +27,8 @@
                 "pdt-price":"₹33,579", 
                 "pdt-purity": "22 Karat", 
                 "pdt-detail-gender":"Women",  
-                "pdt-type": "Plain Gold With Stones", 
+                "pdt-type": "Plain Gold With Stones",
+                "pdt-occasion": "Modern-Wear",
                 "pdt-size": "16.40 MM", 
                 "pdt-weight": "4g", 
                 "gold-rate": "Rs 6000/g",
@@ -46,7 +47,7 @@
                 "pdt-center-img": "assets/images/jewellery/gemstone/rings.1.jpg",
                 "product-description":"Add the timeless grace of nature to your ensemble with this striking floral ring crafted in 22 Karat Yellow Gold and studded with gemstones",
             };
-            // Pass Data to template script.
+            // Pass Data to template script.    
             var html = templateScript(context);
             // Insert the HTML code into the page
             $('#product-html').append(html);
@@ -164,7 +165,7 @@
                                         <li><a href="bangle.html">Bangle</a></li>
                                         <li><a href="pearl.html">Pearl</a></li>
                                         <li><a href="mangalsutra.html">Mangalsutra</a></li>
-                                        <li><a href="goldcoins.html">gold chains</a></li> 
+                                        <li><a href="chains.html">gold chains</a></li> 
                                     </div>
                                     <div> 
                                         <li style="visibility: hidden;" class="list">.</li> 
@@ -203,7 +204,7 @@
                                     </div>
                                     <div> 
                                         <li class="list">Rings</li>
-                                        <li><a href="ring1.html">engagement rings</a></li> 
+                                        <li><a href="gemstone.html">engagement rings</a></li> 
                                     </div> 
                                 </ul>
                             </div>
@@ -218,11 +219,7 @@
                                 <ul>
                                     <div> 
                                         <li class="list">Category</li>
-                                        <li><a href="earrings.html">all earrings</a></li>
-                                        <li><a href="earrings.html">drop earrings</a></li>
-                                        <li><a href="earrings.css">stud earrings</a></li>
-                                        <li><a href="earrings.html">hoops earrings</a></li>
-                                        <li><a href="earrings.html">Jhumkas</a></li> 
+                                        <li><a href="earrings.html">all earrings</a></li>   
                                     </div>  
                                     <div> 
                                         <li class="list">Gender</li>
@@ -234,7 +231,7 @@
                         </div>
                         <div class="dropdown">
                             <div class="drop-menu-icon"> 
-                                <a href="" class="nav-link">Rings</a> 
+                                <a href="gemstone.html" class="nav-link">Rings</a> 
                                 <i class="fa-solid fa-chevron-down "></i>
                             </div>
                             <hr class="hr-line">
@@ -242,10 +239,7 @@
                                 <ul>
                                     <div> 
                                         <li class="list">Category</li>
-                                        <li><a href="ring1.html">all Rings</a></li>
-                                        <li><a href="earrings.html">drop earrings</a></li>
-                                        <li><a href="earrings.html">stud earrings</a></li>
-                                        <li><a href="earrings.html">hoops earrings</a></li> 
+                                        <li><a href="gemstone.html">all Rings</a></li> 
                                     </div>
                                     <div> 
                                         <li class="list">stones</li> 
@@ -253,14 +247,7 @@
                                         <li><a href="gemstone.html">gemstone</a></li>
                                         <li><a href="gemstone.html">gold</a></li> 
                                         <li><a href="gemstone.html">platinum</a></li>  
-                                    </div> 
-                                    <div> 
-                                        <li class="list">Price Brand</li>
-                                        <li><a href="">25k</a></li>
-                                        <li><a href="">25k-50k</a></li>
-                                        <li><a href="">50k-1L</a></li>
-                                        <li><a href="">1L & Above</a></li> 
-                                    </div>
+                                    </div>      
                                 </ul>
                             </div>
                         </div>
@@ -501,8 +488,8 @@
                                             <span>{{pdt-type}}</span>
                                         </li>
                                         <li>
-                                            <span><b>Metal:</b></span>
-                                            <span>Golds</span>
+                                            <span><b>Occasion:</b></span>
+                                            <span>{{pdt-occasion}}</span>
                                         </li>
                                     </ul>
                                 </div>

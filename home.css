@@ -305,17 +305,20 @@ section:nth-of-type(2)
 }
 
 .crousel{
-    text-align: center;
-    padding: 0 60px 0px;
+    text-align: center; 
     position: relative;
     cursor: pointer;
 }
 
-.crousel span{
-    position: absolute;
+.crousel .slider{
+    display: flex;
+    align-items: center;
+}
+
+.crousel span{ 
     color: #fff;
-    font-size: 50px; 
-    transform: translateY(65px);
+    font-size: 50px;  
+    transform: translateY(-15px);
 }
 
 .crousel span:hover{
@@ -1003,15 +1006,11 @@ footer .copyright-text{
     section:nth-of-type(2)
     .slick-slide{
         display: flex;
-    }
+    } 
 
-    .crousel{
-        padding: 0px 7vw 0px;
-    }
-
-    .crousel span{
-        transform: translate(0px, 60px);
+    .crousel span{ 
         font-size: 9vw;
+        transform: translateY(-21px);
     }
 
     .image-sec{
@@ -1022,7 +1021,7 @@ footer .copyright-text{
     .card{
         width: 145px;
         height: 200px;
-        margin: 0px 15px;
+        /* margin: 0px 15px; */
     }
     .card img {
         width: 36vw;
@@ -1031,7 +1030,7 @@ footer .copyright-text{
 
     .card h2{
         padding: 0px;
-        font-size: 5vw;
+        font-size: 4vw;
     }
 
     .category{
