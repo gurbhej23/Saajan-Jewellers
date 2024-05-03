@@ -1019,9 +1019,8 @@ footer .copyright-text{
     }
 
     .card{
-        width: 145px;
-        height: 200px;
-        /* margin: 0px 15px; */
+        width: 30vw;
+        padding: 0px 3vw;
     }
     .card img {
         width: 36vw;
