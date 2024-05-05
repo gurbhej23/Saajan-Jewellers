@@ -280,8 +280,8 @@ section .container{
     justify-content: space-between;
     align-items: center;
     position: relative; 
-    padding: 8px;
-    border: 1px solid #490000; 
+    /* padding: 8px;
+    border: 1px solid #490000;  */
     background-color: #fff;
     border-radius: 10px;
 }
