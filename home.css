@@ -989,8 +989,7 @@ footer .copyright-text{
         margin-bottom: 10px;
     }
 
-    .text-container h1{
-        padding: 90px 0px 15px;
+    .text-container h1{ 
         font-size: 8vw;
     }
 
@@ -1009,22 +1008,22 @@ footer .copyright-text{
     } 
 
     .crousel span{ 
-        font-size: 9vw;
-        transform: translateY(-21px);
+        font-size: 8vw;
+        transform: translateY(-14px);
     }
 
     .image-sec{
-        padding: 0px;
-        height: 200px;
+        padding: 0px; 
     }
 
-    .card{
-        width: 30vw;
+    .card{ 
         padding: 0px 3vw;
+        margin: 0px;
+        height: 170px;
     }
     .card img {
         width: 36vw;
-        height: 160px;
+        height: 140px;
     }
 
     .card h2{
