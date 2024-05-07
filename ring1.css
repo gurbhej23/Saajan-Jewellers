@@ -395,12 +395,29 @@ li, h1, h2, h5, span, p{
 }
 
 .pdt-guranteed{
-    margin: 20px 0;
+    margin: 10px 0;
 }
 
 .pdt-guranteed li{
     display: flex;
     padding: 5px 0px;
+}
+  
+.pdt-wishlist input{
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: #490000;
+    color: #fff;    
+    font-weight: 600;
+    width: 35%;
+    height: 55px;
+    font-size: 17px;
+}
+
+.pdt-wishlist input:hover{
+    outline: #490000 solid 1px;
+    background: transparent;
+    color: #490000;
 }
 
 .pdt-center{
@@ -713,6 +730,12 @@ footer .copyright-text{
     }
     .pdt-guranteed{
         font-size: 20px;
+    }
+    
+    .pdt-wishlist input{
+        width: 37%;
+        height: 50px;
+        font-size: 12px;
     }
 
     .pdt-center{
