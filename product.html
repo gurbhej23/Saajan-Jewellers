@@ -5,15 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-        <link rel="shortcut icon" href="/assets/images/jewellery/logo2-removebg-preview.png" type="image/x-icon"> 
+    <link rel="shortcut icon" href="/assets/images/jewellery/logo2-removebg-preview.png" type="image/x-icon"> 
     <link rel="stylesheet" href="ring1.css">
     <script src="https://kit.fontawesome.com/b55fccd070.js" crossorigin="anonymous"></script> 
     <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
     <script src="https://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
-
-    
-
-    <title id="siteTitle">Saajan Jewellers</title>
+    <title id="siteTitle">Saajan Jewellers</title> 
 </head>
 <body>
     <div class="container">
@@ -321,15 +318,11 @@
                                 <div class="pdt-thumbs">
                                     <div>
                                         <ul>
-                                            <li>
-                                                <img src={{pdt-img-small-1}}>
+                                            {{#each pdt-images}}
+                                            <li onclick="handlePdtImgClick(this)">
+                                                <img src={{this}}>
                                             </li>
-                                            <li>
-                                                <img src={{pdt-img-small-2}}>
-                                            </li>
-                                            <li>
-                                                <img src={{pdt-img-small-3}}>
-                                            </li>
+                                            {{/each}}
                                         </ul>
                                     </div>
                                 </div> 
@@ -338,9 +331,9 @@
                                     <span class="material-symbols-outlined"> chevron_left </span>
                                 </div>
 
-                                <div class="pdt-zoom-image">
+                                <div id="pdtLgImage" class="pdt-zoom-image">
                                     <!-- large pdt image --> 
-                                    <img src={{pdt-img-large-1}}> 
+                                    <img class="active" src={{pdt-img-large-1}}> 
                                     <img src={{pdt-img-large-2}}>
                                     <img src={{pdt-img-large-3}}>
                                 </div>
