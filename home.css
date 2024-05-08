@@ -284,18 +284,15 @@ section:nth-of-type(2)
 
 .card{ 
     border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    position: relative;   
-    width: 200px;
-    height: 200px;
+    border-top-right-radius: 20px;  
+    text-align: center; 
     margin-right:45px;
 }
 
 .card img{  
     opacity: 0.9;
     border-radius: 25px;
-    width: 200px; 
-    height: 100%;
+    width: 200px;
 }
 
 .card h2{     
@@ -304,43 +301,34 @@ section:nth-of-type(2)
     color: #490000;     
 }
 
-.crousel{
-    text-align: center; 
-    position: relative;
-    cursor: pointer;
-}
-
-.crousel .slider{
-    display: flex;
-    align-items: center;
-}
-
-.crousel span{ 
-    color: #fff;
-    font-size: 50px;  
-    transform: translateY(-15px);
-}
-
-.crousel span:hover{
+.splide__arrows:hover{
     color: #490000;
+}
+
+.splide__arrows button{  
+    background-color: cornsilk; 
+    font-size: 17px;
+}
+
+.splide__arrows button svg{
+    font-size: 15px;
+}
+
+.splide__list{
+    max-height: 40%;
+} 
+
+.splide__pagination li button{
+   display: none;
 }
 
 .image-sec{  
     padding: 0px 0 33px;
     display: flex;
     flex-direction: row; 
-    overflow: hidden;
-    /* height: 200px; */
-}
-
-.image-sec .material-symbols-outlined{
-    transform: translateY(80px);
-    color: #000000; 
-    background-color: cornsilk;
-    border-radius: 19px;
-    font-size: 35px;
-}
-
+    overflow: hidden; 
+}  
+ 
                                         /* section-2 */
 
 .category{
@@ -995,22 +983,15 @@ footer .copyright-text{
     section:nth-of-type(2)
     .slick-slide{
         display: flex;
-    } 
+    }   
 
-    .crousel span{ 
-        font-size: 8vw;
-        transform: translateY(-14px);
+    .splide__list{
+        max-height: 29%;
     }
 
     .image-sec{
         padding: 0px; 
-    }
-
-    .card{ 
-        padding: 0px 3vw;
-        margin: 0px;
-        height: 170px;
-    }
+    } 
     .card img {
         width: 36vw;
         height: 140px;
