@@ -995,7 +995,7 @@ footer .copyright-text{
 
     .splide__arrows button{   
         font-size: 10px;
-        transform: translateY(-50px);
+        transform: translateY(-40px);
         margin: 0px -5px;
         background: transparent;
     }
