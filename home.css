@@ -289,10 +289,12 @@ section:nth-of-type(2)
     margin-right:45px;
 }
 
+.card .img-1{
+}
 .card img{  
     opacity: 0.9;
     border-radius: 25px;
-    width: 200px;
+    width: 200px; 
 }
 
 .card h2{     
@@ -306,8 +308,10 @@ section:nth-of-type(2)
 }
 
 .splide__arrows button{  
-    background-color: cornsilk; 
+    background-color: #f9d7b5; 
     font-size: 17px;
+    transform: translateY(-40px);
+    margin:0 -35px ;
 }
 
 .splide__arrows button svg{
@@ -987,6 +991,17 @@ footer .copyright-text{
 
     .splide__list{
         max-height: 29%;
+    }
+
+    .splide__arrows button{   
+        font-size: 10px;
+        transform: translateY(-14px);
+        margin: 0px -5px;
+        background: transparent;
+    }
+    
+    .splide__arrows button svg{
+        font-size: 13px;
     }
 
     .image-sec{
