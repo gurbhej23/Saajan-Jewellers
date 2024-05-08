@@ -404,7 +404,7 @@ li, h1, h2, h5, span, p{
 }
   
 .pdt-wishlist input{
-    border: 1px solid;
+    border: 0px solid;
     border-radius: 5px;
     background-color: #490000;
     color: #fff;    
@@ -415,7 +415,7 @@ li, h1, h2, h5, span, p{
 }
 
 .pdt-wishlist input:hover{
-    outline: #490000 solid 1px;
+    outline: #490000 solid 2px;
     background: transparent;
     color: #490000;
 }
