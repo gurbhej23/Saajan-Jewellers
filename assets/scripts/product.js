@@ -17,9 +17,12 @@ const productsData = {
         "sub-total": "Rs 33579.00",
         "grand-total": "Rs 33579",
         "pdt-images": [
-            "assets/images/jewellery/gemstone/rings.1.1.jpg",
-            "assets/images/jewellery/gemstone/rings.1.2.jpg",
-            "assets/images/jewellery/gemstone/rings.1.jpg",
+            { 
+                src: "assets/images/jewellery/gemstone/rings.1.1.jpg",
+                cls: 'active'
+            },
+            { src: "assets/images/jewellery/gemstone/rings.1.2.jpg", cls: ''},
+            { src: "assets/images/jewellery/gemstone/rings.1.jpg", cls: ''}
         ],
         "pdt-img-large-1": "/assets/images/jewellery/gemstone/rings.1.1.jpg",
         "pdt-img-large-2": "/assets/images/jewellery/gemstone/rings.1.2.jpg",
@@ -2783,4 +2786,6 @@ $(document).ready(function() {
 function handlePdtImgClick(e) {
     let sourceImg = $(e).children()[0].getAttribute('src')
     $('#pdtLgImage .active')[0].setAttribute('src', sourceImg)
+    $('.product-wrapper .pdt-thumbs ul li').removeClass('active')
+    $(e).addClass('active')
 }

@@ -266,16 +266,6 @@ li, h1, h2, h5, span, p{
     font-size: 58px;
 }
 
-
-.product-wrapper li{ 
-    padding:15px;
-}
-
-.product-wrapper li img{
-    width: 118px;
-    border: 1px solid #490000;
-}
-
 .image-sec{
     display: flex;
 }
@@ -418,6 +408,19 @@ li, h1, h2, h5, span, p{
     outline: #490000 solid 2px;
     background: transparent;
     color: #490000;
+}
+
+.product-wrapper .pdt-thumbs ul li img {
+    width: 118px;
+}
+.product-wrapper .pdt-thumbs ul li {
+    border: 1px solid #490000;
+    margin: 15px;
+    padding: 0;
+    height: 118px;
+}
+.product-wrapper .pdt-thumbs ul li.active {
+    box-shadow: 2px 2px 4px #53433e
 }
 
 .pdt-center{

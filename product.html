@@ -319,8 +319,8 @@
                                     <div>
                                         <ul>
                                             {{#each pdt-images}}
-                                            <li onclick="handlePdtImgClick(this)">
-                                                <img src={{this}}>
+                                            <li onclick="handlePdtImgClick(this)" class="{{this.cls}}">
+                                                <img src={{this.src}}>
                                             </li>
                                             {{/each}}
                                         </ul>
