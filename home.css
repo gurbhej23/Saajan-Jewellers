@@ -458,10 +458,7 @@ section:nth-of-type(2)
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-}
-
-.splide__track{
-    padding: 0 27px;}
+}   
 
 .card-1{ 
     align-items: center;
@@ -943,13 +940,32 @@ footer .copyright-text{
         padding: 10px ;
     }
     
-    section:nth-of-type(2)
-    .slick-slide{
-        display: flex;
+    section:nth-of-type(3)
+    .splide__arrows button{
+        display: none;
     }   
 
-    .splide__list{
-        max-height: 29%;
+    section:nth-of-type(3) .splide__pagination{
+        bottom: -1.89rem;
+    }
+
+    section:nth-of-type(3) .splide__pagination li button{
+        display: block;
+        background-color: #490000;
+    }
+    
+    section:nth-of-type(7)
+    .splide__arrows button{
+        display: none;
+    }   
+
+    section:nth-of-type(7) .splide__pagination{
+        bottom: -1.89rem;
+    }
+
+    section:nth-of-type(7) .splide__pagination li button{
+        display: block;
+        background-color: #490000;
     }
 
     .splide__arrows button{   
@@ -1038,7 +1054,7 @@ footer .copyright-text{
     }
     .explore-more .explore-left{
         font-size: 22px;
-    }
+    } 
 
     .category-2 .wish-list{
         width: 26px;
@@ -1049,19 +1065,15 @@ footer .copyright-text{
     .category-2 .wish-list-icon{
         font-size: 20px;
     }
-
-    .category-2 .card-1{
-        /* margin-left: 24vw; */
-    }
+ 
 
     .category-2 img {
-        width: 150px;
-        height: 150px;
+        width: 215px;
+        height: 215px;
     }
     .category-2 h2{
         font-size: 4vw;
-        font-weight: 600;
-        /* line-height: 10px; */
+        font-weight: 600; 
     }
 
     .category-2 .price { 
@@ -1080,16 +1092,7 @@ footer .copyright-text{
         font-size: 3vw;
         font-weight: 900;
         animation: none;
-    }
-
-    .slick-slide li{
-        margin: 10px;
-    }
-
-    .slick-slide li button{
-        width: 10px;
-        height: 10px;
-    }
+    } 
 
     footer .container{
         width: auto;
