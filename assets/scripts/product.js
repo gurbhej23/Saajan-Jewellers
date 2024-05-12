@@ -20,13 +20,30 @@ const productsData = {
             { 
                 src: "assets/images/jewellery/gemstone/rings.1.1.jpg",
                 cls: 'active'
+            },  
+
+            { src: "assets/images/jewellery/gemstone/rings.1.2.jpg", 
+            cls: ''
             },
-            { src: "assets/images/jewellery/gemstone/rings.1.2.jpg", cls: ''},
-            { src: "assets/images/jewellery/gemstone/rings.1.jpg", cls: ''}
+
+            { src: "assets/images/jewellery/gemstone/rings.1.jpg", 
+            cls: ''
+            },
         ],
-        "pdt-img-large-1": "/assets/images/jewellery/gemstone/rings.1.1.jpg",
-        "pdt-img-large-2": "/assets/images/jewellery/gemstone/rings.1.2.jpg",
-        "pdt-img-large-3": "/assets/images/jewellery/gemstone/rings.1.1.jpg",
+        "pdt-lg-img":[
+            {
+                lg:"/assets/images/jewellery/gemstone/rings.1.1.jpg",
+                lgcls:'active'
+            },
+            {
+                lg:"/assets/images/jewellery/gemstone/rings.1.2.jpg",
+                lgcls:''
+            },
+            {
+                lg:"/assets/images/jewellery/gemstone/rings.1.jpg",
+                lgcls:''
+            },
+        ],
         "pdt-center-img": "assets/images/jewellery/gemstone/rings.1.jpg",
         "product-description":"Add the timeless grace of nature to your ensemble with this striking floral ring crafted in 22 Karat Yellow Gold and studded with gemstones",
     },
@@ -48,13 +65,33 @@ const productsData = {
         "sub-total": "Rs 90,373",
         "grand-total": "Rs 90,373",
         "pdt-images": [
-            "assets/images/jewellery/bangle.jpg",
-            "assets/images/jewellery/bangle1.jpg",
-            "assets/images/jewellery/bangle2.jpg",
+            {
+               src: "assets/images/jewellery/bangle.jpg",
+               cls:"active"
+            },
+            {
+                src:"assets/images/jewellery/bangle1.jpg",
+                cls:""
+            },
+            {
+                src:"assets/images/jewellery/bangle2.jpg",
+                cls:""
+            },
         ],
-        "pdt-img-large-1": "/assets/images/jewellery/bangle.jpg",
-        "pdt-img-large-2": "/assets/images/jewellery/bangle1.jpg",
-        "pdt-img-large-3": "/assets/images/jewellery/bangle2.jpg",
+        "pdt-lg-img":[
+            {
+                lg:"/assets/images/jewellery/bangle.jpg",
+                lgcls:'active'
+            },
+            {
+                lg:"/assets/images/jewellery/bangle1.jpg",
+                lgcls:''
+            },
+            {
+                lg:"/assets/images/jewellery/bangle2.jpg",
+                lgcls:''
+            },
+        ],
         "pdt-center-img": "assets/images/jewellery/bangle.jpg",
         "product-description":"Add the timeless grace of nature to your ensemble with this striking floral ring crafted in 22 Karat Yellow Gold and studded with gemstones",
     },
@@ -76,13 +113,33 @@ const productsData = {
         "sub-total": "Rs 37952.75",
         "grand-total": "Rs 37952.75",
         "pdt-images": [
-            "assets/images/jewellery/Men/Men2.2.jpg",
-            "assets/images/jewellery/Men/Men2.jpg",
-            "assets/images/jewellery/Men/Men2.3.jpg",
+            {
+                src:"assets/images/jewellery/Men/Men2.2.jpg",
+                cls:'active'
+            },
+            {
+                src:"assets/images/jewellery/Men/Men2.jpg",
+                cls:''
+            },
+            {
+                src:"assets/images/jewellery/Men/Men2.3.jpg",
+                cls:''
+            }
         ],
-        "pdt-img-large-1": "/assets/images/jewellery/Men/Men2.2.jpg",
-        "pdt-img-large-2": "/assets/images/jewellery/Men/Men2.jpg",
-        "pdt-img-large-3": "/assets/images/jewellery/Men/Men2.3.jpg",
+        "pdt-lg-img":[
+            {
+                lg:"/assets/images/jewellery/Men/Men2.2.jpg",
+                lgcls:'active'
+            },
+            {
+                lg:"/assets/images/jewellery/Men/Men2.jpg",
+                lgcls:''
+            },
+            {
+                lg:"/assets/images/jewellery/Men/Men2.3.jpg",
+                lgcls:''
+            },
+        ],
         "pdt-center-img": "assets/images/jewellery/Men/Men2.2.jpg",
         "product-description":"Add a hook worthy element to your Casual Wear. Pair it with this Hook Anchor Gold Finger Ring For Men crafted in 22 Karat Yellow Gold.",
     },
@@ -104,13 +161,33 @@ const productsData = {
         "sub-total": "  $383.24",
         "grand-total": "$383.24",
         "pdt-images":[
-            "assets/images/jewellery/gemstone/rings.3.1.jpg",
-            "assets/images/jewellery/gemstone/rings.3.2.jpg",
-            "assets/images/jewellery/gemstone/rings.3.jpg",
+            {
+                src:"assets/images/jewellery/gemstone/rings.3.1.jpg",
+                cls:'active'
+            },
+            {
+                src:"assets/images/jewellery/gemstone/rings.3.2.jpg",
+                cls:'',
+            },
+            {
+                src:"assets/images/jewellery/gemstone/rings.3.jpg",
+                cls:''
+            }
         ],
-        "pdt-img-large-1": "/assets/images/jewellery/gemstone/rings.3.1.jpg",
-        "pdt-img-large-2": "/assets/images/jewellery/gemstone/rings.3.2.jpg",
-        "pdt-img-large-3": "/assets/images/jewellery/gemstone/rings.3.jpg",
+        "pdt-lg-img":[
+            {
+                lg:"/assets/images/jewellery/gemstone/rings.3.1.jpg",
+                lgcls:'active'
+            },
+            {
+                lg:"/assets/images/jewellery/gemstone/rings.3.2.jpg",
+                lgcls:''
+            },
+            {
+                lg:"/assets/images/jewellery/gemstone/rings.3.jpg",
+                lgcls:''
+            },
+        ],
         "pdt-center-img": "assets/images/jewellery/gemstone/rings.3.jpg",
         "product-description":"Charming red gemstone nestles elegantly in the flower motif ring crafted in 22 Karat Yellow Gold to complete your everyday wear.",
     },
@@ -132,13 +209,33 @@ const productsData = {
         "sub-total": "",
         "grand-total": "",
         "pdt-images":[
-            "assets/images/jewellery/gemstone/rings.4.1.jpg",
-            "assets/images/jewellery/gemstone/rings.4.2.jpg",
-            "assets/images/jewellery/gemstone/rings.4.jpg",
+            {
+                src:"assets/images/jewellery/gemstone/rings.4.1.jpg",
+                cls:'active'
+            },
+            {
+                src:"assets/images/jewellery/gemstone/rings.4.2.jpg",
+                cls:'',
+            },
+            {
+                src:"assets/images/jewellery/gemstone/rings.4.jpg",
+                cls:''
+            }
         ],
-        "pdt-img-large-1": "/assets/images/jewellery/gemstone/rings.4.1.jpg",
-        "pdt-img-large-2": "/assets/images/jewellery/gemstone/rings.4.2.jpg",
-        "pdt-img-large-3": "/assets/images/jewellery/gemstone/rings.4.jpg",
+        "pdt-lg-img":[
+            {
+                lg:"/assets/images/jewellery/gemstone/rings.4.1.jpg",
+                lgcls:'active'
+            },
+            {
+                lg:"/assets/images/jewellery/gemstone/rings.4.2.jpg",
+                lgcls:''
+            },
+            {
+                lg:"/assets/images/jewellery/gemstone/rings.4.jpg",
+                lgcls:''
+            },
+        ],
         "pdt-center-img": "assets/images/jewellery/gemstone/rings.4.1.jpg",
         "product-description":"Turn heads wherever you go with the striking beauty of this statement ring, crafted in 14 karat rose gold, studded with aquamarine",
     },
@@ -160,13 +257,33 @@ const productsData = {
         "sub-total": "",
         "grand-total": "",
         "pdt-images":[
-            "assets/images/jewellery/gemstone/rings.5.1.jpg",
-            "assets/images/jewellery/gemstone/rings.5.2.jpg",
-            "assets/images/jewellery/gemstone/rings.5.jpg",
+            {
+                src:"assets/images/jewellery/gemstone/rings.5.1.jpg",
+                cls:"active"
+            },
+            {
+                src:"assets/images/jewellery/gemstone/rings.5.2.jpg",
+                cls:''
+            },
+            {
+                src:"assets/images/jewellery/gemstone/rings.5.jpg",
+                cls:""
+            }
         ],
-        "pdt-img-large-1": "/assets/images/jewellery/gemstone/rings.5.1.jpg",
-        "pdt-img-large-2": "/assets/images/jewellery/gemstone/rings.5.2.jpg",
-        "pdt-img-large-3": "/assets/images/jewellery/gemstone/rings.5.jpg",
+        "pt-lg-img":[
+            {
+                lg:"/assets/images/jewellery/gemstone/rings.5.1.jpg",
+                lgcls:'active'
+            },
+            {
+                lg:"/assets/images/jewellery/gemstone/rings.5.2.jpg",
+                lgcls:''
+            },
+            {
+                lg:"/assets/images/jewellery/gemstone/rings.5.jpg",
+                lgcls:''
+            },
+        ],
         "pdt-center-img": "assets/images/jewellery/gemstone/rings.5.1.jpg",
         "product-description":"Diamond And Synthetic Ruby Ring In 18Kt Yellow Gold (4.73 gram) with Diamonds (0.1600 Ct)",
     },
@@ -188,13 +305,33 @@ const productsData = {
         "sub-total": "Rs 155090.34",
         "grand-total": "Rs 155090.34",
         "pdt-images": [
-            "assets/images/jewellery/gemstone/rings.6.jpg",
-            "assets/images/jewellery/gemstone/rings.6.1.jpg",
-            "assets/images/jewellery/gemstone/rings.6.2.jpg",
+            {
+                src:"assets/images/jewellery/gemstone/rings.6.jpg",
+                cls:'active'
+            },
+            {
+                src:"assets/images/jewellery/gemstone/rings.6.1.jpg",
+                cls:''
+            },
+            {
+                src:"assets/images/jewellery/gemstone/rings.6.2.jpg",
+                cls:''
+            },
         ],
-        "pdt-img-large-1": "/assets/images/jewellery/gemstone/rings.6.jpg",
-        "pdt-img-large-2": "/assets/images/jewellery/gemstone/rings.6.1.jpg",
-        "pdt-img-large-3": "/assets/images/jewellery/gemstone/rings.6.2.jpg",
+        "pdt-lg-img":[
+            {
+                lg:"/assets/images/jewellery/gemstone/rings.6.jpg",
+                lgcls:'active'
+            },
+            {
+                lg:"/assets/images/jewellery/gemstone/rings.6.1.jpg",
+                lgcls:''
+            },
+            {
+                lg:"/assets/images/jewellery/gemstone/rings.6.2.jpg",
+                lgcls:''
+            },
+        ],
         "pdt-center-img": "assets/images/jewellery/gemstone/rings.6.jpg",
         "product-description":"Unforgettable in its charm and full of radiant beauty, this ring is crafted in 14 karat rose gold, studded with pristine diamonds",
     },
@@ -216,13 +353,33 @@ const productsData = {
         "sub-total": "Rs ₹2,32,444",
         "grand-total": "Rs ₹2,32,444",
         "pdt-images": [
-            "assets/images/jewellery/gemstone/rings7.jpg",
-            "assets/images/jewellery/gemstone/rings7.1.jpg",
-            "assets/images/jewellery/gemstone/rings7.2.jpg",
+            {
+                src:"assets/images/jewellery/gemstone/rings7.jpg",
+                cls:'active'
+            },
+            {
+                src:"assets/images/jewellery/gemstone/rings7.1.jpg",
+                cls:''
+            },
+            {
+                src:"assets/images/jewellery/gemstone/rings7.2.jpg",
+                cls:''
+            }
         ],
-        "pdt-img-large-1": "/assets/images/jewellery/gemstone/rings7.jpg",
-        "pdt-img-large-2": "/assets/images/jewellery/gemstone/rings7.1.jpg",
-        "pdt-img-large-3": "/assets/images/jewellery/gemstone/rings7.2.jpg",
+        "pdt-lg-img":[
+            {
+                lg:"/assets/images/jewellery/gemstone/rings7.jpg",
+                lgcls:'active'
+            },
+            {
+                lg:"/assets/images/jewellery/gemstone/rings7.1.jpg",
+                lgcls:""
+            },
+            {
+                lg:"/assets/images/jewellery/gemstone/rings7.2.jpg",
+                lgcls:""
+            },
+        ],
         "pdt-center-img": "assets/images/jewellery/gemstone/rings7.jpg",
         "product-description":"Unveil the understated beauty that transcends fleeting trends with this diamond ring crafted in 18 karat rose gold. Stone Clarity: SI2",
     },
@@ -244,13 +401,33 @@ const productsData = {
         "sub-total": "Rs ₹2,32,444",
         "grand-total": "Rs ₹2,32,444",
         "pdt-images": [
-            "assets/images/jewellery/gemstone/rings8.jpg",
-            "assets/images/jewellery/gemstone/rings8.1.jpg",
-            "assets/images/jewellery/gemstone/rings8.2.jpg",
+            {
+                src:"assets/images/jewellery/gemstone/rings8.jpg",
+                cls:'active'
+            },
+            {
+                src:"assets/images/jewellery/gemstone/rings8.1.jpg",
+                cls:''
+            },
+            {
+                src:"assets/images/jewellery/gemstone/rings8.2.jpg",
+                cls:''
+            }
         ],
-        "pdt-img-large-1": "/assets/images/jewellery/gemstone/rings8.jpg",
-        "pdt-img-large-2": "/assets/images/jewellery/gemstone/rings8.1.jpg",
-        "pdt-img-large-3": "/assets/images/jewellery/gemstone/rings8.2.jpg",
+        "pdt-lg-img":[
+            {
+                lg:"/assets/images/jewellery/gemstone/rings8.jpg",
+                lgcls:'active'
+            },
+            {
+                lg:"/assets/images/jewellery/gemstone/rings8.1.jpg",
+                lgcls:''
+            },
+            {
+                lg:"/assets/images/jewellery/gemstone/rings8.2.jpg",
+                lgcls:''
+            },
+        ],
         "pdt-center-img": "assets/images/jewellery/gemstone/rings8.1.jpg",
         "product-description":"Embrace your unique style and shine brightly with every step you take wearing this diamond ring crafted in 18 karat rose gold. Stone Clarity: SI2",
     },
@@ -272,13 +449,33 @@ const productsData = {
         "sub-total": "Rs 72541",
         "grand-total": "Rs 72541",
         "pdt-images":[
-            "assets/images/jewellery/gemstone/rings9.1.jpg",
-            "assets/images/jewellery/gemstone/rings9.jpg",
-            "assets/images/jewellery/gemstone/rings9.2.jpg",
+            {
+                src:"assets/images/jewellery/gemstone/rings9.1.jpg",
+                cls:'active'
+            },
+            {
+                src:"assets/images/jewellery/gemstone/rings9.jpg",
+                cls:''
+            },
+            {
+                src:"assets/images/jewellery/gemstone/rings9.2.jpg",
+                cls:''
+            },
         ],
-        "pdt-img-large-1": "/assets/images/jewellery/gemstone/rings9.1.jpg",
-        "pdt-img-large-2": "/assets/images/jewellery/gemstone/rings9.jpg",
-        "pdt-img-large-3": "/assets/images/jewellery/gemstone/rings9.2.jpg",
+        "pdt-lg-img":[
+            {
+                lg:"/assets/images/jewellery/gemstone/rings9.1.jpg",
+                lgcls:'active'
+            },
+            {
+                lg:"/assets/images/jewellery/gemstone/rings9.jpg",
+                lgcls:''
+            },
+            {
+                lg:"/assets/images/jewellery/gemstone/rings9.2.jpg",
+                lgcls:''
+            },
+        ],
         "pdt-center-img": "assets/images/jewellery/gemstone/rings9.jpg",
         "product-description":"Add the timeless grace of nature to your ensemble with this striking floral ring crafted in 22 Karat Yellow Gold and studded with gemstones",
     },
@@ -300,13 +497,33 @@ const productsData = {
         "sub-total": "-",
         "grand-total": "-",
         "pdt-images":[
-            "assets/images/jewellery/gemstone/rings10.1.jpg",
-            "assets/images/jewellery/gemstone/rings10.jpg",
-            "assets/images/jewellery/gemstone/rings10.2.jpg",
+            {
+                src:"assets/images/jewellery/gemstone/rings10.1.jpg",
+                cls:'active'
+            },
+            {
+                src:"assets/images/jewellery/gemstone/rings10.jpg",
+                cls:''
+            },
+            {
+                src:"assets/images/jewellery/gemstone/rings10.2.jpg",
+                cls:''
+            },
         ],
-        "pdt-img-large-1": "/assets/images/jewellery/gemstone/rings10.1.jpg",
-        "pdt-img-large-2": "/assets/images/jewellery/gemstone/rings10.jpg",
-        "pdt-img-large-3": "/assets/images/jewellery/gemstone/rings10.2.jpg",
+        "pdt-lg-img":[
+            {
+                lg:"/assets/images/jewellery/gemstone/rings10.1.jpg",
+                lgcls:'active'
+            },
+            {
+                lg:"/assets/images/jewellery/gemstone/rings10.jpg",
+                lgcls:''
+            },
+            {
+                lg:"/assets/images/jewellery/gemstone/rings10.2.jpg",
+                lgcls:''
+            },
+        ],
         "pdt-center-img": "assets/images/jewellery/gemstone/rings10.jpg",
         "product-description":"Add the timeless grace of nature to your ensemble with this striking floral ring crafted in 22 Karat Yellow Gold and studded with gemstones",
     },
@@ -328,13 +545,33 @@ const productsData = {
         "sub-total": "$436",
         "grand-total": "$436",
         "pdt-images":[
-            "assets/images/jewellery/gemstone/ring11.1.jpg",
-            "assets/images/jewellery/gemstone/ring11.jpg",
-            "assets/images/jewellery/gemstone/ring11.2.jpg",
+            {
+                src:"assets/images/jewellery/gemstone/ring11.1.jpg",
+                cls:'active'
+            },
+            {
+                src:"assets/images/jewellery/gemstone/ring11.jpg",
+                cls:''
+            },
+            {
+                src:"assets/images/jewellery/gemstone/ring11.2.jpg",
+                cls:''
+            },
         ],
-        "pdt-img-large-1": "/assets/images/jewellery/gemstone/ring11.1.jpg",
-        "pdt-img-large-2": "/assets/images/jewellery/gemstone/ring11.jpg",
-        "pdt-img-large-3": "/assets/images/jewellery/gemstone/ring11.2.jpg",
+        "pdt-lg-img":[
+            {
+                lg:"/assets/images/jewellery/gemstone/ring11.1.jpg",
+                lgcls:'active'
+            },
+            {
+                lg:"/assets/images/jewellery/gemstone/ring11.jpg",
+                lgcls:''
+            },
+            {
+                lg:"/assets/images/jewellery/gemstone/ring11.2.jpg",
+                lgcls:''
+            },
+        ],
         "pdt-center-img": "assets/images/jewellery/gemstone/ring11.jpg",
         "product-description":"Add the timeless grace of nature to your ensemble with this striking floral ring crafted in 22 Karat Yellow Gold and studded with gemstones",
     },
@@ -356,13 +593,33 @@ const productsData = {
         "sub-total": "$469.12",
         "grand-total": "$469.12",
         "pdt-images":[
-            "assets/images/jewellery/Men/Men5.2.jpg",
-            "assets/images/jewellery/Men/Men5.jpg",
-            "assets/images/jewellery/Men/Men5.3.jpg",
+            {
+                src:"assets/images/jewellery/Men/Men5.2.jpg",
+                cls:'active'
+            },
+            {
+                src:"assets/images/jewellery/Men/Men5.jpg",
+                cls:''
+            },
+            {
+                src:"assets/images/jewellery/Men/Men5.3.jpg",
+                cls:''
+            },
         ],
-        "pdt-img-large-1": "/assets/images/jewellery/Men/Men5.2.jpg",
-        "pdt-img-large-2": "/assets/images/jewellery/Men/Men5.jpg",
-        "pdt-img-large-3": "/assets/images/jewellery/Men/Men5.3.jpg",
+        "pdt-lg-img":[
+            {
+                lg:"/assets/images/jewellery/Men/Men5.2.jpg",
+                lgcls:'active'
+            },
+            {
+                lg:"/assets/images/jewellery/Men/Men5.jpg",
+                lgcls:''
+            },
+            {
+                lg:"/assets/images/jewellery/Men/Men5.3.jpg",
+                lgcls:''
+            },
+        ],
         "pdt-center-img": "assets/images/jewellery/Men/Men5.2.jpg",
         "product-description":"Add the timeless grace of nature to your ensemble with this striking floral ring crafted in 22 Karat Yellow Gold and studded with gemstones",
     },
@@ -384,13 +641,33 @@ const productsData = {
         "sub-total": "-",
         "grand-total": "-",
         "pdt-images":[
-            "/assets/images/jewellery/diamond-finger-ring.jpg",
-            "/assets/images/jewellery/diamond-finger-ring1.jpg",
-            "/assets/images/jewellery/diamond-finger-ring1.2.jpg",
+            {
+                src:"/assets/images/jewellery/diamond-finger-ring.jpg",
+                cls:'active'
+            },
+            {
+                src:"/assets/images/jewellery/diamond-finger-ring1.jpg",
+                cls:''
+            },
+            {
+                src:"/assets/images/jewellery/diamond-finger-ring1.2.jpg",
+                cls:''
+            }
         ],
-        "pdt-img-large-1": "/assets/images/jewellery/diamond-finger-ring.jpg",
-        "pdt-img-large-2": "/assets/images/jewellery/diamond-finger-ring1.jpg",
-        "pdt-img-large-3": "/assets/images/jewellery/diamond-finger-ring1.2.jpg",
+        "pdt-lg-img":[
+            {
+                lg:"/assets/images/jewellery/diamond-finger-ring.jpg",
+                lgcls:'active'
+            },
+            {
+                lg:"/assets/images/jewellery/diamond-finger-ring1.jpg",
+                lgcls:''
+            },
+            {
+                lg:"/assets/images/jewellery/diamond-finger-ring1.2.jpg",
+                lgcls:''
+            },
+        ],
         "pdt-center-img": "/assets/images/jewellery/diamond-finger-ring.jpg",
         "product-description":"Add the timeless grace of nature to your ensemble with this striking floral ring crafted in 22 Karat Yellow Gold and studded with gemstones",
     },
@@ -412,11 +689,25 @@ const productsData = {
         "sub-total": "Rs 30188.09",
         "grand-total": "Rs 30188.09",
         "pdt-images":[
-            "/assets/images/jewellery/diamond-stud-earrings.jpg",
-            "/assets/images/jewellery/diamond-stud-earrings1.jpg", 
+            {
+                src:"/assets/images/jewellery/diamond-stud-earrings.jpg",
+                cls:'active'
+            },
+            {
+                src:"/assets/images/jewellery/diamond-stud-earrings1.jpg", 
+                cls:''
+            },
         ],
-        "pdt-img-large-1": "/assets/images/jewellery/diamond-stud-earrings.jpg",
-        "pdt-img-large-2": "/assets/images/jewellery/diamond-stud-earrings1.jpg", 
+        "pdt-lg-img":[
+            {
+                lg:"/assets/images/jewellery/diamond-stud-earrings.jpg",
+                lgcls:'active'
+            },
+            {
+                lg:"/assets/images/jewellery/diamond-stud-earrings1.jpg",
+                lgcls:''
+            }, 
+        ],
         "pdt-center-img": "/assets/images/jewellery/diamond-stud-earrings.jpg",
         "product-description":"Add the timeless grace of nature to your ensemble with this striking floral ring crafted in 22 Karat Yellow Gold and studded with gemstones",
     },
@@ -438,15 +729,29 @@ const productsData = {
         "sub-total": "Rs 67113.85",
         "grand-total": "Rs 67113.85",
         "pdt-images": [    
-            "/assets/images/jewellery/gold-stud-earrings.jpeg",
-            "/assets/images/jewellery/gold-stud-earrings1.jpg", 
+            {
+                src:"/assets/images/jewellery/gold-stud-earrings.jpeg",
+                cls:'active'
+            },
+            {
+                src:"/assets/images/jewellery/gold-stud-earrings1.jpg",
+                cls:''
+            },
         ],
-        "pdt-img-large-1": "/assets/images/jewellery/gold-stud-earrings.jpeg",
-        "pdt-img-large-2": "/assets/images/jewellery/gold-stud-earrings1.jpg", 
+        "pdt-lg-img":[
+            {
+                lg:"/assets/images/jewellery/gold-stud-earrings.jpeg",
+                lgcls:'active'
+            },
+            {
+                lg:"/assets/images/jewellery/gold-stud-earrings1.jpg",
+                lgcls:''
+            }, 
+        ],
         "pdt-center-img": "/assets/images/jewellery/gold-stud-earrings.jpeg",
         "product-description":"Add the timeless grace of nature to your ensemble with this striking floral ring crafted in 22 Karat Yellow Gold and studded with gemstones",
     },
-    "diamond_drop_earrings": { 
+    "diamond_drop_earrings_2": { 
         "title":"Diamond Drop",  
         "product_name": "Diamond Drop",
         "pdt-price":"$497.67", 
@@ -464,13 +769,33 @@ const productsData = {
         "sub-total": "$497.67",
         "grand-total": "$497.67",
         "pdt-images":[
-            "/assets/images/jewellery/earrings-1/earrings-2.jpg",
-            "/assets/images/jewellery/earrings-1/earrings-1.jpg", 
-            "/assets/images/jewellery/earrings-1/earrings-1.1.jpg",
+            {
+                src:"/assets/images/jewellery/earrings-1/earrings-2.jpg",
+                cls:'active'
+            },
+            {
+                src:"/assets/images/jewellery/earrings-1/earrings-1.jpg",
+                cls:''
+            }, 
+            {
+                src:"/assets/images/jewellery/earrings-1/earrings-1.1.jpg",
+                cls:''
+            },
         ],
-        "pdt-img-large-1": "/assets/images/jewellery/earrings-1/earrings-2.jpg",
-        "pdt-img-large-2": "/assets/images/jewellery/earrings-1/earrings-1.jpg",
-        "pdt-img-large-3": "/assets/images/jewellery/earrings-1/earrings-1.1.jpg", 
+        "pdt-lg-img":[
+            {
+                lg:"/assets/images/jewellery/earrings-1/earrings-2.jpg",
+                lgcls:'active'
+            },
+            {
+                lg:"/assets/images/jewellery/earrings-1/earrings-1.jpg",
+                lgcls:''
+            },
+            {
+                lg:"/assets/images/jewellery/earrings-1/earrings-1.1.jpg",
+                lgcls:''
+            }, 
+        ],
         "pdt-center-img": "/assets/images/jewellery/earrings-1/earrings-1.jpg",
         "product-description":"Add the timeless grace of nature to your ensemble with this striking floral ring crafted in 22 Karat Yellow Gold and studded with gemstones",
     },
@@ -492,13 +817,25 @@ const productsData = {
         "sub-total": "-",
         "grand-total": "-",
         "pdt-images":[
-            "/assets/images/jewellery/kidsear.jpg",
-            "/assets/images/jewellery/kidsear1.jpg", 
-            "/assets/images/jewellery/kidsear2.jpg",
+            {
+                src:"/assets/images/jewellery/kidsear.jpg",
+                cls:'active'
+            },
+            {
+                src:"/assets/images/jewellery/kidsear1.jpg",
+                cls:''
+            },  
         ],
-        "pdt-img-large-1": "/assets/images/jewellery/kidsear.jpg",
-        "pdt-img-large-2": "/assets/images/jewellery/kidsear1.jpg",
-        "pdt-img-large-3": "/assets/images/jewellery/kidsear2.jpg", 
+        "pdt-lg-img":[
+            {
+                lg:"/assets/images/jewellery/kidsear.jpg",
+                lgcls:'active'
+            },
+            {
+                lg:"/assets/images/jewellery/kidsear1.jpg",
+                lgcls:''
+            }, 
+        ],
         "pdt-center-img": "/assets/images/jewellery/kidsear.jpg",
         "product-description":"Add the timeless grace of nature to your ensemble with this striking floral ring crafted in 22 Karat Yellow Gold and studded with gemstones",
     },
@@ -520,40 +857,28 @@ const productsData = {
         "sub-total": "Rs 32882.13",
         "grand-total": "Rs 32882.13",
         "pdt-images":[
-            "/assets/images/jewellery/womear.jpg",
-            "/assets/images/jewellery/womear1.jpg", 
+            {
+                src:"/assets/images/jewellery/womear.jpg",
+                cls:'active'
+            },
+            {
+                src:"/assets/images/jewellery/womear1.jpg", 
+                cls:''
+            },
         ],
-        "pdt-img-large-1": "/assets/images/jewellery/womear.jpg",
-        "pdt-img-large-2": "/assets/images/jewellery/womear1.jpg", 
+        "pdt-lg-img":[
+            {
+                lg:"/assets/images/jewellery/womear.jpg",
+                lgcls:'active'
+            },
+            {
+                lg:"/assets/images/jewellery/womear1.jpg",
+                lgcls:''
+            }, 
+        ],
         "pdt-center-img": "/assets/images/jewellery/womear.jpg",
         "product-description":"Add the timeless grace of nature to your ensemble with this striking floral ring crafted in 22 Karat Yellow Gold and studded with gemstones",
-    },
-    "rose_gold_and_diamond": { 
-        "title":"Rose Gold And Diamond",  
-        "product_name": "Rose Gold And Diamond",
-        "pdt-price":"Rs 32,882.13", 
-        "pdt-purity": "18 Karat", 
-        "pdt-detail-gender":"Kids",  
-        "pdt-type": "Diamond Jewellery", 
-        "pdt-occasion": "kid Wear",
-        "pdt-size": "16.40 MM", 
-        "pdt-weight": "1.577g", 
-        "gold-rate": "Rs 5558.73/g",
-        "gold-weight": "1.544g",
-        "final-value": "Rs 8580.46",
-        "stone-detail":"Rs 16897.67",
-        "making-charges": "Rs 7404.00",
-        "sub-total": "Rs 32882.13",
-        "grand-total": "Rs 32882.13",
-        "pdt-images":[
-            "/assets/images/jewellery/womear.jpg",
-            "/assets/images/jewellery/womear1.jpg", 
-        ],
-        "pdt-img-large-1": "/assets/images/jewellery/womear.jpg",
-        "pdt-img-large-2": "/assets/images/jewellery/womear1.jpg", 
-        "pdt-center-img": "/assets/images/jewellery/womear.jpg",
-        "product-description":"Add the timeless grace of nature to your ensemble with this striking floral ring crafted in 22 Karat Yellow Gold and studded with gemstones",
-    },
+    }, 
     "gold_multi_layer_jhumkas": { 
         "title":"Multi Layer Jhumkas",  
         "product_name": "Multi Layer Jhumkas",
@@ -572,13 +897,33 @@ const productsData = {
         "sub-total": "Rs 57621.61",
         "grand-total": "Rs 57621.61",
         "pdt-images":[
-            "/assets/images/jewellery/earrings-1/earrings-3.1.jpg",
-            "/assets/images/jewellery/earrings-1/earrings-3.jpg", 
-            "/assets/images/jewellery/earrings-1/earrings-3.2.jpg",
+            {
+                src:"/assets/images/jewellery/earrings-1/earrings-3.1.jpg",
+                cls:'active'
+            },
+            {
+                src:"/assets/images/jewellery/earrings-1/earrings-3.jpg",
+                cls:''
+            }, 
+            {
+                src:"/assets/images/jewellery/earrings-1/earrings-3.2.jpg",
+                cls:''
+            },
         ],
-        "pdt-img-large-1": "/assets/images/jewellery/earrings-1/earrings-3.1.jpg",
-        "pdt-img-large-2": "/assets/images/jewellery/earrings-1/earrings-3.jpg",
-        "pdt-img-large-3": "/assets/images/jewellery/earrings-1/earrings-3.2.jpg", 
+        "pdt-lg-img":[
+            {
+                lg:"/assets/images/jewellery/earrings-1/earrings-3.1.jpg",
+                lgcls:'active'
+            },
+            {
+                lg:"/assets/images/jewellery/earrings-1/earrings-3.jpg",
+                lgcls:''
+            },
+            {
+                lg:"/assets/images/jewellery/earrings-1/earrings-3.2.jpg",
+                lgcls:''
+            }, 
+        ],
         "pdt-center-img": "/assets/images/jewellery/earrings-1/earrings-3.jpg",
         "product-description":"Traditional 22 Karat yellow gold earrings featuring a vertical trail of 5 bell motifs, accented with a tassel bottom, hooked to an edgy round base",
     },
@@ -593,13 +938,33 @@ const productsData = {
         "pdt-size": "-", 
         "pdt-weight": "7.552 g", 
         "pdt-images":[
-            "/assets/images/jewellery/earrings-1/earrings-4.1.jpg",
-            "/assets/images/jewellery/earrings-1/earrings-4.jpg", 
-            "/assets/images/jewellery/earrings-1/earrings-4.2.jpg",
+            {
+                src:"/assets/images/jewellery/earrings-1/earrings-4.1.jpg",
+                cls:'active'
+            },
+            {
+                src:"/assets/images/jewellery/earrings-1/earrings-4.jpg",
+                cls:''
+            }, 
+            {
+                src:"/assets/images/jewellery/earrings-1/earrings-4.2.jpg",
+                cls:''
+            },
         ],
-        "pdt-img-large-1": "/assets/images/jewellery/earrings-1/earrings-4.1.jpg",
-        "pdt-img-large-2": "/assets/images/jewellery/earrings-1/earrings-4.jpg",
-        "pdt-img-large-3": "/assets/images/jewellery/earrings-1/earrings-4.2.jpg", 
+        "pdt-lg-img":[
+            {
+                lg:"/assets/images/jewellery/earrings-1/earrings-4.1.jpg",
+                lgcls:'active'
+            },
+            {
+                lg:"/assets/images/jewellery/earrings-1/earrings-4.jpg",
+                lgcls:''
+            },
+            {
+                lg:"/assets/images/jewellery/earrings-1/earrings-4.2.jpg",
+                lgcls:''
+            }, 
+        ],
         "pdt-center-img": "/assets/images/jewellery/earrings-1/earrings-4.jpg",
         "product-description":"Rawa Work Gold Jhumka Earrings crafted in 22 Karat Glossy Yellow Gold. The delicacy of its design brings additional elegance to your occasion wear.",
     },
@@ -621,11 +986,25 @@ const productsData = {
         "sub-total": "Rs 13162.23",
         "grand-total": "Rs 13162.23",
         "pdt-images":[
-            "/assets/images/jewellery/earrings-1/earrings-6.jpg",
-            "/assets/images/jewellery/earrings-1/earrings-6.1.jpg", 
+            {
+                src:"/assets/images/jewellery/earrings-1/earrings-6.jpg",
+                cls:'active'
+            },
+            {
+                src:"/assets/images/jewellery/earrings-1/earrings-6.1.jpg",
+                cls:''
+            }, 
         ],
-        "pdt-img-large-1": "/assets/images/jewellery/earrings-1/earrings-6.jpg",
-        "pdt-img-large-2": "/assets/images/jewellery/earrings-1/earrings-6.1.jpg", 
+        "pdt-lg-img":[
+            {
+                lg:"/assets/images/jewellery/earrings-1/earrings-6.jpg",
+                lgcls:'active'
+            },
+            {
+                lg:"/assets/images/jewellery/earrings-1/earrings-6.1.jpg",
+                lgcls:''
+            }, 
+        ],
         "pdt-center-img": "/assets/images/jewellery/earrings-1/earrings-6.jpg",
         "product-description":"Traditional 22 Karat yellow gold earrings featuring a vertical trail of 5 bell motifs, accented with a tassel bottom, hooked to an edgy round base",
     },
@@ -640,13 +1019,33 @@ const productsData = {
         "pdt-size": "-", 
         "pdt-weight": "7.552 g", 
         "pdt-images": [
-            "/assets/images/jewellery/earrings-1/earrings-7.1.jpg",
-            "/assets/images/jewellery/earrings-1/earrings-7.jpg", 
-            "/assets/images/jewellery/earrings-1/earrings-7.2.jpg",
+            {
+                src:"/assets/images/jewellery/earrings-1/earrings-7.1.jpg",
+                cls:"active"
+            },
+            {
+                src:"/assets/images/jewellery/earrings-1/earrings-7.jpg",
+                cls:''
+            }, 
+            {
+                src:"/assets/images/jewellery/earrings-1/earrings-7.2.jpg",
+                cls:''
+            },
         ],
-        "pdt-img-large-1": "/assets/images/jewellery/earrings-1/earrings-7.1.jpg",
-        "pdt-img-large-2": "/assets/images/jewellery/earrings-1/earrings-7.jpg",
-        "pdt-img-large-3": "/assets/images/jewellery/earrings-1/earrings-7.2.jpg", 
+        "pdt-lg-img":[
+            {
+                lg:"/assets/images/jewellery/earrings-1/earrings-7.1.jpg",
+                lgcls:'active'
+            },
+            {
+                lg:"/assets/images/jewellery/earrings-1/earrings-7.jpg",
+                lgcls:''
+            },
+            {
+                lg:"/assets/images/jewellery/earrings-1/earrings-7.2.jpg",
+                lgcls:''
+            }, 
+        ],
         "pdt-center-img": "/assets/images/jewellery/earrings-1/earrings-7   .jpg",
         "product-description":"Rawa Work Gold Jhumka Earrings crafted in 22 Karat Glossy Yellow Gold. The delicacy of its design brings additional elegance to your occasion wear.",
     },
@@ -668,11 +1067,25 @@ const productsData = {
         "sub-total": "Rs 19105.17",
         "grand-total": "Rs 19105.17",
         "pdt-images": [
-            "/assets/images/jewellery/earrings-1/earrings-5.jpg",
-            "/assets/images/jewellery/earrings-1/earrings-5.1.jpg",  
+            {
+                src:"/assets/images/jewellery/earrings-1/earrings-5.jpg",
+                cls:'active'
+            },
+            {
+                src:"/assets/images/jewellery/earrings-1/earrings-5.1.jpg",
+                cls:''
+            },  
         ],
-        "pdt-img-large-1": "/assets/images/jewellery/earrings-1/earrings-5.jpg",
-        "pdt-img-large-2": "/assets/images/jewellery/earrings-1/earrings-5.1.jpg", 
+        "pdt-lg-img":[
+            {
+                lg:"/assets/images/jewellery/earrings-1/earrings-5.jpg",
+                lgcls:'active'
+            },
+            {
+                lg:"/assets/images/jewellery/earrings-1/earrings-5.1.jpg",
+                lgcls:''
+            }, 
+        ],
         "pdt-center-img": "/assets/images/jewellery/earrings-1/earrings-5.jpg",
         "product-description":"Crafted in 18 Karat yellow gold, these studs boast a design that dares to be different, elevating your elegance to new heights. Stone Clarity: I1-I2",
     },
@@ -687,13 +1100,33 @@ const productsData = {
         "pdt-size": "-", 
         "pdt-weight": "7.552 g", 
         "pdt-images": [
-            "/assets/images/jewellery/earrings-1/earrings-8.1.jpg",
-            "/assets/images/jewellery/earrings-1/earrings-8.jpg", 
-            "/assets/images/jewellery/earrings-1/earrings-8.2.jpg",
+            {
+                src:"/assets/images/jewellery/earrings-1/earrings-8.1.jpg",
+                cls:'active'
+            },
+            {
+                src:"/assets/images/jewellery/earrings-1/earrings-8.jpg",
+                cls:''
+            }, 
+            {
+                src:"/assets/images/jewellery/earrings-1/earrings-8.2.jpg",
+                cls:''
+            },
         ],
-        "pdt-img-large-1": "/assets/images/jewellery/earrings-1/earrings-8.1.jpg",
-        "pdt-img-large-2": "/assets/images/jewellery/earrings-1/earrings-8.jpg",
-        "pdt-img-large-3": "/assets/images/jewellery/earrings-1/earrings-8.2.jpg", 
+        "pdt-lg-img":[
+            {
+                lg:"/assets/images/jewellery/earrings-1/earrings-8.1.jpg",
+                lgcls:'active'
+            },
+            {
+                lg:"/assets/images/jewellery/earrings-1/earrings-8.jpg",
+                lgcls:''
+            },
+            {
+                lg:"/assets/images/jewellery/earrings-1/earrings-8.2.jpg",
+                lgcls:''
+            }, 
+        ],
         "pdt-center-img": "/assets/images/jewellery/earrings-1/earrings-8.jpg",
         "product-description":"Rawa Work Gold Jhumka Earrings crafted in 22 Karat Glossy Yellow Gold. The delicacy of its design brings additional elegance to your occasion wear.",
     },
@@ -715,11 +1148,25 @@ const productsData = {
         "sub-total": "$1,874",
         "grand-total": "$1,874",
         "pdt-images": [
-            "/assets/images/jewellery/earrings-1/earrings-9.1.jpg",
-            "/assets/images/jewellery/earrings-1/earrings-9.jpg",  
+            {
+                src:"/assets/images/jewellery/earrings-1/earrings-9.1.jpg",
+                cls:'active'
+            },
+            {
+                src:"/assets/images/jewellery/earrings-1/earrings-9.jpg",
+                cls:''
+            },  
         ],
-        "pdt-img-large-1": "/assets/images/jewellery/earrings-1/earrings-9.1.jpg",
-        "pdt-img-large-2": "/assets/images/jewellery/earrings-1/earrings-9.jpg", 
+        "pdt-lg-img":[
+            {
+                lg:"/assets/images/jewellery/earrings-1/earrings-9.1.jpg",
+                lgcls:'active'
+            },
+            {
+                lg:"/assets/images/jewellery/earrings-1/earrings-9.jpg",
+                lgcls:''
+            }, 
+        ],
         "pdt-center-img": "/assets/images/jewellery/earrings-1/earrings-9.1.jpg",
         "product-description":"Adorn yourself in the embodiment of refined taste and opulence with these diamond drop earrings in 18 karat yellow and white gold. Stone Clarity: I1.",
     },
@@ -741,13 +1188,33 @@ const productsData = {
         "sub-total": "Rs 91669.4",
         "grand-total": "Rs 91669.4",
         "pdt-images":[
-            "/assets/images/jewellery/moderndesign/mod1.1.jpg",
-            "/assets/images/jewellery/moderndesign/mod1.jpg",  
-            "/assets/images/jewellery/moderndesign/mod1.1.2.jpg",  
+            {
+                src:"/assets/images/jewellery/moderndesign/mod1.1.jpg",
+                cls:'active'
+            },
+            {
+                src:"/assets/images/jewellery/moderndesign/mod1.jpg",
+                cls:''
+            },  
+            {
+                src:"/assets/images/jewellery/moderndesign/mod1.1.2.jpg",
+                cls:''
+            },  
         ],
-        "pdt-img-large-1": "/assets/images/jewellery/moderndesign/mod1.1.jpg",
-        "pdt-img-large-2": "/assets/images/jewellery/moderndesign/mod1.jpg", 
-        "pdt-img-large-3": "/assets/images/jewellery/moderndesign/mod1.1.2.jpg", 
+        "pdt-lg-img":[
+            {
+                lg:"/assets/images/jewellery/moderndesign/mod1.1.jpg",
+                lgcls:'active'
+            },
+            {
+                lg:"/assets/images/jewellery/moderndesign/mod1.jpg",
+                lgcls:''
+            },
+            { 
+                lg:"/assets/images/jewellery/moderndesign/mod1.1.2.jpg", 
+                lgcls:''
+            },
+        ],
         "pdt-center-img": "/assets/images/jewellery/moderndesign/mod1.jpg",
         "product-description":"Feel colourful magic channelling your playful side as you adorn this brightly coloured pendant with chain set, offset with twinkling diamonds. Stone Clarity - I1-I2",
     },
@@ -769,13 +1236,33 @@ const productsData = {
         "sub-total": "Rs 149038.59",
         "grand-total": "Rs 149038.59",
         "pdt-images":[
-            "/assets/images/jewellery/moderndesign/mod1.2.jpg",
-            "/assets/images/jewellery/moderndesign/mod2.jpg",  
-            "/assets/images/jewellery/moderndesign/mod2.1.jpg",  
+            {
+                src:"/assets/images/jewellery/moderndesign/mod1.2.jpg",
+                cls:'active'
+            },
+            {
+                src:"/assets/images/jewellery/moderndesign/mod2.jpg",
+                cls:''
+            },  
+            {
+                src:"/assets/images/jewellery/moderndesign/mod2.1.jpg",
+                cls:''
+            },  
         ],
-        "pdt-img-large-1": "/assets/images/jewellery/moderndesign/mod1.2.jpg",
-        "pdt-img-large-2": "/assets/images/jewellery/moderndesign/mod2.jpg", 
-        "pdt-img-large-3": "/assets/images/jewellery/moderndesign/mod2.1.jpg", 
+        "pdt-lg-img":[
+            {
+                lg:"/assets/images/jewellery/moderndesign/mod1.2.jpg",
+                lgcls:'active'
+            },
+            {
+                lg:"/assets/images/jewellery/moderndesign/mod2.jpg",
+                lgcls:''
+            },
+            { 
+                lg:"/assets/images/jewellery/moderndesign/mod2.1.jpg",
+                lgcls:''
+            }, 
+        ],
         "pdt-center-img": "/assets/images/jewellery/moderndesign/mod1.2.jpg",
         "product-description":"Feel colourful magic channelling your playful side as you adorn this brightly coloured pendant with chain set, offset with twinkling diamonds. Stone Clarity - I1-I2",
     },
@@ -797,13 +1284,33 @@ const productsData = {
         "sub-total": "$1,529.71",
         "grand-total": "$1,529.71",
         "pdt-images": [
-            "/assets/images/jewellery/moderndesign/mod1.3.jpg",
-            "/assets/images/jewellery/moderndesign/mod3.jpg",  
-            "/assets/images/jewellery/moderndesign/mod3.1.jpg",  
+            {
+                src:"/assets/images/jewellery/moderndesign/mod1.3.jpg",
+                cls:'active'
+            },
+            {
+                src:"/assets/images/jewellery/moderndesign/mod3.jpg",
+                cls:''
+            },  
+            {
+                src:"/assets/images/jewellery/moderndesign/mod3.1.jpg",  
+                cls:''
+            },
         ],
-        "pdt-img-large-1": "/assets/images/jewellery/moderndesign/mod1.3.jpg",
-        "pdt-img-large-2": "/assets/images/jewellery/moderndesign/mod3.jpg", 
-        "pdt-img-large-3": "/assets/images/jewellery/moderndesign/mod3.1.jpg", 
+        "pdt-lg-img":[
+            {
+                lg:"/assets/images/jewellery/moderndesign/mod1.3.jpg",
+                lgcls:'active'
+            },
+            {
+                lg:"/assets/images/jewellery/moderndesign/mod3.jpg",
+                lgcls:''
+            },
+            { 
+                lg:"/assets/images/jewellery/moderndesign/mod3.1.jpg",
+                lgcls:''
+            }, 
+        ],
         "pdt-center-img": "/assets/images/jewellery/moderndesign/mod1.3.jpg",
         "product-description":"Feel colourful magic channelling your playful side as you adorn this brightly coloured pendant with chain set, offset with twinkling diamonds. Stone Clarity - I1-I2",
     },
@@ -818,13 +1325,33 @@ const productsData = {
         "pdt-size": "-", 
         "pdt-weight": "11.335g",    
         "pdt-images": [
-            "/assets/images/jewellery/moderndesign/mod1.4.jpg",
-            "/assets/images/jewellery/moderndesign/mod4.jpg",  
-            "/assets/images/jewellery/moderndesign/mod2.1.jpg",  
+            {
+                src:"/assets/images/jewellery/moderndesign/mod1.4.jpg",
+                cls:'active'
+            },
+            {
+                src:"/assets/images/jewellery/moderndesign/mod4.jpg",
+                cls:''
+            },  
+            {
+                src:"/assets/images/jewellery/moderndesign/mod2.1.jpg",
+                cls:''
+            },  
         ],
-        "pdt-img-large-1": "/assets/images/jewellery/moderndesign/mod1.4.jpg",
-        "pdt-img-large-2": "/assets/images/jewellery/moderndesign/mod4.jpg", 
-        "pdt-img-large-3": "/assets/images/jewellery/moderndesign/mod2.1.jpg", 
+        "pdt-lg-img":[
+            {
+                lg:"/assets/images/jewellery/moderndesign/mod1.4.jpg",
+                lgcls:'active'
+            },
+            {
+                lg:"/assets/images/jewellery/moderndesign/mod4.jpg",
+                lgcls:''
+            },
+            { 
+                lg:"/assets/images/jewellery/moderndesign/mod2.1.jpg",
+                lgcls:''
+            }, 
+        ],
         "pdt-center-img": "/assets/images/jewellery/moderndesign/mod1.4.jpg",
         "product-description":"Feel colourful magic channelling your playful side as you adorn this brightly coloured pendant with chain set, offset with twinkling diamonds. Stone Clarity - I1-I2",
     },
@@ -846,13 +1373,33 @@ const productsData = {
         "sub-total": "Rs 36089.95",
         "grand-total": "Rs 36089.95",
         "pdt-images":[
-            "/assets/images/jewellery/prettypink/pink1.1.jpg",
-            "/assets/images/jewellery/prettypink/pink1-2.jpg",  
-            "/assets/images/jewellery/prettypink/pink1.jpg",  
+            {
+                src:"/assets/images/jewellery/prettypink/pink1.1.jpg",
+                cls:'active'
+            },
+            {
+                src:"/assets/images/jewellery/prettypink/pink1-2.jpg",
+                cls:''
+            },  
+            {
+                src:"/assets/images/jewellery/prettypink/pink1.jpg",
+                cls:''
+            },  
         ],
-        "pdt-img-large-1": "/assets/images/jewellery/prettypink/pink1.1.jpg",
-        "pdt-img-large-2": "/assets/images/jewellery/prettypink/pink1-2.jpg", 
-        "pdt-img-large-3": "/assets/images/jewellery/prettypink/pink1.jpg", 
+        "pdt-lg-img":[
+            {
+                lg:"/assets/images/jewellery/prettypink/pink1.1.jpg",
+                lgcls:'active'
+            },
+            {
+                lg:"/assets/images/jewellery/prettypink/pink1-2.jpg",
+                lgcls:''
+            },
+            { 
+                lg:"/assets/images/jewellery/prettypink/pink1.jpg",
+                lgcls:''
+            },
+        ], 
         "pdt-center-img": "/assets/images/jewellery/prettypink/pink1.jpg",
         "product-description":"Feel colourful magic channelling your playful side as you adorn this brightly coloured pendant with chain set, offset with twinkling diamonds. Stone Clarity - I1-I2",
     },
@@ -874,13 +1421,33 @@ const productsData = {
         "sub-total": "Rs 52662.09",
         "grand-total": "Rs 52662.09",
         "pdt-images":[
-            "/assets/images/jewellery/prettypink/pink1.2.jpg",
-            "/assets/images/jewellery/prettypink/pink2.jpg",  
-            "/assets/images/jewellery/prettypink/pink2.1.jpg",  
+            {
+                src:"/assets/images/jewellery/prettypink/pink1.2.jpg",
+                cls:'active'
+            },
+            {
+                src:"/assets/images/jewellery/prettypink/pink2.jpg",
+                cls:''
+            },  
+            {
+                src:"/assets/images/jewellery/prettypink/pink2.1.jpg", 
+                cls:''
+            }, 
         ],
-        "pdt-img-large-1": "/assets/images/jewellery/prettypink/pink1.2.jpg",
-        "pdt-img-large-2": "/assets/images/jewellery/prettypink/pink2.jpg", 
-        "pdt-img-large-3": "/assets/images/jewellery/prettypink/pink1.jpg", 
+        "pdt-lg-img":[
+            {
+                lg:"/assets/images/jewellery/prettypink/pink1.2.jpg",
+                lgcls:'active'
+            },
+            {
+                lg:"/assets/images/jewellery/prettypink/pink2.jpg",
+                lgcls:''
+            },
+            { 
+                lg:"/assets/images/jewellery/prettypink/pink1.jpg",
+                lgcls:''
+            }, 
+        ],
         "pdt-center-img": "/assets/images/jewellery/prettypink/pink2.1.jpg",
         "product-description":"Feel colourful magic channelling your playful side as you adorn this brightly coloured pendant with chain set, offset with twinkling diamonds. Stone Clarity - I1-I2",
     },
@@ -902,13 +1469,33 @@ const productsData = {
         "sub-total": "Rs 41,745.37",
         "grand-total": "Rs 41,745.37",
         "pdt-images":[
-            "/assets/images/jewellery/prettypink/pink1.3.jpg",
-            "/assets/images/jewellery/prettypink/pink3.jpg",  
-            "/assets/images/jewellery/prettypink/pink3.1.jpg",  
+            {
+                src:"/assets/images/jewellery/prettypink/pink1.3.jpg",
+                cls:'active'
+            },
+            {
+                src:"/assets/images/jewellery/prettypink/pink3.jpg",
+                cls:''
+            },  
+            {
+                src:"/assets/images/jewellery/prettypink/pink3.1.jpg",
+                cls:''
+            },  
         ],
-        "pdt-img-large-1": "/assets/images/jewellery/prettypink/pink1.3.jpg",
-        "pdt-img-large-2": "/assets/images/jewellery/prettypink/pink3.jpg", 
-        "pdt-img-large-3": "/assets/images/jewellery/prettypink/pink3.jpg", 
+        "pdt-lg-img":[
+            {
+                lg:"/assets/images/jewellery/prettypink/pink1.3.jpg",
+                lgcls:'active'
+            },
+            {
+                lg:"/assets/images/jewellery/prettypink/pink3.jpg",
+                lgcls:''
+            }, 
+            {
+                lg:"/assets/images/jewellery/prettypink/pink3.jpg",
+                lgcls:''
+            }, 
+        ],
         "pdt-center-img": "/assets/images/jewellery/prettypink/pink3.1.jpg",
         "product-description":"Bring the youthful charm of rose tint into your ensemble with this enchanting pendant, featuring a gleaming pink stone and shimmering diamonds",
     },
@@ -930,13 +1517,33 @@ const productsData = {
         "sub-total": "Rs 40513.40",
         "grand-total": "Rs 40513.40",
         "pdt-images":[
-            "/assets/images/jewellery/prettypink/pink1.4.jpg",
-            "/assets/images/jewellery/prettypink/pink4.jpg",  
-            "/assets/images/jewellery/prettypink/pink4.1.jpg",  
+            {
+                src:"/assets/images/jewellery/prettypink/pink1.4.jpg",
+                cls:'active'
+            },
+            {
+                src:"/assets/images/jewellery/prettypink/pink4.jpg",
+                cls:''
+            },  
+            {
+                src:"/assets/images/jewellery/prettypink/pink4.1.jpg",
+                cls:''
+            },  
         ],
-        "pdt-img-large-1": "/assets/images/jewellery/prettypink/pink1.4.jpg",
-        "pdt-img-large-2": "/assets/images/jewellery/prettypink/pink4.jpg", 
-        "pdt-img-large-3": "/assets/images/jewellery/prettypink/pink4.jpg", 
+        "pdt-lg-img":[
+            {
+                lg:"/assets/images/jewellery/prettypink/pink1.4.jpg",
+                lgcls:'active'
+            },
+            {
+                lg:"/assets/images/jewellery/prettypink/pink4.jpg",
+                lgcls:''
+            },
+            { 
+                lg:"/assets/images/jewellery/prettypink/pink4.jpg",
+                lgcls:''
+            }, 
+        ],
         "pdt-center-img": "/assets/images/jewellery/prettypink/pink4.jpg",
         "product-description":"A lovely pink stone is surrounded by shimmering diamonds in a floral pattern to give you this bracelet, perfect for your party style!",
     },
@@ -958,13 +1565,33 @@ const productsData = {
         "sub-total": "Rs 42754",
         "grand-total": "Rs 42754",
         "pdt-images":[
-            "/assets/images/jewellery/prettypink/pink1.5.jpg",
-            "/assets/images/jewellery/prettypink/pink5.jpg",  
-            "/assets/images/jewellery/prettypink/pink5.1.jpg",  
+            {
+                src:"/assets/images/jewellery/prettypink/pink1.5.jpg",
+                cls:'active'
+            },
+            {
+                src:"/assets/images/jewellery/prettypink/pink5.jpg",
+                cls:''
+            },  
+            {
+                src:"/assets/images/jewellery/prettypink/pink5.1.jpg",
+                cls:''
+            },  
         ],
-        "pdt-img-large-1": "/assets/images/jewellery/prettypink/pink1.5.jpg",
-        "pdt-img-large-2": "/assets/images/jewellery/prettypink/pink5.jpg", 
-        "pdt-img-large-3": "/assets/images/jewellery/prettypink/pink5.jpg", 
+        "pdt-lg-img":[
+            {
+                lg:"/assets/images/jewellery/prettypink/pink1.5.jpg",
+                lgcls:'active'
+            },
+            {
+                lg:"/assets/images/jewellery/prettypink/pink5.jpg",
+                lgcls:''
+            },
+            { 
+                lg:"/assets/images/jewellery/prettypink/pink5.jpg",
+                lgcls:''
+            }, 
+        ],
         "pdt-center-img": "/assets/images/jewellery/prettypink/pink5.jpg",
         "product-description":"Pretty pink stone nestles in a teardrop pattern hoisted by scintillating diamonds making this lovely ring, that will make every head turn!",
     },
@@ -979,13 +1606,29 @@ const productsData = {
         "pdt-size": "-",    
         "pdt-weight": "3.199g",    
         "pdt-images":[
-            "/assets/images/jewellery/prettypink/pink1.6.jpg",
-            "/assets/images/jewellery/prettypink/pink6.jpg",  
-            "/assets/images/jewellery/prettypink/pink6.1.jpg",  
+            {
+                src:"/assets/images/jewellery/prettypink/pink1.6.jpg",
+                cls:'active'
+            },
+            {
+                src:"/assets/images/jewellery/prettypink/pink6.jpg",  
+                cls:''
+            }, 
         ],
-        "pdt-img-large-1": "/assets/images/jewellery/prettypink/pink1.6.jpg",
-        "pdt-img-large-2": "/assets/images/jewellery/prettypink/pink6.jpg", 
-        "pdt-img-large-3": "/assets/images/jewellery/prettypink/pink6.jpg", 
+        "pdt-lg-img":[
+            {
+                lg:"/assets/images/jewellery/prettypink/pink1.6.jpg",
+                lgcls:'active'
+            },
+            {
+                lg:"/assets/images/jewellery/prettypink/pink6.jpg",
+                lgcls:''
+            },
+            { 
+                lg:"/assets/images/jewellery/prettypink/pink6.jpg",
+                lgcls:''
+            }, 
+        ],
         "pdt-center-img": "/assets/images/jewellery/prettypink/pink6.jpg",
         "product-description":"Pretty pink stone nestles in a teardrop pattern hoisted by scintillating diamonds making this lovely ring, that will make every head turn!",
     },
@@ -1000,44 +1643,36 @@ const productsData = {
         "pdt-size": "-",    
         "pdt-weight": "3.199g",    
         "pdt-images":[
-            "/assets/images/jewellery/prettypink/pink1.7.jpg",
-            "/assets/images/jewellery/prettypink/pink7.jpg",  
-            "/assets/images/jewellery/prettypink/pink7.1.jpg",
+            {
+                src:"/assets/images/jewellery/prettypink/pink1.7.jpg",
+                cls:"active"
+            },
+            {
+                src:"/assets/images/jewellery/prettypink/pink7.jpg",
+                cls:''
+            },  
+            {
+                src:"/assets/images/jewellery/prettypink/pink7.1.jpg",
+                cls:''
+            },
         ],  
-        "pdt-img-large-1": "/assets/images/jewellery/prettypink/pink1.7.jpg",
-        "pdt-img-large-2": "/assets/images/jewellery/prettypink/pink7.jpg", 
-        "pdt-img-large-3": "/assets/images/jewellery/prettypink/pink7.jpg", 
+        "pdt-lg-img":[
+            {
+                lg:"/assets/images/jewellery/prettypink/pink1.7.jpg",
+                lgcls:'active'
+            },
+            {
+                lg:"/assets/images/jewellery/prettypink/pink7.jpg",
+                lgcls:''
+            },
+            { 
+                lg:"/assets/images/jewellery/prettypink/pink7.1.jpg",
+                lgcls:''
+            }, 
+        ],
         "pdt-center-img": "/assets/images/jewellery/prettypink/pink7.jpg",
         "product-description":"Pretty pink stone nestles in a teardrop pattern hoisted by scintillating diamonds making this lovely ring, that will make every head turn!",
-    },
-    "rosiamond_stud_earrings": { 
-        "title":"Rosiamond Stud",  
-        "product_name": "Rosiamond Stud Earrings",
-        "pdt-price":"Rs 63,217", 
-        "pdt-purity": "18 Karat", 
-        "pdt-detail-gender":"Women",  
-        "pdt-type": "Diamond", 
-        "pdt-occasion": "Modern Wear",
-        "pdt-size": "-",    
-        "pdt-weight": "3.759g",   
-        "gold-rate": "Rs 5551.36/g",
-        "gold-weight": "3.759g",
-        "final-value": "Rs 20868.67",
-        "stone-detail":"Rs 29502.32",
-        "making-charges": "Rs 12846.00",
-        "sub-total": "Rs 63,217",
-        "grand-total": "Rs 63,217",
-        "pdt-images":[
-            "/assets/images/jewellery/prettypink/pink1.8.jpg",
-            "/assets/images/jewellery/prettypink/pink8.jpg",  
-            "/assets/images/jewellery/prettypink/pink8.1.jpg",  
-        ],
-        "pdt-img-large-1": "/assets/images/jewellery/prettypink/pink1.8.jpg",
-        "pdt-img-large-2": "/assets/images/jewellery/prettypink/pink8.jpg", 
-        "pdt-img-large-3": "/assets/images/jewellery/prettypink/pink8.jpg", 
-        "pdt-center-img": "/assets/images/jewellery/prettypink/pink8.jpg",
-        "product-description":"Pretty pink stone nestles in a teardrop pattern hoisted by scintillating diamonds making this lovely ring, that will make every head turn!",
-    },
+    }, 
     "shree_yantra_22_karat_coin": { 
         "title":"Shree Yantra 22 Karat Coin",  
         "product_name": "Shree Yantra 22 Karat Coin",
@@ -1056,11 +1691,25 @@ const productsData = {
         "sub-total": "Rs 72789.89",
         "grand-total": "Rs 72789.89",
         "pdt-images":[
-            "/assets/images/jewellery/gold-coin/coin1-1.jpg",
-            "/assets/images/jewellery/gold-coin/coin1.jpg",   
+            {
+                src:"/assets/images/jewellery/gold-coin/coin1-1.jpg",
+                cls:'active'
+            },
+            {
+                src:"/assets/images/jewellery/gold-coin/coin1.jpg",
+                cls:''
+            },   
         ],
-        "pdt-img-large-1": "/assets/images/jewellery/gold-coin/coin1-1.jpg",
-        "pdt-img-large-2": "/assets/images/jewellery/gold-coin/coin1.jpg",  
+        "pdt-lg-img":[
+            {
+                lg:"/assets/images/jewellery/gold-coin/coin1-1.jpg",
+                lgcls:'active'
+            },
+            {
+                lg:"/assets/images/jewellery/gold-coin/coin1.jpg",
+                lgcls:''
+            },  
+        ],
         "pdt-center-img": "/assets/images/jewellery/gold-coin/coin1.jpg",
         "product-description":"This auspicious 8 gram coin with the sacred symbol of Shree Yantra is specially worshipped during the Diwali festival and on auspicious days to usher in prosperity and harmony.",
     },
@@ -1082,11 +1731,25 @@ const productsData = {
         "sub-total": "Rs 68605.10",
         "grand-total": "Rs 68605.10",
         "pdt-images":[
-            "/assets/images/jewellery/gold-coin/coin2-1.jpg",
-            "/assets/images/jewellery/gold-coin/coin2.jpg",   
+            {
+                src:"/assets/images/jewellery/gold-coin/coin2-1.jpg",
+                cls:'active'
+            },
+            {
+                src:"/assets/images/jewellery/gold-coin/coin2.jpg", 
+                cls:''
+            },  
         ],
-        "pdt-img-large-1": "/assets/images/jewellery/gold-coin/coin2-1.jpg",
-        "pdt-img-large-2": "/assets/images/jewellery/gold-coin/coin2.jpg",  
+        "pdt-lg-img":[
+            {
+                lg:"/assets/images/jewellery/gold-coin/coin2-1.jpg",
+                lgcls:'active'
+            },
+            {
+                lg:"/assets/images/jewellery/gold-coin/coin2.jpg",
+                lgcls:''
+            },  
+        ],
         "pdt-center-img": "/assets/images/jewellery/gold-coin/coin2.jpg",
         "product-description":"This 8 gram coin is a symbol of purity and prosperity, crafted in 22 karat yellow gold.",
     },
@@ -1101,13 +1764,33 @@ const productsData = {
         "pdt-size": "-",    
         "pdt-weight": "10.199g",    
         "pdt-images":[
-            "/assets/images/jewellery/diamond-necklace.jpeg",
-            "/assets/images/jewellery/diamond-necklace1.jpg",  
-            "/assets/images/jewellery/diamond-necklace1.1.jpg",  
+            {
+                src:"/assets/images/jewellery/diamond-necklace.jpeg",
+                cls:'active'
+            },
+            {
+                src:"/assets/images/jewellery/diamond-necklace1.jpg",
+                cls:''
+            }, 
+            { 
+                src:"/assets/images/jewellery/diamond-necklace1.1.jpg",
+                cls:''
+            },  
         ],
-        "pdt-img-large-1": "/assets/images/jewellery/diamond-necklace.jpeg",
-        "pdt-img-large-2": "/assets/images/jewellery/diamond-necklace1.jpg", 
-        "pdt-img-large-3": "/assets/images/jewellery/diamond-necklace1.1.jpg", 
+        "pdt-lg-img":[
+            {
+                lg:"/assets/images/jewellery/diamond-necklace.jpeg",
+                lgcls:'active'
+            },
+            {
+                lg:"/assets/images/jewellery/diamond-necklace1.jpg",
+                lgcls:''
+            },
+            { 
+                lg:"/assets/images/jewellery/diamond-necklace1.1.jpg",
+                lgcls:''
+            }, 
+        ],
         "pdt-center-img": "/assets/images/jewellery/diamond-necklace1.jpg",
         "product-description":"Pretty pink stone nestles in a teardrop pattern hoisted by scintillating diamonds making this lovely ring, that will make every head turn!",
     },
@@ -1122,13 +1805,33 @@ const productsData = {
         "pdt-size": "-",    
         "pdt-weight": "14.199g",    
         "pdt-images":[
-            "/assets/images/jewellery/diamond-necklace-2.jpg",
-            "/assets/images/jewellery/diamond-necklace-2.1.jpg",  
-            "/assets/images/jewellery/diamond-necklace1.1.jpg",  
+            {
+                src:"/assets/images/jewellery/diamond-necklace-2.jpg",
+                cls:'active'
+            },
+            {
+                src:"/assets/images/jewellery/diamond-necklace-2.1.jpg",
+                cls:''
+            },  
+            {
+                src:"/assets/images/jewellery/diamond-necklace1.1.jpg",
+                cls:''
+            },  
         ],
-        "pdt-img-large-1": "/assets/images/jewellery/diamond-necklace-2.jpg",
-        "pdt-img-large-2": "/assets/images/jewellery/diamond-necklace-2.jpg", 
-        "pdt-img-large-3": "/assets/images/jewellery/diamond-necklace1.1.jpg", 
+        "pdt-lg-img":[
+            {
+                lg:"/assets/images/jewellery/diamond-necklace-2.jpg",
+                lgcls:'active'
+            },
+            {
+                lg:"/assets/images/jewellery/diamond-necklace-2.jpg",
+                lgcls:''
+            }, 
+            {
+                lg:"/assets/images/jewellery/diamond-necklace1.1.jpg",
+                lgcls:''
+            },
+        ], 
         "pdt-center-img": "/assets/images/jewellery/diamond-necklace-2.jpg",
         "product-description":"Pretty pink stone nestles in a teardrop pattern hoisted by scintillating diamonds making this lovely ring, that will make every head turn!",
     },
@@ -1151,13 +1854,33 @@ const productsData = {
         "grand-total": "Rs 88944.39",   
         "pdt-weight": "7.224g",    
         "pdt-images":[
-            "/assets/images/jewellery/diamonf-bangle.jpg",
-            "/assets/images/jewellery/diamonf-bangle1.jpg",  
-            "/assets/images/jewellery/diamonf-bangle1.1.jpg",  
+            {
+                src:"/assets/images/jewellery/diamonf-bangle.jpg",
+                cls:'active'
+            },
+            {
+                src:"/assets/images/jewellery/diamonf-bangle1.jpg",
+                cls:''
+            },
+            { 
+                src:"/assets/images/jewellery/diamonf-bangle1.1.jpg",
+                cls:''
+            }, 
         ],
-        "pdt-img-large-1": "/assets/images/jewellery/diamonf-bangle.jpg",
-        "pdt-img-large-2": "/assets/images/jewellery/diamonf-bangle1.jpg", 
-        "pdt-img-large-3": "/assets/images/jewellery/diamonf-bangle1.1.jpg", 
+        "pst-lg-img":[
+            {
+                lg:"/assets/images/jewellery/diamonf-bangle.jpg",
+                lgcls:'active'
+            },
+            {
+                lg:"/assets/images/jewellery/diamonf-bangle1.jpg",
+                lgcls:''
+            },
+            { 
+                lg:"/assets/images/jewellery/diamonf-bangle1.1.jpg",
+                lgcls:''
+            }, 
+        ],
         "pdt-center-img": "/assets/images/jewellery/diamonf-bangle1.jpg",
         "product-description":"Accentuate your Modern Wear with this Delicate Diamond Bangle Crafted in 18 Karat Yellow and White Gold which elevate your style. Stone clarity SI2",
     },
@@ -1179,13 +1902,33 @@ const productsData = {
         "sub-total": "Rs 63,217",
         "grand-total": "Rs 63,217",
         "pdt-images":[
-            "/assets/images/jewellery/prettypink/pink1.8.jpg",
-            "/assets/images/jewellery/prettypink/pink8.jpg",  
-            "/assets/images/jewellery/prettypink/pink8.1.jpg",  
+            {
+                src:"/assets/images/jewellery/prettypink/pink1.8.jpg",
+                cls:'active'
+            },
+            {
+                src:"/assets/images/jewellery/prettypink/pink8.jpg",
+                cls:''
+            },  
+            {
+                src:"/assets/images/jewellery/prettypink/pink8.1.jpg",
+                cls:''
+            },  
         ],
-        "pdt-img-large-1": "/assets/images/jewellery/prettypink/pink1.8.jpg",
-        "pdt-img-large-2": "/assets/images/jewellery/prettypink/pink8.jpg", 
-        "pdt-img-large-3": "/assets/images/jewellery/prettypink/pink8.jpg", 
+        "pdt-lg-img":[
+            {
+                lg:"/assets/images/jewellery/prettypink/pink1.8.jpg",
+                lgcls:'active'
+            },
+            {
+                lg:"/assets/images/jewellery/prettypink/pink8.jpg",
+                lgcls:''
+            }, 
+            {
+                lg:"/assets/images/jewellery/prettypink/pink8.1.jpg",
+                lgcls:''
+            },
+        ],
         "pdt-center-img": "/assets/images/jewellery/prettypink/pink8.jpg",
         "product-description":"Pretty pink stone nestles in a teardrop pattern hoisted by scintillating diamonds making this lovely ring, that will make every head turn!",
     },
@@ -1199,13 +1942,33 @@ const productsData = {
         "pdt-occasion": "STUDDED", 
         "pdt-weight": "33.224g",    
         "pdt-images":[
-            "/assets/images/jewellery/Gold-Necklace.jpg",
-            "/assets/images/jewellery/Gold-Necklace1.jpg",  
-            "/assets/images/jewellery/Gold-Necklace1.1.jpg", 
+            {
+                src:"/assets/images/jewellery/Gold-Necklace.jpg",
+                cls:'active'
+            },
+            {
+                src:"/assets/images/jewellery/Gold-Necklace1.jpg",
+                cls:''
+            },
+            {     
+                src:"/assets/images/jewellery/Gold-Necklace1.1.jpg",
+                cls:''
+            }, 
         ], 
-        "pdt-img-large-1": "/assets/images/jewellery/Gold-Necklace.jpg",
-        "pdt-img-large-2": "/assets/images/jewellery/Gold-Necklace1.jpg", 
-        "pdt-img-large-3": "/assets/images/jewellery/Gold-Necklace1.1.jpg", 
+        "pdt-lg-imh":[
+            {
+                lg:"/assets/images/jewellery/Gold-Necklace.jpg",
+                lgcls:'active'
+            },
+            {
+                lg:"/assets/images/jewellery/Gold-Necklace1.jpg",
+                lgcls:''
+            },
+            {    
+                lg:"/assets/images/jewellery/Gold-Necklace1.1.jpg",
+                lgcls:''
+            }, 
+        ],
         "pdt-center-img": "/assets/images/jewellery/Gold-Necklace.jpg",
         "product-description":"Capture the beauty of blooming flower with this grand Necklace set crafted in 22 karat yellow gold",
     },
@@ -1220,13 +1983,33 @@ const productsData = {
         "pdt-size": "-",    
         "pdt-weight": "-",  
         "pdt-images":[
-            "/assets/images/jewellery/gold-hoop-earrings.jpg",
-            "/assets/images/jewellery/gold-hoop-earrings1.jpg",  
-            "/assets/images/jewellery/gold-hoop-earrings1.1.jpg",  
+            {
+                src:"/assets/images/jewellery/gold-hoop-earrings.jpg",
+                cls:'active'
+            },
+            {
+                src:"/assets/images/jewellery/gold-hoop-earrings1.jpg",
+                cls:''
+            },  
+            {
+                src:"/assets/images/jewellery/gold-hoop-earrings1.1.jpg",
+                cls:''
+            },
         ],
-        "pdt-img-large-1": "/assets/images/jewellery/gold-hoop-earrings.jpg",
-        "pdt-img-large-2": "/assets/images/jewellery/gold-hoop-earrings1.jpg", 
-        "pdt-img-large-3": "/assets/images/jewellery/gold-hoop-earrings1.jpg", 
+        "pdt-lg-img":[
+            {
+                lg:"/assets/images/jewellery/gold-hoop-earrings.jpg",
+                lgcls:'active'
+            },
+            {
+                lg:"/assets/images/jewellery/gold-hoop-earrings1.jpg",
+                lgcls:''
+            }, 
+            {
+                lg:"/assets/images/jewellery/gold-hoop-earrings1.1.jpg",
+                lgcls:''
+            } 
+        ],
         "pdt-center-img": "/assets/images/jewellery/gold-hoop-earrings1.jpg",
         "product-description":"*This is a UCP product for which price is fixed. Price will not vary based on grammage or gold rate and price break up is not available.",
     },
@@ -1248,11 +2031,25 @@ const productsData = {
         "sub-total": "Rs 38702.83",
         "grand-total": "Rs 38702.83",
         "pdt-images":[
-            "/assets/images/jewellery/earrings-1/earrings-12.1.jpg",
-            "/assets/images/jewellery/earrings-1/earrings-12.jpg",   
+            {
+                src:"/assets/images/jewellery/earrings-1/earrings-12.1.jpg",
+                cls:'active'
+            },
+            {
+                src:"/assets/images/jewellery/earrings-1/earrings-12.jpg",
+                cls:''
+            },   
         ],
-        "pdt-img-large-1": "/assets/images/jewellery/earrings-1/earrings-12.1.jpg",
-        "pdt-img-large-2": "/assets/images/jewellery/earrings-1/earrings-12.jpg",  
+        "pdt-lg-img":[
+            {
+                lg:"/assets/images/jewellery/earrings-1/earrings-12.1.jpg",
+                lgcls:'active'
+            },
+            {
+                lg:"/assets/images/jewellery/earrings-1/earrings-12.jpg",
+                lgcls:''
+            },  
+        ],
         "pdt-center-img": "/assets/images/jewellery/earrings-1/earrings-12.jpg",
         "product-description":"A harmonious fusion of elegance and sophistication, these diamond hoop earrings in 18 karat rose gold emanate luxurious allure. Stone Clarity: SI2.",
     },
@@ -1267,11 +2064,25 @@ const productsData = {
         "pdt-size": "-",    
         "pdt-weight": "1.722g",    
         "pdt-images":[
-            "/assets/images/jewellery/kids/kids1.jpg",
-            "/assets/images/jewellery/kids/kids1.1.jpg", 
+            {
+                src:"/assets/images/jewellery/kids/kids1.jpg",
+                cls:'active'
+            },
+            {
+                src:"/assets/images/jewellery/kids/kids1.1.jpg",
+                cls:''
+            }, 
         ],  
-        "pdt-img-large-1": "/assets/images/jewellery/kids/kids1.jpg",
-        "pdt-img-large-2": "/assets/images/jewellery/kids/kids1.1.jpg",  
+        "pdt-lg-img":[
+            {
+                lg:"/assets/images/jewellery/kids/kids1.jpg",
+                lgcls:'active'
+            },
+            {
+                lg:"/assets/images/jewellery/kids/kids1.1.jpg",
+                lgcls:''
+            },  
+        ],
         "pdt-center-img": "/assets/images/jewellery/kids/kids1.jpg",
         "product-description":"Add a touch of playful elegance to your child's attire with these floral stud earrings crafted in 22 karat yellow gold.",
     },
@@ -1293,11 +2104,25 @@ const productsData = {
         "sub-total": "Rs  17739.21",
         "grand-total": "Rs  17739.21",
         "pdt-images":[
-            "/assets/images/jewellery/kids/kida2.jpg",
-            "/assets/images/jewellery/kids/kids2.1.jpg", 
+            {
+                src:"/assets/images/jewellery/kids/kida2.jpg",
+                cls:'active'
+            },
+            {
+                src:"/assets/images/jewellery/kids/kids2.1.jpg",
+                cls:''
+            },
         ],  
-        "pdt-img-large-1": "/assets/images/jewellery/kids/kida2.jpg",
-        "pdt-img-large-2": "/assets/images/jewellery/kids/kids2.1.jpg",  
+        "pdt-lg-img":[
+            {
+                lg:"/assets/images/jewellery/kids/kida2.jpg",
+                lgcls:'active'
+            },
+            {
+                lg:"/assets/images/jewellery/kids/kids2.1.jpg",
+                lgcls:''
+            },
+        ],  
         "pdt-center-img": "/assets/images/jewellery/kids/kida2.jpg",
         "product-description":"Watch your little one blossom with these delightful floral-themed stud earrings, adorned with vibrant rubies in 22 karat yellow gold.",
     },
@@ -1319,11 +2144,25 @@ const productsData = {
         "sub-total": "Rs  22882.22",
         "grand-total": "Rs  22882.22",
         "pdt-images":[
-            "/assets/images/jewellery/kids/kids3.jpg",
-            "/assets/images/jewellery/kids/kids3.1.jpg",   
+            {
+                src:"/assets/images/jewellery/kids/kids3.jpg",
+                cls:'active'
+            }, 
+            {  
+                src:"/assets/images/jewellery/kids/kids3.1.jpg",
+                cls:''
+            },   
         ],
-        "pdt-img-large-1": "/assets/images/jewellery/kids/kids3.jpg",
-        "pdt-img-large-2": "/assets/images/jewellery/kids/kids3.1.jpg",  
+        "pdt-lg-img":[
+            {
+                lg:"/assets/images/jewellery/kids/kids3.jpg",
+                lgcls:'active'
+            }, 
+            {  
+                lg:"/assets/images/jewellery/kids/kids3.1.jpg",
+                lgcls:''
+            },  
+        ],
         "pdt-center-img": "/assets/images/jewellery/kids/kids3.jpg",
         "product-description":"Add a little pizzazz to your child's Casual Wear with these Knot Pattern Diamond Stud Earrings Crafted in 18 Karat Yellow Gold. Stone Clarity SI2.",
     },
@@ -1345,11 +2184,25 @@ const productsData = {
         "sub-total": "Rs 77403.25",
         "grand-total": "Rs 77403.25",
         "pdt-images":[
-            "/assets/images/jewellery/kids/kids4.jpg",
-            "/assets/images/jewellery/kids/kids4.1.jpg", 
+            {
+                src:"/assets/images/jewellery/kids/kids4.jpg",
+                cls:'active'
+            },
+            {
+                src:"/assets/images/jewellery/kids/kids4.1.jpg",
+                cls:''
+            }, 
         ],  
-        "pdt-img-large-1": "/assets/images/jewellery/kids/kids4.jpg",
-        "pdt-img-large-2": "/assets/images/jewellery/kids/kids4.1.jpg",  
+        "pdt-lg-img":[
+            {
+                lg:"/assets/images/jewellery/kids/kids4.jpg",
+                lgcls:'active'
+            },
+            {
+                lg:"/assets/images/jewellery/kids/kids4.1.jpg",
+                lgcls:''
+            }, 
+        ], 
         "pdt-center-img": "/assets/images/jewellery/kids/kids4.jpg",
         "product-description":"Look radiant when you adorn these delicate twisted style set of bangles crafted in 22 karat yellow gold",
     },
@@ -1364,13 +2217,33 @@ const productsData = {
         "pdt-size": "47 * 57 MM",    
         "pdt-weight": "9.94 g",    
         "pdt-images":[
-            "/assets/images/jewellery/bangle/bangle.1.1.jpg",
-            "/assets/images/jewellery/bangle/bangle.1.2.jpg",
-            "/assets/images/jewellery/bangle/bangle.1.jpg",   
+            {
+                src:"/assets/images/jewellery/bangle/bangle.1.1.jpg",
+                cls:'active'
+            },
+            {
+                src:"/assets/images/jewellery/bangle/bangle.1.2.jpg",
+                cls:''
+            },
+            {
+                src:"/assets/images/jewellery/bangle/bangle.1.jpg",
+                cls:''
+            },  
         ],
-        "pdt-img-large-1": "/assets/images/jewellery/bangle/bangle.1.1.jpg",
-        "pdt-img-large-2": "/assets/images/jewellery/bangle/bangle.1.2.jpg",
-        "pdt-img-large-3": "/assets/images/jewellery/bangle/bangle.1.jpg",  
+        "pdt-lg-img":[
+            {
+                lg:"/assets/images/jewellery/bangle/bangle.1.1.jpg",
+                lgcls:'activa'
+            },
+            {
+                lg:"/assets/images/jewellery/bangle/bangle.1.2.jpg",
+                lgcls:''
+            },
+            {
+                lg:"/assets/images/jewellery/bangle/bangle.1.jpg",
+                lgcls:''
+            },  
+        ],
         "pdt-center-img": "/assets/images/jewellery/bangle/bangle.1.jpg",
         "product-description":"Add a touch of playful elegance to your child's attire with these floral stud earrings crafted in 22 karat yellow gold.",
     },
@@ -1392,13 +2265,33 @@ const productsData = {
         "sub-total": "Rs 77773.10",
         "grand-total": "Rs 77773.10",
         "pdt-images":[
-            "/assets/images/jewellery/bangle/bangle2.1.jpg",
-            "/assets/images/jewellery/bangle/bangle2.2.jpg",
-            "/assets/images/jewellery/bangle/bangle2.jpg",   
+            {
+                src:"/assets/images/jewellery/bangle/bangle2.1.jpg",
+                cls:'active'
+            },
+            {   
+                src:"/assets/images/jewellery/bangle/bangle2.2.jpg",
+                cls:''
+            },
+            {
+                src:"/assets/images/jewellery/bangle/bangle2.jpg",
+                cls:''
+            },   
         ],
-        "pdt-img-large-1": "/assets/images/jewellery/bangle/bangle2.1.jpg",
-        "pdt-img-large-2": "/assets/images/jewellery/bangle/bangle2.2.jpg",
-        "pdt-img-large-3": "/assets/images/jewellery/bangle/bangle2.jpg",  
+        "pdt-lg-img":[
+            {
+                lg:"/assets/images/jewellery/bangle/bangle2.1.jpg",
+                lgcls:'active'
+            },
+            {   
+                lg:"/assets/images/jewellery/bangle/bangle2.2.jpg",
+                lgcls:''
+            },
+            {
+                lg:"/assets/images/jewellery/bangle/bangle2.jpg",
+                lgcls:''
+            }, 
+        ], 
         "pdt-center-img": "/assets/images/jewellery/bangle/bangle2.jpg",
         "product-description":"Indulge in the understated elegance of these minimalistic bangles in 22 karat yellow gold that make you smile and radiate an even brighter shine.",
     },
@@ -1420,13 +2313,33 @@ const productsData = {
         "sub-total": "Rs 77773.10",
         "grand-total": "Rs 77773.10",
         "pdt-images":[
-            "/assets/images/jewellery/bangle/bangle3.1.jpg",
-            "/assets/images/jewellery/bangle/bangle3.2.jpg",
-            "/assets/images/jewellery/bangle/bangle3.jpg",   
+            {
+                src:"/assets/images/jewellery/bangle/bangle3.1.jpg",
+                cls:'active'
+            },
+            {
+                src:"/assets/images/jewellery/bangle/bangle3.2.jpg",
+                cls:''
+            },
+            {
+                src:"/assets/images/jewellery/bangle/bangle3.jpg", 
+                cls:''
+            },  
         ],
-        "pdt-img-large-1": "/assets/images/jewellery/bangle/bangle3.1.jpg",
-        "pdt-img-large-2": "/assets/images/jewellery/bangle/bangle3.2.jpg",
-        "pdt-img-large-3": "/assets/images/jewellery/bangle/bangle3.jpg",  
+        "pdt-lag-img":[
+            {
+                lg:"/assets/images/jewellery/bangle/bangle3.1.jpg",
+                lgls:'active'
+            },
+            {
+                lg:"/assets/images/jewellery/bangle/bangle3.2.jpg",
+                lgcls:''
+            },
+            {
+                lg:"/assets/images/jewellery/bangle/bangle3.jpg",
+                lgcls:''
+            },  
+        ],
         "pdt-center-img": "/assets/images/jewellery/bangle/bangle3.jpg",
         "product-description":"Add a regal charm to your ensemble with this sleeb bangle crafted in 22 karat yellow gold",
     },
@@ -1441,13 +2354,33 @@ const productsData = {
         "pdt-size": "42.00 MM",    
         "pdt-weight": "5.358 g",     
         "pdt-images":[
-            "/assets/images/jewellery/bangle/bangle4.1.jpg",
-            "/assets/images/jewellery/bangle/bangle4.2.jpg",
-            "/assets/images/jewellery/bangle/bangle4.jpg", 
+            { 
+                src:"/assets/images/jewellery/bangle/bangle4.1.jpg",
+                cls:'active'
+            },
+            {
+                src:"/assets/images/jewellery/bangle/bangle4.2.jpg",
+                cls:''
+            },
+            {
+                src:"/assets/images/jewellery/bangle/bangle4.jpg", 
+                cls:''
+            },
         ],  
-        "pdt-img-large-1": "/assets/images/jewellery/bangle/bangle4.1.jpg",
-        "pdt-img-large-2": "/assets/images/jewellery/bangle/bangle4.2.jpg",
-        "pdt-img-large-3": "/assets/images/jewellery/bangle/bangle4.jpg",  
+        "pdt-lg-img":[
+            { 
+                lg:"/assets/images/jewellery/bangle/bangle4.1.jpg",
+                lgcls:''
+            },
+            {
+                lg:"/assets/images/jewellery/bangle/bangle4.2.jpg",
+                lgcls:''
+            },
+            {
+                lg:"/assets/images/jewellery/bangle/bangle4.jpg", 
+                lgcls:''
+            }, 
+        ],
         "pdt-center-img": "/assets/images/jewellery/bangle/bangle4.jpg",
         "product-description":"Discover the allure of this captivating Pola bangle, adorned with a gold stamped pattern and meticulously crafted in 22 karat yellow gold.",
     },
@@ -1469,13 +2402,33 @@ const productsData = {
         "sub-total": "Rs 47,754",
         "grand-total": "Rs 47,754",
         "pdt-images":[
-            "/assets/images/jewellery/bangle/bangle5.1.jpg",
-            "/assets/images/jewellery/bangle/bangle5.2.jpg",
-            "/assets/images/jewellery/bangle/bangle5.jpg", 
+            {
+                src:"/assets/images/jewellery/bangle/bangle5.1.jpg",
+                cls:'active'
+            },
+            {
+                src:"/assets/images/jewellery/bangle/bangle5.2.jpg",
+                cls:''
+            },
+            {
+                src:"/assets/images/jewellery/bangle/bangle5.jpg",
+                cls:''
+            }, 
         ],  
-        "pdt-img-large-1": "/assets/images/jewellery/bangle/bangle5.1.jpg",
-        "pdt-img-large-2": "/assets/images/jewellery/bangle/bangle5.2.jpg",
-        "pdt-img-large-3": "/assets/images/jewellery/bangle/bangle5.jpg",  
+        "pdt-lg-img":[
+            {
+                lg:"/assets/images/jewellery/bangle/bangle5.1.jpg",
+                lgcls:'active'
+            },
+            {
+                lg:"/assets/images/jewellery/bangle/bangle5.2.jpg",
+                lgcls:''
+            },
+            {
+                lg:"/assets/images/jewellery/bangle/bangle5.jpg",
+                lgcls:''
+            },  
+        ],
         "pdt-center-img": "/assets/images/jewellery/bangle/bangle5.jpg",
         "product-description":"Add a regal charm to your ensemble with this sleeb bangle crafted in 22 karat yellow gold",
     },
@@ -1497,13 +2450,33 @@ const productsData = {
         "sub-total": "Rs 63,851",
         "grand-total": "Rs 63,851",
         "pdt-images":[
-            "/assets/images/jewellery/bangle/bangle6.1.jpg",
-            "/assets/images/jewellery/bangle/bangle6.2.jpg",
-            "/assets/images/jewellery/bangle/bangle6.jpg",   
+            {
+                src:"/assets/images/jewellery/bangle/bangle6.1.jpg",
+                cls:'active'
+            },
+            {
+                src:"/assets/images/jewellery/bangle/bangle6.2.jpg",
+                cls:''
+            },
+            {
+                src:"/assets/images/jewellery/bangle/bangle6.jpg",
+                cls:''
+            },
         ],
-        "pdt-img-large-1": "/assets/images/jewellery/bangle/bangle6.1.jpg",
-        "pdt-img-large-2": "/assets/images/jewellery/bangle/bangle6.2.jpg",
-        "pdt-img-large-3": "/assets/images/jewellery/bangle/bangle6.jpg",  
+        "pdt-lg-img":[
+            {
+                lg:"/assets/images/jewellery/bangle/bangle6.1.jpg",
+                lgcls:'active'
+            },
+            {
+                lg:"/assets/images/jewellery/bangle/bangle6.2.jpg",
+                lgcls:''
+            },
+            {
+                lg:"/assets/images/jewellery/bangle/bangle6.jpg",
+                lgcls:''
+            },  
+        ],
         "pdt-center-img": "/assets/images/jewellery/bangle/bangle6.jpg",
         "product-description":"Nature Inspired Bangle Crafted in 22 Karat Yellow Gold",
     },
@@ -1525,13 +2498,33 @@ const productsData = {
         "sub-total": "Rs 1,11,650",
         "grand-total": "Rs 1,11,650",
         "pdt-images":[
-            "/assets/images/jewellery/bangle/bangle7.1.jpg",
-            "/assets/images/jewellery/bangle/bangle7.2.jpg",
-            "/assets/images/jewellery/bangle/bangle7.jpg",  
+            {
+                src:"/assets/images/jewellery/bangle/bangle7.1.jpg",
+                cls:'active'
+            },
+            {
+                src:"/assets/images/jewellery/bangle/bangle7.2.jpg",
+                cls:''
+            },
+            {   
+                src:"/assets/images/jewellery/bangle/bangle7.jpg",
+                cls:''
+            },  
         ], 
-        "pdt-img-large-1": "/assets/images/jewellery/bangle/bangle7.1.jpg",
-        "pdt-img-large-2": "/assets/images/jewellery/bangle/bangle7.2.jpg",
-        "pdt-img-large-3": "/assets/images/jewellery/bangle/bangle7.jpg",  
+        "pdt-lg-img":[
+            {
+                lg:"/assets/images/jewellery/bangle/bangle7.1.jpg",
+                lgcls:'active'
+            },
+            {
+                lg:"/assets/images/jewellery/bangle/bangle7.2.jpg",
+                lgcls:''
+            },
+            {   
+                lg:"/assets/images/jewellery/bangle/bangle7.jpg",
+                lgcls:''
+            },  
+        ],
         "pdt-center-img": "/assets/images/jewellery/bangle/bangle7.jpg",
         "product-description":"Make a bold style statement when you adorn this sophisticated, cubic zirconia bangle, crafted in 22 karat yellow gold",
     },
@@ -1553,13 +2546,33 @@ const productsData = {
         "sub-total": "Rs 32,515",
         "grand-total": "Rs 32,515",
         "pdt-images":[
-            "/assets/images/jewellery/nosepin/nosepins1.jpg",
-            "/assets/images/jewellery/nosepin/nosepins1.1.jpg",
-            "/assets/images/jewellery/nosepin/nosepins1.2.jpg",  
+            {
+                src:"/assets/images/jewellery/nosepin/nosepins1.jpg",
+                cls:'active'
+            },
+            {
+                src:"/assets/images/jewellery/nosepin/nosepins1.1.jpg",
+                cls:''
+            },
+            {
+                src:"/assets/images/jewellery/nosepin/nosepins1.2.jpg",
+                cls:''
+            },  
         ],
-        "pdt-img-large-1": "/assets/images/jewellery/nosepin/nosepins1.jpg",
-        "pdt-img-large-2": "/assets/images/jewellery/nosepin/nosepins1.1.jpg",
-        "pdt-img-large-3": "/assets/images/jewellery/nosepin/nosepins1.2.jpg",  
+        "pdt-lg-img":[
+            {
+                lg:"/assets/images/jewellery/nosepin/nosepins1.jpg",
+                lgcls:'active'
+            },
+            {
+                lg:"/assets/images/jewellery/nosepin/nosepins1.1.jpg",
+                lgcls:''
+            },
+            {
+                lg:"/assets/images/jewellery/nosepin/nosepins1.2.jpg",
+                lgcls:''
+            },  
+        ],
         "pdt-center-img": "/assets/images/jewellery/nosepin/nosepins1.1.jpg",
         "product-description":"Make heads turn when you adorn this simple nose pin crafted in 18 karat yellow and white gold studded with diamonds. Stone Quality: SI2 G-H",
     },
@@ -1574,13 +2587,33 @@ const productsData = {
         "pdt-size": "-",    
         "pdt-weight": "0.558g",     
         "pdt-images":[
-            "/assets/images/jewellery/nosepin/nosepins2.1.jpg",
-            "/assets/images/jewellery/nosepin/nosepins2.jpg",
-            "/assets/images/jewellery/nosepin/nosepins2.2.jpg", 
+            {
+                src:"/assets/images/jewellery/nosepin/nosepins2.1.jpg",
+                cls:'active'
+            },
+            {
+                src:"/assets/images/jewellery/nosepin/nosepins2.jpg",
+                cls:''
+            },
+            {
+                src:"/assets/images/jewellery/nosepin/nosepins2.2.jpg",
+                cls:''
+            },
         ], 
-        "pdt-img-large-1": "/assets/images/jewellery/nosepin/nosepins2.1.jpg",
-        "pdt-img-large-2": "/assets/images/jewellery/nosepin/nosepins2.jpg",
-        "pdt-img-large-3": "/assets/images/jewellery/nosepin/nosepins2.2.jpg",  
+        "pdt-lg-img":[
+            {
+                lg:"/assets/images/jewellery/nosepin/nosepins2.1.jpg",
+                lgcls:'active'
+            },
+            {
+                lg:"/assets/images/jewellery/nosepin/nosepins2.jpg",
+                lgcls:''
+            },
+            {
+                lg:"/assets/images/jewellery/nosepin/nosepins2.2.jpg",
+                lgcls:''
+            }, 
+        ],
         "pdt-center-img": "/assets/images/jewellery/nosepin/nosepins2.jpg",
         "product-description":"Make heads turn when you adorn this simple nose pin crafted in 18 karat yellow and white gold studded with diamonds. Stone Quality: SI2 G-H",
     },
@@ -1602,11 +2635,25 @@ const productsData = {
         "sub-total": "Rs 24,724",
         "grand-total": "Rs 24,724", 
         "pdt-images":[
-            "/assets/images/jewellery/nosepin/nosepins3.1.jpg",
-            "/assets/images/jewellery/nosepin/nosepins3.jpg", 
+            {
+                src:"/assets/images/jewellery/nosepin/nosepins3.1.jpg",
+                cls:'active'
+            },
+            {
+                src:"/assets/images/jewellery/nosepin/nosepins3.jpg", 
+                cls:''
+            },
         ],
-        "pdt-img-large-1": "/assets/images/jewellery/nosepin/nosepins3.1.jpg",
-        "pdt-img-large-2": "/assets/images/jewellery/nosepin/nosepins3.jpg", 
+        "pdt-lg-img":[
+            {
+                lg:"/assets/images/jewellery/nosepin/nosepins3.1.jpg",
+                lgcls:'active'
+            },
+            {
+                lg:"/assets/images/jewellery/nosepin/nosepins3.jpg", 
+                lgcls:''
+            },
+        ],
         "pdt-center-img": "/assets/images/jewellery/nosepin/nosepins3.jpg",
         "product-description":"Here's a versatile diamond nose pin set in 18 Karat Yellow Gold to add that extra charm to your look. Stone Clarity SI2",
     },
@@ -1628,11 +2675,25 @@ const productsData = {
         "sub-total": "Rs 10,864",
         "grand-total": "Rs 10,864", 
         "pdt-images":[
-            "/assets/images/jewellery/nosepin/nosepins4.1.jpg",
-            "/assets/images/jewellery/nosepin/nosepins4.jpg", 
+            {
+                src:"/assets/images/jewellery/nosepin/nosepins4.1.jpg",
+                cls:'active'
+            },
+            {
+                src:"/assets/images/jewellery/nosepin/nosepins4.jpg",
+                cls:''
+            }, 
         ],
-        "pdt-img-large-1": "/assets/images/jewellery/nosepin/nosepins4.1.jpg",
-        "pdt-img-large-2": "/assets/images/jewellery/nosepin/nosepins4.jpg", 
+        "pdt-lg-img":[
+            {
+                lg:"/assets/images/jewellery/nosepin/nosepins4.1.jpg",
+                lgcls:'active'
+            },
+            {
+                lg:"/assets/images/jewellery/nosepin/nosepins4.jpg",
+                lgcls:''
+            }, 
+        ],
         "pdt-center-img": "/assets/images/jewellery/nosepin/nosepins4.jpg",
         "product-description":"Here's a versatile diamond nose pin set in 18 Karat Yellow Gold to add that extra charm to your look. Stone Clarity SI2",
     },
@@ -1647,13 +2708,33 @@ const productsData = {
         "pdt-size": "-",    
         "pdt-weight": "0.461g",     
         "pdt-images":[
-            "/assets/images/jewellery/nosepin/nosepins5.1.jpg",
-            "/assets/images/jewellery/nosepin/nosepins5.jpg",
-            "/assets/images/jewellery/nosepin/nosepins5.2.jpg",  
+            {
+                src:"/assets/images/jewellery/nosepin/nosepins5.1.jpg",
+                cls:'active'
+            },
+            {
+                src:"/assets/images/jewellery/nosepin/nosepins5.jpg",
+                cls:''
+            },
+            {
+                src:"/assets/images/jewellery/nosepin/nosepins5.2.jpg",
+                cls:''
+            },
         ],
-        "pdt-img-large-1": "/assets/images/jewellery/nosepin/nosepins5.1.jpg",
-        "pdt-img-large-2": "/assets/images/jewellery/nosepin/nosepins5.jpg",
-        "pdt-img-large-3": "/assets/images/jewellery/nosepin/nosepins5.2.jpg",  
+        "pdt-lg-img":[
+            {
+                lg:"/assets/images/jewellery/nosepin/nosepins5.1.jpg",
+                lgcls:'active'
+            },
+            {
+                lg:"/assets/images/jewellery/nosepin/nosepins5.jpg",
+                lgcls:''
+            },
+            {
+                lg:"/assets/images/jewellery/nosepin/nosepins5.2.jpg",
+                lgcls:''
+            },
+        ],  
         "pdt-center-img": "/assets/images/jewellery/nosepin/nosepins5.jpg",
         "product-description":"Add a dash of dazzling glamour to your look with this nose pin crafted in 18 Karat Yellow Gold. Stone Clarity I1I2",
     },
@@ -1675,11 +2756,25 @@ const productsData = {
         "sub-total": "Rs 14,675",
         "grand-total": "Rs 14,675", 
         "pdt-images":[
-            "/assets/images/jewellery/nosepin/nosepins6.1.jpg",
-            "/assets/images/jewellery/nosepin/nosepins6.jpg", 
+            {
+                src:"/assets/images/jewellery/nosepin/nosepins6.1.jpg",
+                cls:'active'
+            },
+            {
+                src:"/assets/images/jewellery/nosepin/nosepins6.jpg",
+                cls:''
+            },
         ],
-        "pdt-img-large-1": "/assets/images/jewellery/nosepin/nosepins6.1.jpg",
-        "pdt-img-large-2": "/assets/images/jewellery/nosepin/nosepins6.jpg", 
+        "pdt-lg-img":[
+            {
+                lg:"/assets/images/jewellery/nosepin/nosepins6.1.jpg",
+                lgcls:'active'
+            },
+            {
+                lg:"/assets/images/jewellery/nosepin/nosepins6.jpg",
+                lgcls:''
+            },
+        ], 
         "pdt-center-img": "/assets/images/jewellery/nosepin/nosepins6.jpg",
         "product-description":"Add a little pizzazz to your casual wear by donning this stylish nose pin crafted in 18 Karat Yellow Gold. Stone Clarity I1I2",
     },
@@ -1701,13 +2796,33 @@ const productsData = {
         "sub-total": "Rs 18,057",
         "grand-total": "Rs 18,057", 
         "pdt-images":[
-            "/assets/images/jewellery/nosepin/nosepins7.1.jpg",
-            "/assets/images/jewellery/nosepin/nosepins7.jpg",
-            "/assets/images/jewellery/nosepin/nosepins7.2.jpg", 
+            {
+                src:"/assets/images/jewellery/nosepin/nosepins7.1.jpg",
+                cls:'active'
+            },
+            {
+                src:"/assets/images/jewellery/nosepin/nosepins7.jpg",
+                cls:''
+            },
+            {
+                src:"/assets/images/jewellery/nosepin/nosepins7.2.jpg",
+                cls:""
+            }, 
         ], 
-        "pdt-img-large-1": "/assets/images/jewellery/nosepin/nosepins7.1.jpg",
-        "pdt-img-large-2": "/assets/images/jewellery/nosepin/nosepins7.jpg",
-        "pdt-img-large-3": "/assets/images/jewellery/nosepin/nosepins7.2.jpg",  
+        "pdt-lg-img":[
+            {
+                lg:"/assets/images/jewellery/nosepin/nosepins7.1.jpg",
+                lgcls:'active'
+            },
+            {
+                lg:"/assets/images/jewellery/nosepin/nosepins7.jpg",
+                lgcls:''
+            },
+            {
+                lg:"/assets/images/jewellery/nosepin/nosepins7.2.jpg",
+                lgcls:''
+            }, 
+        ], 
         "pdt-center-img": "/assets/images/jewellery/nosepin/nosepins7.jpg",
         "product-description":"Add a dash of dazzling glamour to your look with this nose pin crafted in 18 Karat Yellow Gold. Stone Clarity I1I2",
     },
@@ -1729,11 +2844,25 @@ const productsData = {
         "sub-total": "Rs 10,598",
         "grand-total": "Rs 10,598", 
         "pdt-images":[
-            "/assets/images/jewellery/nosepin/nosepins8.1.jpg",
-            "/assets/images/jewellery/nosepin/nosepins8.jpg", 
+            {
+                src:"/assets/images/jewellery/nosepin/nosepins8.1.jpg",
+                cls:'active'
+            },
+            {
+                src:"/assets/images/jewellery/nosepin/nosepins8.jpg",
+                cls:''
+            }, 
         ],
-        "pdt-img-large-1": "/assets/images/jewellery/nosepin/nosepins8.1.jpg",
-        "pdt-img-large-2": "/assets/images/jewellery/nosepin/nosepins8.jpg", 
+        "pdt-lg-img":[
+            {
+                lg:"/assets/images/jewellery/nosepin/nosepins8.1.jpg",
+                lgcls:'active'
+            },
+            {
+                lg:"/assets/images/jewellery/nosepin/nosepins8.jpg",
+                lgcls:''
+            }, 
+        ],
         "pdt-center-img": "/assets/images/jewellery/nosepin/nosepins8.jpg",
         "product-description":"Delicate Geometric Diamond Nose Pin crafted in 18 Karat Yellow Gold for your everyday casual look. Stone Clarity SI2",
     },
@@ -1755,13 +2884,33 @@ const productsData = {
         "sub-total": "Rs 10,010",
         "grand-total": "Rs 10,010", 
         "pdt-images":[
-            "/assets/images/jewellery/pearl/pearl1.1.jpg",
-            "/assets/images/jewellery/pearl/pearl1.2.jpg",
-            "/assets/images/jewellery/pearl/pearl1.jpg", 
+            {
+                src:"/assets/images/jewellery/pearl/pearl1.1.jpg",
+                cls:'active'
+            },
+            {
+                src:"/assets/images/jewellery/pearl/pearl1.2.jpg",
+                cls:''
+            },
+            {
+                src:"/assets/images/jewellery/pearl/pearl1.jpg",
+                cls:''
+            }, 
         ],
-        "pdt-img-large-1": "/assets/images/jewellery/pearl/pearl1.1.jpg",
-        "pdt-img-large-2": "/assets/images/jewellery/pearl/pearl1.2.jpg",
-        "pdt-img-large-3": "/assets/images/jewellery/pearl/pearl1.jpg", 
+        "pdt-lg-img":[
+            {
+                lg:"/assets/images/jewellery/pearl/pearl1.1.jpg",
+                lgcls:'active'
+            },
+            {
+                lg:"/assets/images/jewellery/pearl/pearl1.2.jpg",
+                lgcls:''
+            },
+            {
+                lg:"/assets/images/jewellery/pearl/pearl1.jpg",
+                lgcls:''
+            }, 
+        ],
         "pdt-center-img": "/assets/images/jewellery/pearl/pearl1.jpg",
         "product-description":"Crafted with utmost care in lustrous 18 Karat yellow gold, these exquisite stud earrings showcase the timeless allure of lustrous button pearls.",
     },
@@ -1776,13 +2925,33 @@ const productsData = {
         "pdt-size": "18 INCHES",    
         "pdt-weight": "2.781 g",     
         "pdt-images":[
-            "/assets/images/jewellery/pearl/pearl2.1.jpg",
-            "/assets/images/jewellery/pearl/pearl2.2.jpg",
-         "/assets/images/jewellery/pearl/pearl2.jpg", 
+            {
+                src:"/assets/images/jewellery/pearl/pearl2.1.jpg",
+                cls:'active'
+            },
+            {
+                src:"/assets/images/jewellery/pearl/pearl2.2.jpg",
+                cls:''
+            },
+            {
+                src:"/assets/images/jewellery/pearl/pearl2.jpg", 
+                cls:''
+            },       
+    ],
+        "pdt-lg-img":[
+            {
+                lg:"/assets/images/jewellery/pearl/pearl2.1.jpg",
+                lgcls:'active'
+            },
+            {
+                lg:"/assets/images/jewellery/pearl/pearl2.2.jpg",
+                lgcls:''
+            },
+            {
+                lg:"/assets/images/jewellery/pearl/pearl2.jpg",
+                lgcls:''
+            }, 
         ],
-        "pdt-img-large-1": "/assets/images/jewellery/pearl/pearl2.1.jpg",
-        "pdt-img-large-2": "/assets/images/jewellery/pearl/pearl2.2.jpg",
-        "pdt-img-large-3": "/assets/images/jewellery/pearl/pearl2.jpg", 
         "pdt-center-img": "/assets/images/jewellery/pearl/pearl2.jpg",
         "product-description":"A magnificent dollop of pearl hangs on a chain in this pendant with chain, crafted in 18 karat yellow gold, studded with diamonds. Stone Clarity: I1-I2",
     },
@@ -1804,13 +2973,33 @@ const productsData = {
         "sub-total": "Rs 85,832",
         "grand-total": "Rs 85,832", 
         "pdt-images":[
-            "/assets/images/jewellery/pearl/pearl3.1.jpg",
-            "/assets/images/jewellery/pearl/pearl3.2.jpg",
-            "/assets/images/jewellery/pearl/pearl3.jpg", 
+            {
+                src:"/assets/images/jewellery/pearl/pearl3.1.jpg",
+                cls:'active'
+            },
+            {
+                src:"/assets/images/jewellery/pearl/pearl3.2.jpg",
+                cls:''
+            },
+            {
+                src:"/assets/images/jewellery/pearl/pearl3.jpg",
+                cls:''
+            }, 
         ],
-        "pdt-img-large-1": "/assets/images/jewellery/pearl/pearl3.1.jpg",
-        "pdt-img-large-2": "/assets/images/jewellery/pearl/pearl3.2.jpg",
-        "pdt-img-large-3": "/assets/images/jewellery/pearl/pearl3.jpg", 
+        "pdt-lg-img":[
+            {
+                lg:"/assets/images/jewellery/pearl/pearl3.1.jpg",
+                lgcls:'active'
+            },
+            {
+                lg:"/assets/images/jewellery/pearl/pearl3.2.jpg",
+                lgcls:''
+            },
+            {
+                lg:"/assets/images/jewellery/pearl/pearl3.jpg",
+                lgcls:''
+            }, 
+        ],
         "pdt-center-img": "/assets/images/jewellery/pearl/pearl3.jpg",
         "product-description":"Cast a hypnotic charm with the beauty of this cascading necklace crafted in 18 karat rose gold, studded with diamonds and pearls. Stone Clarity: SI2",
     },
@@ -1825,11 +3014,25 @@ const productsData = {
         "pdt-size": "-",    
         "pdt-weight": "3.077g",     
         "pdt-images":[
-            "/assets/images/jewellery/pearl/pearl4.1.jpg",
-            "/assets/images/jewellery/pearl/pearl4.jpg", 
+            {
+                src:"/assets/images/jewellery/pearl/pearl4.1.jpg",
+                cls:'active'
+            },
+            {
+                src:"/assets/images/jewellery/pearl/pearl4.jpg",
+                cls:''
+            }, 
         ],
-        "pdt-img-large-1": "/assets/images/jewellery/pearl/pearl4.1.jpg",
-        "pdt-img-large-2": "/assets/images/jewellery/pearl/pearl4.jpg", 
+        "pdt-lg-img":[
+            {
+                lg:"/assets/images/jewellery/pearl/pearl4.1.jpg",
+                lgcls:'active'
+            },
+            {
+                lg:"/assets/images/jewellery/pearl/pearl4.jpg",
+                lgcls:''
+            }, 
+        ],
         "pdt-center-img": "/assets/images/jewellery/pearl/pearl4.jpg",
         "product-description":"This timeless, dainty pair of stud earrings is crafted in 22 Karat Yellow Gold and studded with pearls.",
     },
@@ -1851,13 +3054,33 @@ const productsData = {
         "sub-total": "Rs 32,999",
         "grand-total": "Rs 32,999", 
         "pdt-images":[
-            "/assets/images/jewellery/pearl/pearl5.1.jpg",
-            "/assets/images/jewellery/pearl/pearl5.2.jpg",
-            "/assets/images/jewellery/pearl/pearl5.jpg", 
+            {
+                src:"/assets/images/jewellery/pearl/pearl5.1.jpg",
+                cls:'active'
+            },
+            {
+                src:"/assets/images/jewellery/pearl/pearl5.2.jpg",
+                cls:''
+            },
+            {
+                src:"/assets/images/jewellery/pearl/pearl5.jpg",
+                cls:''
+            }, 
         ],
-        "pdt-img-large-1": "/assets/images/jewellery/pearl/pearl5.1.jpg",
-        "pdt-img-large-2": "/assets/images/jewellery/pearl/pearl5.2.jpg",
-        "pdt-img-large-3": "/assets/images/jewellery/pearl/pearl5.jpg", 
+        "pdt-lg-img":[
+            {
+                lg:"/assets/images/jewellery/pearl/pearl5.1.jpg",
+                lgcls:'active'
+            },
+            {
+                lg:"/assets/images/jewellery/pearl/pearl5.2.jpg",
+                lgcls:''
+            },
+            {
+                lg:"/assets/images/jewellery/pearl/pearl5.jpg",
+                lgcls:''
+            }, 
+        ],
         "pdt-center-img": "/assets/images/jewellery/pearl/pearl5.jpg",
         "product-description":"Spruce up your outfits with this jali work pattern, pearl pendant, crafted in 18 karat rose gold, studded with diamonds. Stone Clarity: I1/I2",
     },
@@ -1879,13 +3102,33 @@ const productsData = {
         "sub-total": "Rs 19,381",
         "grand-total": "Rs 19,381", 
         "pdt-images":[
-            "/assets/images/jewellery/pearl/pearl6.1.jpg",
-            "/assets/images/jewellery/pearl/pearl6.2.jpg",
-            "/assets/images/jewellery/pearl/pearl6.jpg", 
+            {
+                src:"/assets/images/jewellery/pearl/pearl6.1.jpg",
+                cls:'active'
+            },
+            {
+                src:"/assets/images/jewellery/pearl/pearl6.2.jpg",
+                cls:''
+            },
+            {
+                src:"/assets/images/jewellery/pearl/pearl6.jpg",
+                cls:''
+            },
         ],
-        "pdt-img-large-1": "/assets/images/jewellery/pearl/pearl6.1.jpg",
-        "pdt-img-large-2": "/assets/images/jewellery/pearl/pearl6.2.jpg",
-        "pdt-img-large-3": "/assets/images/jewellery/pearl/pearl6.jpg", 
+        "pdt-lg-img":[
+            {
+                lg:"/assets/images/jewellery/pearl/pearl6.1.jpg",
+                lgcls:'active'
+            },
+            {
+                lg:"/assets/images/jewellery/pearl/pearl6.2.jpg",
+                lgcls:''
+            },
+            {
+                lg:"/assets/images/jewellery/pearl/pearl6.jpg",
+                lgcls:''
+            },
+        ],
         "pdt-center-img": "/assets/images/jewellery/pearl/pearl6.jpg",
         "product-description":"These flowerbud inspired stud earrings have been crafted in 18 Karat Yellow Gold with a Gheroo finish and studded with Pearls for extra charm.",
     },
@@ -1907,11 +3150,25 @@ const productsData = {
         "sub-total": "Rs 85,832",
         "grand-total": "Rs 85,832", 
         "pdt-images":[
-            "/assets/images/jewellery/pearl/pearl7.1.jpg", 
-            "/assets/images/jewellery/pearl/pearl7.jpg", 
+            {
+                src:"/assets/images/jewellery/pearl/pearl7.1.jpg",
+                cls:'active'
+            },
+            { 
+                src:"/assets/images/jewellery/pearl/pearl7.jpg",
+                cls:''
+            },
         ],
-        "pdt-img-large-1": "/assets/images/jewellery/pearl/pearl7.1.jpg", 
-        "pdt-img-large-3": "/assets/images/jewellery/pearl/pearl7.jpg", 
+        "pdt-lg-img":[
+            {
+                lg:"/assets/images/jewellery/pearl/pearl7.1.jpg",
+                lgcls:'active'
+            },
+            { 
+                lg:"/assets/images/jewellery/pearl/pearl7.jpg",
+                lgcls:''
+            },
+        ],
         "pdt-center-img": "/assets/images/jewellery/pearl/pearl7.jpg",
         "product-description":"Cuff Style Bangle Crafted in 18 Karat Yellow Gold and studded with Pearls.",
     },
@@ -1933,17 +3190,31 @@ const productsData = {
         "sub-total": "Rs 31,509",
         "grand-total": "Rs 31,509", 
         "pdt-images": [
-            "/assets/images/jewellery/pearl/pearl8.1.jpg", 
-            "/assets/images/jewellery/pearl/pearl8.jpg", 
+            {
+                src:"/assets/images/jewellery/pearl/pearl8.1.jpg",
+                cls:'active'
+            }, 
+            {
+                src:"/assets/images/jewellery/pearl/pearl8.jpg",
+                cls:''
+            },
         ],
-        "pdt-img-large-1": "/assets/images/jewellery/pearl/pearl8.1.jpg", 
-        "pdt-img-large-3": "/assets/images/jewellery/pearl/pearl8.jpg", 
+        "pdt-lg-img":[
+            {
+                lg:"/assets/images/jewellery/pearl/pearl8.1.jpg",
+                lgcls:'active'
+            }, 
+            {
+                lg:"/assets/images/jewellery/pearl/pearl8.jpg",
+                lgcls:''
+            },
+        ],
         "pdt-center-img": "/assets/images/jewellery/pearl/pearl8.jpg",
         "product-description":"Add to your majestic beauty with this stunning pair of peacock drop earrings crafted in 22 karat yellow gold, with pearl.",
     },
     "pearl_stud_earrings": { 
-        "title":"Pearl Stud Earrings",  
-        "product_name": "Pearl Stud Earrings",
+        "title":"Pearl Stud Bracelet",  
+        "product_name": "Pearl Stud Bracelet",
         "pdt-price":"Rs 40,513", 
         "pdt-purity": "22 Karat", 
         "pdt-detail-gender":"Women",  
@@ -1959,11 +3230,25 @@ const productsData = {
         "sub-total": "Rs 40,513",
         "grand-total": "Rs 40,513", 
         "pdt-images":[
-            "/assets/images/jewellery/bracelets/bracelets1.1.jpg", 
-            "/assets/images/jewellery/bracelets/bracelets1.jpg", 
+            {
+                src:"/assets/images/jewellery/bracelets/bracelets1.1.jpg",
+                cls:'active'
+            },
+            { 
+                src:"/assets/images/jewellery/bracelets/bracelets1.jpg",
+                cls:''
+            }, 
         ],
-        "pdt-img-large-1": "/assets/images/jewellery/bracelets/bracelets1.1.jpg", 
-        "pdt-img-large-3": "/assets/images/jewellery/bracelets/bracelets1.jpg", 
+        "pdt-lg-img":[
+            {
+                lg:"/assets/images/jewellery/bracelets/bracelets1.1.jpg",
+                lgcls:'active'
+            },
+            { 
+                lg:"/assets/images/jewellery/bracelets/bracelets1.jpg",
+                lgcls:''
+            }, 
+        ],
         "pdt-center-img": "/assets/images/jewellery/bracelets/bracelets1.jpg",
         "product-description":"A lovely pink stone is surrounded by shimmering diamonds in a floral pattern to give you this bracelet, perfect for your party style!",
     },
@@ -1985,13 +3270,33 @@ const productsData = {
         "sub-total": "Rs 1,97,207",
         "grand-total": "Rs 1,97,207", 
         "pdt-images":[
-            "/assets/images/jewellery/bracelets/bracelets2.1.jpg",
-            "/assets/images/jewellery/bracelets/bracelets2.2.jpg", 
-            "/assets/images/jewellery/bracelets/bracelets2.jpg", 
+            {
+                src:"/assets/images/jewellery/bracelets/bracelets2.1.jpg",
+                cls:'active'
+            },
+            {
+                src:"/assets/images/jewellery/bracelets/bracelets2.2.jpg",
+                cls:''
+            },
+            { 
+                src:"/assets/images/jewellery/bracelets/bracelets2.jpg",
+                cls:''
+            }, 
         ],
-        "pdt-img-large-1": "/assets/images/jewellery/bracelets/bracelets2.1.jpg",
-        "pdt-img-large-2": "/assets/images/jewellery/bracelets/bracelets2.2.jpg", 
-        "pdt-img-large-3": "/assets/images/jewellery/bracelets/bracelets2.jpg", 
+        "pdt-lg-img":[
+            {
+                lg:"/assets/images/jewellery/bracelets/bracelets2.1.jpg",
+                lgcls:'active'
+            },
+            {
+                lg:"/assets/images/jewellery/bracelets/bracelets2.2.jpg",
+                lgcls:''
+            },
+            { 
+                lg:"/assets/images/jewellery/bracelets/bracelets2.jpg",
+                lgcls:''
+            }, 
+        ],
         "pdt-center-img": "/assets/images/jewellery/bracelets/bracelets2.jpg",
         "product-description":"Step into a world where every gleam of gold narrates a tale of opulence with this bracelet in 22 karat yellow gold.",
     },
@@ -2013,13 +3318,33 @@ const productsData = {
         "sub-total": "Rs 1,29,722",
         "grand-total": "Rs 1,29,722", 
         "pdt-images":[
-            "/assets/images/jewellery/bracelets/bracelets3.1.jpg",
-            "/assets/images/jewellery/bracelets/bracelets3.2.jpg", 
-            "/assets/images/jewellery/bracelets/bracelets3.jpg", 
+            {
+                src:"/assets/images/jewellery/bracelets/bracelets3.1.jpg",
+                cls:'active'
+            },
+            {
+                src:"/assets/images/jewellery/bracelets/bracelets3.2.jpg",
+                cls:''
+            },
+            { 
+                src:"/assets/images/jewellery/bracelets/bracelets3.jpg",
+                cls:''
+            }, 
         ],
-        "pdt-img-large-1": "/assets/images/jewellery/bracelets/bracelets3.1.jpg",
-        "pdt-img-large-2": "/assets/images/jewellery/bracelets/bracelets3.2.jpg", 
-        "pdt-img-large-3": "/assets/images/jewellery/bracelets/bracelets3.jpg", 
+        "pdt-lg-img":[
+            {
+                lg:"/assets/images/jewellery/bracelets/bracelets3.1.jpg",
+                lgcls:'active'
+            },
+            {
+                lg:"/assets/images/jewellery/bracelets/bracelets3.2.jpg",
+                lgcls:''
+            },
+            { 
+                lg:"/assets/images/jewellery/bracelets/bracelets3.jpg",
+                lgcls:''
+            }, 
+        ],
         "pdt-center-img": "/assets/images/jewellery/bracelets/bracelets3.jpg",
         "product-description":"This 22 karat yellow gold link bracelet is ideal for the modern woman seeking to elevate her fashion game. Be a true fashionista with this bracelet!",
     },
@@ -2041,13 +3366,33 @@ const productsData = {
         "sub-total": "Rs 1,21,192",
         "grand-total": "Rs 1,21,192", 
         "pdt-images":[
-            "/assets/images/jewellery/bracelets/bracelets4.1.jpg",
-            "/assets/images/jewellery/bracelets/bracelets4.2.jpg", 
-            "/assets/images/jewellery/bracelets/bracelets4.jpg",
+            {
+                src:"/assets/images/jewellery/bracelets/bracelets4.1.jpg",
+                cls:'active'
+            },
+            {
+                src:"/assets/images/jewellery/bracelets/bracelets4.2.jpg",
+                cls:''
+            },
+            { 
+                src:"/assets/images/jewellery/bracelets/bracelets4.jpg",
+                cls:''
+            },
         ], 
-        "pdt-img-large-1": "/assets/images/jewellery/bracelets/bracelets4.1.jpg",
-        "pdt-img-large-2": "/assets/images/jewellery/bracelets/bracelets4.2.jpg", 
-        "pdt-img-large-3": "/assets/images/jewellery/bracelets/bracelets4.jpg", 
+        "pdt-lg-img":[
+            {
+                lg:"/assets/images/jewellery/bracelets/bracelets4.1.jpg",
+                lgcls:'active'
+            },
+            {
+                lg:"/assets/images/jewellery/bracelets/bracelets4.2.jpg",
+                lgcls:''
+            },
+            { 
+                lg:"/assets/images/jewellery/bracelets/bracelets4.jpg",
+                lgcls:''
+            }, 
+        ],
         "pdt-center-img": "/assets/images/jewellery/bracelets/bracelets4.jpg",
         "product-description":"Radiating charm and confidence, this 22 karat yellow gold bracelet for men is a bold statement piece that captivates with its striking design.",
     },
@@ -2069,11 +3414,25 @@ const productsData = {
         "sub-total": "Rs 40,513",
         "grand-total": "Rs 40,513", 
         "pdt-images":[
-            "/assets/images/jewellery/bracelets/bracelets5.1.jpg", 
-            "/assets/images/jewellery/bracelets/bracelets5.jpg", 
+            {
+                src:"/assets/images/jewellery/bracelets/bracelets5.1.jpg",
+                cls:'active'
+            },
+            { 
+                src:"/assets/images/jewellery/bracelets/bracelets5.jpg",
+                cls:''
+            }, 
         ],
-        "pdt-img-large-1": "/assets/images/jewellery/bracelets/bracelets5.1.jpg", 
-        "pdt-img-large-3": "/assets/images/jewellery/bracelets/bracelets5.jpg", 
+        "pdt-lg-img":[
+            {
+                lg:"/assets/images/jewellery/bracelets/bracelets5.1.jpg",
+                lgcls:'active'
+            }, 
+            {
+                lg:"/assets/images/jewellery/bracelets/bracelets5.jpg",
+                lgcls:''
+            }, 
+        ],
         "pdt-center-img": "/assets/images/jewellery/bracelets/bracelets5.jpg",
         "product-description":"A lovely pink stone is surrounded by shimmering diamonds in a floral pattern to give you this bracelet, perfect for your party style!",
     },
@@ -2095,13 +3454,33 @@ const productsData = {
         "sub-total": "Rs 57,772",
         "grand-total": "Rs 57,772", 
         "pdt-images":[
-            "/assets/images/jewellery/bracelets/bracelets6.1.jpg", 
-            "/assets/images/jewellery/bracelets/bracelets6.2.jpg", 
-            "/assets/images/jewellery/bracelets/bracelets6.jpg", 
+            {
+                src:"/assets/images/jewellery/bracelets/bracelets6.1.jpg",
+                cls:'active'
+            },
+            {
+                src:"/assets/images/jewellery/bracelets/bracelets6.2.jpg",
+                cls:''
+            }, 
+            {
+                src:"/assets/images/jewellery/bracelets/bracelets6.jpg",
+                cls:''
+            }, 
         ],
-        "pdt-img-large-1": "/assets/images/jewellery/bracelets/bracelets6.1.jpg", 
-        "pdt-img-large-2": "/assets/images/jewellery/bracelets/bracelets6.2.jpg", 
-        "pdt-img-large-3": "/assets/images/jewellery/bracelets/bracelets6.jpg", 
+        "pdt-lg-img":[
+            {
+                lg:"/assets/images/jewellery/bracelets/bracelets6.1.jpg",
+                lgcls:'active'
+            },
+            { 
+                lg:"/assets/images/jewellery/bracelets/bracelets6.2.jpg", 
+                lgcls:''
+            },
+            {
+                lg:"/assets/images/jewellery/bracelets/bracelets6.jpg",
+                lgcls:''
+            }, 
+        ],
         "pdt-center-img": "/assets/images/jewellery/bracelets/bracelets6.jpg",
         "product-description":"Let the radiant beauty of flowers elevate your style with this lovely diamond bracelet, crafted in 18 karat white and rose gold. Stone Clarity: I1/I2",
     },
@@ -2123,13 +3502,33 @@ const productsData = {
         "sub-total": "Rs 59,205",
         "grand-total": "Rs 59,205", 
         "pdt-images":[
-            "/assets/images/jewellery/bracelets/bracelets7.1.jpg", 
-            "/assets/images/jewellery/bracelets/bracelets7.2.jpg", 
-            "/assets/images/jewellery/bracelets/bracelets7.jpg", 
+            {
+                src:"/assets/images/jewellery/bracelets/bracelets7.1.jpg",
+                cls:'active'
+            },
+            { 
+                src:"/assets/images/jewellery/bracelets/bracelets7.2.jpg",
+                cls:''
+            },
+            { 
+                src:"/assets/images/jewellery/bracelets/bracelets7.jpg",
+                cls:''
+            },       
         ],
-        "pdt-img-large-1": "/assets/images/jewellery/bracelets/bracelets7.1.jpg", 
-        "pdt-img-large-2": "/assets/images/jewellery/bracelets/bracelets7.2.jpg", 
-        "pdt-img-large-3": "/assets/images/jewellery/bracelets/bracelets7.jpg", 
+        "pdt-lg-img":[
+            {
+                lg:"/assets/images/jewellery/bracelets/bracelets7.1.jpg",
+                lgcls:'active'
+            },
+            { 
+                lg:"/assets/images/jewellery/bracelets/bracelets7.2.jpg",
+                lgcls:''
+            },
+            { 
+                lg:"/assets/images/jewellery/bracelets/bracelets7.jpg",
+                lgcls:''
+            },       
+        ],
         "pdt-center-img": "/assets/images/jewellery/bracelets/bracelets7.jpg",
         "product-description":"Discover the enchantment within this striking link chain pattern diamond bracelet, meticulously fashioned in 18 karat white and rose gold, adorned with dazzling diamonds. Stone Clarity: I1-I2",
     },
@@ -2151,13 +3550,33 @@ const productsData = {
         "sub-total": "Rs 28,237",
         "grand-total": "Rs 28,237", 
         "pdt-images":[
-            "/assets/images/jewellery/bracelets/bracelets7.1.jpg", 
-            "/assets/images/jewellery/bracelets/bracelets7.2.jpg", 
-            "/assets/images/jewellery/bracelets/bracelets7.jpg", 
+            {
+                src:"/assets/images/jewellery/bracelets/bracelets7.1.jpg",
+                cls:'active'
+            },
+            {
+                src:"/assets/images/jewellery/bracelets/bracelets7.2.jpg",
+                cls:''
+            },
+            { 
+                src:"/assets/images/jewellery/bracelets/bracelets7.jpg",
+                cls:''
+            }, 
         ],
-        "pdt-img-large-1": "/assets/images/jewellery/bracelets/bracelets7.1.jpg", 
-        "pdt-img-large-2": "/assets/images/jewellery/bracelets/bracelets7.2.jpg", 
-        "pdt-img-large-3": "/assets/images/jewellery/bracelets/bracelets7.jpg", 
+        "pdt-lg-img":[
+            {
+                lg:"/assets/images/jewellery/bracelets/bracelets7.1.jpg",
+                lgcls:'active'
+            },
+            {
+                lg:"/assets/images/jewellery/bracelets/bracelets7.2.jpg",
+                lgcls:''
+            },
+            { 
+                lg:"/assets/images/jewellery/bracelets/bracelets7.jpg",
+                lgcls:''
+            }, 
+        ],
         "pdt-center-img": "/assets/images/jewellery/bracelets/bracelets7.jpg",
         "product-description":"Add a touch of sparkle to your natural charm with this bracelet, crafted in 18 karat rose gold, studded with diamonds. Stone Clarity: SI2",
     },
@@ -2176,16 +3595,36 @@ const productsData = {
         "final-value": "Rs 20087",
         "stone-detail":"Rs 15048.",
         "making-charges": "Rs 7787",
-        "sub-total": "Rs 42,922",
+        "sub-total": "Rs 42,922", 
         "grand-total": "Rs 42,922", 
         "pdt-images":[
-            "/assets/images/jewellery/mangal/M1.1.jpg", 
-            "/assets/images/jewellery/mangal/M1.2.jpg", 
-            "/assets/images/jewellery/mangal/M1.jpg", 
+            {
+                src:"/assets/images/jewellery/mangal/M1.1.jpg", 
+                cls:'active'
+            },
+            {
+                src:"/assets/images/jewellery/mangal/M1.2.jpg",
+                cls:''
+            },
+            { 
+                src:"/assets/images/jewellery/mangal/M1.jpg", 
+                cls:''
+            },
         ],
-        "pdt-img-large-1": "/assets/images/jewellery/mangal/M1.1.jpg", 
-        "pdt-img-large-2": "/assets/images/jewellery/mangal/M1.2.jpg", 
-        "pdt-img-large-3": "/assets/images/jewellery/mangal/M1.jpg", 
+        "pdt-lg-img":[
+            {
+                lg:"/assets/images/jewellery/mangal/M1.1.jpg", 
+                lgcls:'active'
+            },
+            {
+                lg:"/assets/images/jewellery/mangal/M1.2.jpg",
+                lgcls:''
+            }, 
+            {
+                lg:"/assets/images/jewellery/mangal/M1.jpg",
+                lgcls:''
+            }, 
+        ],
         "pdt-center-img": "/assets/images/jewellery/mangal/M1.jpg",
         "product-description":"Wear the mark of your blooming love every day with this mangalsutra, crafted in 18 karat rose gold, studded with diamonds. Stone Clarity: I1/I2",
     },
@@ -2207,13 +3646,33 @@ const productsData = {
         "sub-total": "Rs 45,161",
         "grand-total": "Rs 45,161", 
         "pdt-images":[
-            "/assets/images/jewellery/mangal/M2.1.jpg", 
-            "/assets/images/jewellery/mangal/M2.2.jpg", 
-            "/assets/images/jewellery/mangal/M2.jpg", 
+            {
+                src:"/assets/images/jewellery/mangal/M2.1.jpg",
+                cls:'active'
+            },
+            { 
+                src:"/assets/images/jewellery/mangal/M2.2.jpg",
+                cls:""
+            },
+            { 
+                src:"/assets/images/jewellery/mangal/M2.jpg",
+                cls:''
+            }, 
         ],
-        "pdt-img-large-1": "/assets/images/jewellery/mangal/M2.1.jpg", 
-        "pdt-img-large-2": "/assets/images/jewellery/mangal/M2.2.jpg", 
-        "pdt-img-large-3": "/assets/images/jewellery/mangal/M2.jpg", 
+        "pdt-lg-img":[
+            {
+                lg:"/assets/images/jewellery/mangal/M2.1.jpg", 
+                lgcls:'active'
+            },
+            {
+                lg:"/assets/images/jewellery/mangal/M2.2.jpg",
+                lgcls:''
+            },
+            { 
+                lg:"/assets/images/jewellery/mangal/M2.jpg",
+                lgcls:''
+            }, 
+        ],
         "pdt-center-img": "/assets/images/jewellery/mangal/M2.jpg",
         "product-description":"Flaunt your everlasting love with the leafy design of this mangalsutra crafted in 18 karat rose gold, studded with diamonds. Stone Clarity: I1/I2",
     },
@@ -2235,13 +3694,33 @@ const productsData = {
         "sub-total": "Rs 50,726",
         "grand-total": "Rs 50,726", 
         "pdt-images":[
-            "/assets/images/jewellery/mangal/M3.1.jpg", 
-            "/assets/images/jewellery/mangal/M2.2.jpg", 
-            "/assets/images/jewellery/mangal/M3.jpg", 
+            {
+                src:"/assets/images/jewellery/mangal/M3.1.jpg",
+                cls:'active'
+            },
+            { 
+                src:"/assets/images/jewellery/mangal/M2.2.jpg",
+                cls:''
+            },
+            { 
+                src:"/assets/images/jewellery/mangal/M3.jpg",
+                cls:''
+            }, 
         ],
-        "pdt-img-large-1": "/assets/images/jewellery/mangal/M3.1.jpg", 
-        "pdt-img-large-2": "/assets/images/jewellery/mangal/M2.2.jpg", 
-        "pdt-img-large-3": "/assets/images/jewellery/mangal/M3.jpg", 
+        "pdt-lg-img":[
+            {
+                lg:"/assets/images/jewellery/mangal/M3.1.jpg", 
+                lgcls:'active'
+            },
+            {
+                lg:"/assets/images/jewellery/mangal/M2.2.jpg",
+                lgcls:''
+            },
+            { 
+                lg:"/assets/images/jewellery/mangal/M3.jpg",
+                lgcls:''
+            }, 
+        ],
         "pdt-center-img": "/assets/images/jewellery/mangal/M3.jpg",
         "product-description":"Celebrate your infinite love with this diamond studded mangalsutra crafted in 18 Karat Yellow Gold. Stone Clarity I1/I2",
     },
@@ -2263,13 +3742,33 @@ const productsData = {
         "sub-total": "Rs 56,647",
         "grand-total": "Rs 56,647", 
         "pdt-images":[
-            "/assets/images/jewellery/mangal/M4.1.jpg", 
-            "/assets/images/jewellery/mangal/M3.2.jpg", 
-            "/assets/images/jewellery/mangal/M4.jpg", 
+            {
+                src:"/assets/images/jewellery/mangal/M4.1.jpg", 
+                cls:'active'
+            },
+            {
+                src:"/assets/images/jewellery/mangal/M3.2.jpg",
+                cls:''
+            },
+            { 
+                src:"/assets/images/jewellery/mangal/M4.jpg", 
+                cls:''
+            },
         ],
-        "pdt-img-large-1": "/assets/images/jewellery/mangal/M4.1.jpg", 
-        "pdt-img-large-2": "/assets/images/jewellery/mangal/M3.2.jpg", 
-        "pdt-img-large-3": "/assets/images/jewellery/mangal/M4.jpg", 
+        "pdt-lg-img":[
+            {
+                lg:"/assets/images/jewellery/mangal/M4.1.jpg", 
+                lgcls:'active'
+            },
+            {
+                lg:"/assets/images/jewellery/mangal/M3.2.jpg",
+                lgcls:''
+            },
+            { 
+                lg:"/assets/images/jewellery/mangal/M4.jpg",
+                lgcls:''
+            }, 
+        ],
         "pdt-center-img": "/assets/images/jewellery/mangal/M4.jpg",
         "product-description":"Make a statement of your everlasting love when you pair your attire with this Carved Sphere Motif Mangalsutra crafted in 22 Karat Glossy Yellow Gold.",
     },
@@ -2291,13 +3790,33 @@ const productsData = {
         "sub-total": "Rs 32,250",
         "grand-total": "Rs 32,250", 
         "pdt-images":[
-            "/assets/images/jewellery/chains/chains1.1.jpg", 
-            "/assets/images/jewellery/chains/chains1.2.jpg", 
-            "/assets/images/jewellery/chains/chains1.jpg", 
+            {
+                src:"/assets/images/jewellery/chains/chains1.1.jpg",
+                cls:'active'
+            },
+            { 
+                src:"/assets/images/jewellery/chains/chains1.2.jpg",
+                cls:''
+            },
+            { 
+                src:"/assets/images/jewellery/chains/chains1.jpg",
+                cls:''
+            }, 
         ],
-        "pdt-img-large-1": "/assets/images/jewellery/chains/chains1.1.jpg", 
-        "pdt-img-large-2": "/assets/images/jewellery/chains/chains1.2.jpg", 
-        "pdt-img-large-3": "/assets/images/jewellery/chains/chains1.jpg", 
+        "pdt-lg-img":[
+            {
+                lg:"/assets/images/jewellery/chains/chains1.1.jpg", 
+                lgcls:'active'
+            },
+            {
+                lg:"/assets/images/jewellery/chains/chains1.2.jpg",
+                lgcls:''
+            },
+            { 
+                lg:"/assets/images/jewellery/chains/chains1.jpg",
+                lgcls:''
+            }, 
+        ],
         "pdt-center-img": "/assets/images/jewellery/chains/chains1.jpg",
         "product-description":"Feel special everyday with this charming foxtail chain crafted in 22 Karat Yellow Gold with a glossy finish.",
     },
@@ -2319,11 +3838,25 @@ const productsData = {
         "sub-total": "Rs  88,659",
         "grand-total": "Rs  88,659", 
         "pdt-images":[
-            "/assets/images/jewellery/chains/chains2.1.jpg",  
-            "/assets/images/jewellery/chains/chains2.jpg", 
+            {
+                src:"/assets/images/jewellery/chains/chains2.1.jpg",
+                cls:'active'
+            },
+            {  
+                src:"/assets/images/jewellery/chains/chains2.jpg",
+                cls:''
+            }, 
         ],
-        "pdt-img-large-1": "/assets/images/jewellery/chains/chains2.1.jpg",  
-        "pdt-img-large-3": "/assets/images/jewellery/chains/chains2.jpg", 
+        "pdt-lg-img":[
+            {
+                lg:"/assets/images/jewellery/chains/chains2.1.jpg",  
+                lgcls:'active'
+            },
+            {
+                lg:"/assets/images/jewellery/chains/chains2.jpg",
+                lgcls:''
+            }, 
+        ],
         "pdt-center-img": "/assets/images/jewellery/chains/chains2.jpg",
         "product-description":"Feel special everyday with this elegant chain crafted in 22 Karat Yellow Gold.",
     },
@@ -2345,13 +3878,33 @@ const productsData = {
         "sub-total": "Rs 2,16,106",
         "grand-total": "Rs 2,16,106", 
         "pdt-images":[
-            "/assets/images/jewellery/chains/chains3.1.jpg", 
-            "/assets/images/jewellery/chains/chains3.2.jpg", 
-            "/assets/images/jewellery/chains/chains3.jpg", 
+            {
+                src:"/assets/images/jewellery/chains/chains3.1.jpg",
+                cls:'active'
+            },
+            { 
+                src:"/assets/images/jewellery/chains/chains3.2.jpg",
+                cls:''
+            },
+            { 
+                src:"/assets/images/jewellery/chains/chains3.jpg",
+                cls:''
+            }, 
         ],
-        "pdt-img-large-1": "/assets/images/jewellery/chains/chains3.1.jpg", 
-        "pdt-img-large-2": "/assets/images/jewellery/chains/chains3.2.jpg", 
-        "pdt-img-large-3": "/assets/images/jewellery/chains/chains3.jpg", 
+        "pdt-lg-img":[
+            {
+                lg:"/assets/images/jewellery/chains/chains3.1.jpg", 
+                lgcls:'active'
+            },
+            {
+                lg:"/assets/images/jewellery/chains/chains3.2.jpg",
+                lgcls:''
+            },
+            { 
+                lg:"/assets/images/jewellery/chains/chains3.jpg",
+                lgcls:''
+            }, 
+        ],
         "pdt-center-img": "/assets/images/jewellery/chains/chains3.jpg",
         "product-description":"Glam up your look with this brilliant 22 karat yellow gold chain composed of multiple tiny beads set close together to give it a unique bow-like look.",
     },
@@ -2373,13 +3926,33 @@ const productsData = {
         "sub-total": "Rs 2,48,860",
         "grand-total": "Rs 2,48,860", 
         "pdt-images":[
-            "/assets/images/jewellery/chains/chains4.1.jpg", 
-            "/assets/images/jewellery/chains/chains4.2.jpg", 
-            "/assets/images/jewellery/chains/chains4.jpg", 
+            {
+                src:"/assets/images/jewellery/chains/chains4.1.jpg", 
+                cls:'active'
+            },
+            {
+                src:"/assets/images/jewellery/chains/chains4.2.jpg",
+                cls:''
+            },
+            { 
+                src:"/assets/images/jewellery/chains/chains4.jpg",
+                cls:''
+            }, 
         ],
-        "pdt-img-large-1": "/assets/images/jewellery/chains/chains4.1.jpg", 
-        "pdt-img-large-2": "/assets/images/jewellery/chains/chains4.2.jpg", 
-        "pdt-img-large-3": "/assets/images/jewellery/chains/chains4.jpg", 
+        "pdt-lg-img":[
+            {
+                lg:"/assets/images/jewellery/chains/chains4.1.jpg", 
+                lgcls:'active'
+            },
+            {
+                lg:"/assets/images/jewellery/chains/chains4.2.jpg",
+                lgcls:''
+            },
+            { 
+                lg:"/assets/images/jewellery/chains/chains4.jpg",
+                lgcls:''
+            }, 
+        ],
         "pdt-center-img": "/assets/images/jewellery/chains/chains4.jpg",
         "product-description":"The only neckpiece you will ever need, this 22 karat yellow gold chain comes with intricately designed beads and unique shapes for a different look.",
     },
@@ -2401,13 +3974,33 @@ const productsData = {
         "sub-total": "Rs 1,46,446",
         "grand-total": "Rs 1,46,446", 
         "pdt-images":[
-            "/assets/images/jewellery/chains/chains5.1.jpg", 
-            "/assets/images/jewellery/chains/chains5.2.jpg", 
-            "/assets/images/jewellery/chains/chains5.jpg", 
+            {
+                src:"/assets/images/jewellery/chains/chains5.1.jpg",
+                cls:'active'
+            },
+            { 
+                src:"/assets/images/jewellery/chains/chains5.2.jpg",
+                cls:''
+            },
+            { 
+                src:"/assets/images/jewellery/chains/chains5.jpg",
+                cls:''
+            }, 
         ],
-        "pdt-img-large-1": "/assets/images/jewellery/chains/chains5.1.jpg", 
-        "pdt-img-large-2": "/assets/images/jewellery/chains/chains5.2.jpg", 
-        "pdt-img-large-3": "/assets/images/jewellery/chains/chains5.jpg", 
+        "pdt-lg-img":[
+            {
+                lg:"/assets/images/jewellery/chains/chains5.1.jpg", 
+                lgcls:'active'
+            },
+            {
+                lg:"/assets/images/jewellery/chains/chains5.2.jpg",
+                lgcls:''
+            },
+            { 
+                lg:"/assets/images/jewellery/chains/chains5.jpg",
+                lgcls:''
+            }, 
+        ],
         "pdt-center-img": "/assets/images/jewellery/chains/chains5.jpg",
         "product-description":"Create a bold statement with this 18 karat yellow gold beaded layers chain, featuring edgy tweaks and delightful surprises.",
     },
@@ -2429,13 +4022,33 @@ const productsData = {
         "sub-total": "Rs 1,34,921",
         "grand-total": "Rs 1,34,921", 
         "pdt-images":[
-            "/assets/images/jewellery/chains/chains6.1.jpg", 
-            "/assets/images/jewellery/chains/chains6.2.jpg", 
-            "/assets/images/jewellery/chains/chains6.jpg", 
+            {
+                src:"/assets/images/jewellery/chains/chains6.1.jpg", 
+                cls:'active'
+            },
+            {
+                src:"/assets/images/jewellery/chains/chains6.2.jpg",
+                cls:''
+            },
+            { 
+                src:"/assets/images/jewellery/chains/chains6.jpg",
+                cls:''
+            }, 
         ],
-        "pdt-img-large-1": "/assets/images/jewellery/chains/chains6.1.jpg", 
-        "pdt-img-large-2": "/assets/images/jewellery/chains/chains6.2.jpg", 
-        "pdt-img-large-3": "/assets/images/jewellery/chains/chains6.jpg", 
+        "pdt-lg-img":[
+            {
+                lg:"/assets/images/jewellery/chains/chains6.1.jpg", 
+                lgcls:'active'
+            },
+            {
+                lg:"/assets/images/jewellery/chains/chains6.2.jpg",
+                lgcls:''
+            },
+            { 
+                lg:"/assets/images/jewellery/chains/chains6.jpg",
+                lgcls:''
+            }, 
+        ],
         "pdt-center-img": "/assets/images/jewellery/chains/chains6.jpg",
         "product-description":"A trio of sleek 22 karat yellow gold chains in three colours come together in layers to form this distinctive chain which is ideal for daily wear.",
     },
@@ -2457,13 +4070,33 @@ const productsData = {
         "sub-total": "Rs 2,13,207",
         "grand-total": "Rs 2,13,207", 
         "pdt-images":[
-            "/assets/images/jewellery/chains/chains7.1.jpg", 
-            "/assets/images/jewellery/chains/chains7.2.jpg", 
-            "/assets/images/jewellery/chains/chains7.jpg", 
+            {
+                src:"/assets/images/jewellery/chains/chains7.1.jpg",
+                cls:'active'
+            },
+            { 
+                src:"/assets/images/jewellery/chains/chains7.2.jpg",
+                cls:''
+            },
+            { 
+                src:"/assets/images/jewellery/chains/chains7.jpg",
+                cls:''
+            }, 
         ],
-        "pdt-img-large-1": "/assets/images/jewellery/chains/chains7.1.jpg", 
-        "pdt-img-large-2": "/assets/images/jewellery/chains/chains7.2.jpg", 
-        "pdt-img-large-3": "/assets/images/jewellery/chains/chains7.jpg", 
+        "pdt-lg-img":[
+            {
+                lg:"/assets/images/jewellery/chains/chains7.1.jpg", 
+                lgcls:'active'
+            },
+            {
+                lg:"/assets/images/jewellery/chains/chains7.2.jpg",
+                lgcls:''
+            },
+            { 
+                lg:"/assets/images/jewellery/chains/chains7.jpg", 
+                lgcls:''
+            },
+        ],
         "pdt-center-img": "/assets/images/jewellery/chains/chains7.jpg",
         "product-description":"This exquisite gold chain in 22 karat yellow gold exudes unmatched radiance that undoubtedly elevates your everyday personality with its simplistic and chic design.",
     },
@@ -2478,11 +4111,25 @@ const productsData = {
         "pdt-size": "28 INCHES",    
         "pdt-weight": "25.444g",   
         "pdt-images":[
-            "/assets/images/jewellery/chains/chains8.1.jpg",  
-            "/assets/images/jewellery/chains/chains8.jpg", 
+            {
+                src:"/assets/images/jewellery/chains/chains8.1.jpg",
+                cls:'active'
+            },
+            {  
+                src:"/assets/images/jewellery/chains/chains8.jpg",
+                cls:''
+            }, 
         ],
-        "pdt-img-large-1": "/assets/images/jewellery/chains/chains8.1.jpg",  
-        "pdt-img-large-3": "/assets/images/jewellery/chains/chains8.jpg", 
+        "pdt-lg-img":[
+            {
+                lg:"/assets/images/jewellery/chains/chains8.1.jpg",  
+                lgcls:'active'
+            },
+            {
+                lg:"/assets/images/jewellery/chains/chains8.jpg",
+                lgcls:''
+            }, 
+        ],
         "pdt-center-img": "/assets/images/jewellery/chains/chains8.jpg",
         "product-description":"This exquisite gold chain in 22 karat yellow gold exudes unmatched radiance that undoubtedly elevates your everyday personality with its simplistic and chic design.",
     },
@@ -2497,11 +4144,25 @@ const productsData = {
         "pdt-size": "-",    
         "pdt-weight": "2.970g",   
         "pdt-images":[
-            "/assets/images/jewellery/pendant/pendant1.1.jpg",  
-            "/assets/images/jewellery/pendant/pendant1.jpg", 
+            {
+                src:"/assets/images/jewellery/pendant/pendant1.1.jpg",
+                cls:'active'
+            },  
+            {
+                src:"/assets/images/jewellery/pendant/pendant1.jpg",
+                cls:''
+            }, 
         ],
-        "pdt-img-large-1": "/assets/images/jewellery/pendant/pendant1.1.jpg",  
-        "pdt-img-large-3": "/assets/images/jewellery/pendant/pendant1.jpg", 
+        "pdt-lg-img":[
+            {
+                lg:"/assets/images/jewellery/pendant/pendant1.1.jpg",  
+                lgcls:'active'
+            },
+            {
+                lg:"/assets/images/jewellery/pendant/pendant1.jpg",
+                lgcls:''
+            }, 
+        ],
         "pdt-center-img": "/assets/images/jewellery/pendant/pendant1.jpg",
         "product-description":"Be the shining star of any occasion you grace wearing this Ruby studded Pendant With Floral And Wheel Motif crafted in 18 Karat Yellow Gold.",
     },
@@ -2516,13 +4177,33 @@ const productsData = {
         "pdt-size": "-",    
         "pdt-weight": "2.519g",   
         "pdt-images":[
-            "/assets/images/jewellery/pendant/pendant2.1.jpg", 
-            "/assets/images/jewellery/pendant/pendant2.2.jpg", 
-            "/assets/images/jewellery/pendant/pendant2.jpg",
+            {
+                src:"/assets/images/jewellery/pendant/pendant2.1.jpg", 
+                cls:'active'
+            },
+            {
+                src:"/assets/images/jewellery/pendant/pendant2.2.jpg",
+                cls:''
+            }, 
+            {
+                src:"/assets/images/jewellery/pendant/pendant2.jpg",
+                cls:''
+            },
         ], 
-        "pdt-img-large-1": "/assets/images/jewellery/pendant/pendant2.1.jpg", 
-        "pdt-img-large-2": "/assets/images/jewellery/pendant/pendant2.2.jpg", 
-        "pdt-img-large-3": "/assets/images/jewellery/pendant/pendant2.jpg", 
+        "pdt-lg-img":[
+            {
+                lg:"/assets/images/jewellery/pendant/pendant2.1.jpg",
+                lgcls:'active'
+            }, 
+            {
+                lg:"/assets/images/jewellery/pendant/pendant2.2.jpg",
+                lgcls:''
+            }, 
+            {
+                lg:"/assets/images/jewellery/pendant/pendant2.jpg",
+                lgcls:''
+            }, 
+        ],
         "pdt-center-img": "/assets/images/jewellery/pendant/pendant2.jpg",
         "product-description":"This lovely 22 Karat yellow gold pendant features a polished heart motif lined with a stippled texture, attached by o-ring to a slender, split loop.",
     },
@@ -2537,11 +4218,25 @@ const productsData = {
         "pdt-size": "-",    
         "pdt-weight": "5.570g",   
         "pdt-images":[
-            "/assets/images/jewellery/pendant/pendant3.1.jpg", 
-            "/assets/images/jewellery/pendant/pendant3.jpg", 
+            {
+                src:"/assets/images/jewellery/pendant/pendant3.1.jpg",
+                cls:'active'
+            }, 
+            {
+                src:"/assets/images/jewellery/pendant/pendant3.jpg",
+                cls:''
+            }, 
         ],
-        "pdt-img-large-1": "/assets/images/jewellery/pendant/pendant3.1.jpg", 
-        "pdt-img-large-2": "/assets/images/jewellery/pendant/pendant3.jpg", 
+        "pdt-lg-img":[
+            {
+                lg:"/assets/images/jewellery/pendant/pendant3.1.jpg",
+                lgcls:'active'
+            }, 
+            {
+                lg:"/assets/images/jewellery/pendant/pendant3.jpg",
+                lgcls:''
+            },
+        ], 
         "pdt-center-img": "/assets/images/jewellery/pendant/pendant3.jpg",
         "product-description":"This grand 22 Karat gold pendant features 2 rows of beads lining an array of frets flanking 10 checked rhombuses encircling a bead-set, stippled ring.",
     },
@@ -2556,11 +4251,25 @@ const productsData = {
         "pdt-size": "-",    
         "pdt-weight": "1.727g",   
         "pdt-images": [
-            "/assets/images/jewellery/pendant/pendant4.1.jpg", 
-            "/assets/images/jewellery/pendant/pendant4.jpg", 
+            {
+                src:"/assets/images/jewellery/pendant/pendant4.1.jpg",
+                cls:'active'
+            }, 
+            {
+                src:"/assets/images/jewellery/pendant/pendant4.jpg",
+                cls:''
+            }, 
         ],
-        "pdt-img-large-1": "/assets/images/jewellery/pendant/pendant4.1.jpg", 
-        "pdt-img-large-2": "/assets/images/jewellery/pendant/pendant4.jpg", 
+        "pdt-lg-img":[
+            {
+                lg:"/assets/images/jewellery/pendant/pendant4.1.jpg",
+                lgcls:'active'
+            }, 
+            {
+                lg:"/assets/images/jewellery/pendant/pendant4.jpg",
+                lgcls:''
+            },
+        ],
         "pdt-center-img": "/assets/images/jewellery/pendant/pendant4.jpg",
         "product-description":"Let each sparkle be a testament to divine virtues and cosmic connection with this Saranga, a divine bow pendant cast in 22 karat yellow gold.",
     },
@@ -2582,11 +4291,25 @@ const productsData = {
         "sub-total": "Rs  27,487",
         "grand-total": "Rs  27,487", 
         "pdt-images":[
-            "/assets/images/jewellery/pendant/pendant9.1.jpg", 
-            "/assets/images/jewellery/pendant/pendant9.jpg", 
+            {
+                src:"/assets/images/jewellery/pendant/pendant9.1.jpg",
+                cls:'active'
+            }, 
+            {
+                src:"/assets/images/jewellery/pendant/pendant9.jpg",
+                cls:''
+            }, 
         ],
-        "pdt-img-large-1": "/assets/images/jewellery/pendant/pendant9.1.jpg", 
-        "pdt-img-large-2": "/assets/images/jewellery/pendant/pendant9.jpg", 
+        "pdt-lg-img":[
+            {
+                lg:"/assets/images/jewellery/pendant/pendant9.1.jpg",
+                lgcls:'active'
+            }, 
+            {
+                lg:"/assets/images/jewellery/pendant/pendant9.jpg",
+                lgcls:''
+            },
+        ], 
         "pdt-center-img": "/assets/images/jewellery/pendant/pendant9.jpg",
         "product-description":"Flaunt your unique statement style wherever you go with this pear-cut rhodium finish pendant, elegantly crafted in 22 karat yellow gold.",
     },
@@ -2608,11 +4331,25 @@ const productsData = {
         "sub-total": "Rs 72,277",
         "grand-total": "Rs 72,277", 
         "pdt-images":[
-            "/assets/images/jewellery/pendant/pendant10.1.jpg", 
-            "/assets/images/jewellery/pendant/pendant10.jpg",
+            {
+                src:"/assets/images/jewellery/pendant/pendant10.1.jpg", 
+                cls:'active'
+            },
+            {
+                src:"/assets/images/jewellery/pendant/pendant10.jpg",
+                cls:''
+            },
+        ],
+        "pdt-lg-img":[ 
+            {
+                lg:"/assets/images/jewellery/pendant/pendant10.1.jpg",
+                lgcls:'active'
+            }, 
+            {
+                lg:"/assets/images/jewellery/pendant/pendant10.jpg",
+                lgcls:''
+            }
         ], 
-        "pdt-img-large-1": "/assets/images/jewellery/pendant/pendant10.1.jpg", 
-        "pdt-img-large-2": "/assets/images/jewellery/pendant/pendant10.jpg", 
         "pdt-center-img": "/assets/images/jewellery/pendant/pendant10.jpg",
         "product-description":"Radiating the brilliance of a celestial constellation, this 18 karat yellow and white gold diamond pendant exudes elegance. Stone Clarity: SI2.",
     },
@@ -2627,15 +4364,29 @@ const productsData = {
         "pdt-size": "-",    
         "pdt-weight": "3.673g",   
         "pdt-images": [
-            "/assets/images/jewellery/pendant/pendant11.1.jpg", 
-            "/assets/images/jewellery/pendant/pendant11.jpg", 
+            {
+                src:"/assets/images/jewellery/pendant/pendant11.1.jpg",
+                cls:'active'
+            }, 
+            {
+                src:"/assets/images/jewellery/pendant/pendant11.jpg",
+                cls:''
+            }, 
         ],
-        "pdt-img-large-1": "/assets/images/jewellery/pendant/pendant11.1.jpg", 
-        "pdt-img-large-2": "/assets/images/jewellery/pendant/pendant11.jpg", 
+        "pdt-lg-img":[
+            {
+                lg:"/assets/images/jewellery/pendant/pendant11.1.jpg",
+                lgcls:'active'
+            }, 
+            {
+                lg:"/assets/images/jewellery/pendant/pendant11.jpg",
+                lgcls:''
+            }, 
+        ],
         "pdt-center-img": "/assets/images/jewellery/pendant/pendant11.jpg",
         "product-description":"An epitome of grace, this 18 karat yellow gold floral diamond pendant adds stylish refinement to your casual look. Stone Clarity: SI2.",
     },
-    "daily_radiance_diamond_pendant": { 
+    "daily_radiance_diamond_pendant": {
         "title":"Daily Radiance Diamond Pendant",  
         "product_name": "Daily Radiance Diamond Pendant",
         "pdt-price":"Rs 1,32,084", 
@@ -2653,11 +4404,25 @@ const productsData = {
         "sub-total": "Rs 1,32,084",
         "grand-total": "Rs 1,32,084", 
         "pdt-images": [
-            "/assets/images/jewellery/pendant/pendant12.1.jpg", 
-            "/assets/images/jewellery/pendant/pendant12.jpg", 
+            {
+                src:"/assets/images/jewellery/pendant/pendant12.1.jpg",
+                cls:'active'
+            }, 
+            {
+                src:"/assets/images/jewellery/pendant/pendant12.jpg",
+                cls:''
+            }, 
         ],
-        "pdt-img-large-1": "/assets/images/jewellery/pendant/pendant12.1.jpg", 
-        "pdt-img-large-2": "/assets/images/jewellery/pendant/pendant12.jpg", 
+        "pdt-lg-img":[
+            {
+                lg:"/assets/images/jewellery/pendant/pendant12.1.jpg",
+                lgcls:'active'
+            }, 
+            {
+                lg:"/assets/images/jewellery/pendant/pendant12.jpg",
+                lgcls:''
+            }, 
+        ],
         "pdt-center-img": "/assets/images/jewellery/pendant/pendant12.jpg",
         "product-description":"Make a refined yet noticeable statement with the intricate details of this diamond pendant in 18 karat yellow and white gold. Stone Clarity: I1.",
     },
@@ -2679,11 +4444,25 @@ const productsData = {
         "sub-total": "Rs 50,100",
         "grand-total": "Rs 50,100", 
         "pdt-images": [
-            "/assets/images/jewellery/Men/Men9.2.jpg", 
-            "/assets/images/jewellery/Men/Men9.jpg", 
+            {
+                src:"/assets/images/jewellery/Men/Men9.2.jpg",
+                cls:'active'
+            }, 
+            {
+                src:"/assets/images/jewellery/Men/Men9.jpg",
+                cls:''
+            }, 
         ],
-        "pdt-img-large-1": "/assets/images/jewellery/Men/Men9.2.jpg", 
-        "pdt-img-large-2": "/assets/images/jewellery/Men/Men9.jpg", 
+        "pdt-lg-img":[
+            {
+                lg:"/assets/images/jewellery/Men/Men9.2.jpg",
+                lgcls:'active'
+            }, 
+            {
+                lg:"/assets/images/jewellery/Men/Men9.jpg",
+                lgcls:''
+            }, 
+        ],
         "pdt-center-img": "/assets/images/jewellery/Men/Men9.jpg",
         "product-description":"Immerse yourself in the joys of life and abundance with this 22 karat yellow gold Hanuman pendant, a radiant symbol of happiness and prosperity.",
     },
@@ -2705,11 +4484,25 @@ const productsData = {
         "sub-total": "Rs 21,445",
         "grand-total": "Rs 21,445", 
         "pdt-images": [
-            "/assets/images/jewellery/Men/Men10.2.jpg", 
-            "/assets/images/jewellery/Men/Men10.jpg", 
+            {
+                src:"/assets/images/jewellery/Men/Men10.2.jpg", 
+                cls:'active'
+            },
+            {
+                src:"/assets/images/jewellery/Men/Men10.jpg", 
+                cls:''
+            },
         ],
-        "pdt-img-large-1": "/assets/images/jewellery/Men/Men10.2.jpg", 
-        "pdt-img-large-2": "/assets/images/jewellery/Men/Men10.jpg", 
+        "pdt-lg-img":[
+            {
+                lg:"/assets/images/jewellery/Men/Men10.2.jpg", 
+                lgcls:'active'
+            },
+            {
+                lg:"/assets/images/jewellery/Men/Men10.jpg",
+                lgcls:''
+            }, 
+        ],
         "pdt-center-img": "/assets/images/jewellery/Men/Men10.jpg",
         "product-description":"Adorn yourself with the ethereal Lord Bajrangabali pendant in 22 karat yellow gold with rhodium highlights, a radiant tribute to Rama's devotion.",
     },
@@ -2731,15 +4524,29 @@ const productsData = {
         "sub-total": "Rs 1,27,621",
         "grand-total": "Rs 1,27,621", 
         "pdt-images": [
-            "/assets/images/jewellery/Men/Men11.2.jpg", 
-            "/assets/images/jewellery/Men/Men11.jpg", 
+            {
+                src:"/assets/images/jewellery/Men/Men11.2.jpg", 
+                cls:'active'
+            },
+            {
+                src:"/assets/images/jewellery/Men/Men11.jpg",
+                cls:''
+            }, 
         ],
-        "pdt-img-large-1": "/assets/images/jewellery/Men/Men11.2.jpg", 
-        "pdt-img-large-2": "/assets/images/jewellery/Men/Men11.jpg", 
+        "pdt-lg-img":[
+            {
+                lg:"/assets/images/jewellery/Men/Men11.2.jpg", 
+                lgcls:'active',
+            },
+            {
+                lg:"/assets/images/jewellery/Men/Men11.jpg", 
+                lgcls:''
+            },
+        ],
         "pdt-center-img": "/assets/images/jewellery/Men/Men11.jpg",
         "product-description":"A divine fusion of strength and spirituality, this Lord Ganesha claw pendant in 22 karat yellow gold ushers in a wave of good fortune.",
     },
-    "lord_ganesha_gold_pendant": { 
+    "lord_ganesha_gold_pendant": {  
         "title":"Lord Ganesha Gold Pendant",  
         "product_name": "Lord Ganesha Gold Pendant",
         "pdt-price":"Rs 28,709", 
@@ -2757,11 +4564,26 @@ const productsData = {
         "sub-total": "Rs 28,709",
         "grand-total": "Rs 28,709", 
         "pdt-images": [
-            "/assets/images/jewellery/Men/Men11.2.jpg", 
-            "/assets/images/jewellery/Men/Men11.jpg", 
+            {
+                src:"/assets/images/jewellery/Men/Men11.2.jpg", 
+                cls:'active'
+            },
+            {
+                src:"/assets/images/jewellery/Men/Men11.jpg",
+                cls:''
+            }, 
         ],
-        "pdt-img-large-1": "/assets/images/jewellery/Men/Men11.2.jpg", 
-        "pdt-img-large-2": "/assets/images/jewellery/Men/Men11.jpg", 
+        "pdt-lg-img":[
+            {
+                lg:"/assets/images/jewellery/Men/Men11.2.jpg",
+                lgcls:'active'
+            },
+            {
+                lg:"/assets/images/jewellery/Men/Men11.jpg",
+                lgcls:''
+            },
+        ],
+
         "pdt-center-img": "/assets/images/jewellery/Men/Men11.jpg",
         "product-description":"Embrace divine blessings with this Lord Ganesha pendant crafted in exquisite 22 karat yellow gold.",
     },
@@ -2789,3 +4611,26 @@ function handlePdtImgClick(e) {
     $('.product-wrapper .pdt-thumbs ul li').removeClass('active')
     $(e).addClass('active')
 }
+
+function prevBtn(e) {  
+    let currentIndex = $('#pdtLgImage img').index($('#pdtLgImage .active'));
+    $('#pdtLgImage .active').removeClass('active') 
+    let prevIndex = (currentIndex - 1 + $('#pdtLgImage img').length) % $('#pdtLgImage img').length;
+    let prevSrc = $('#pdtLgImage img').eq(prevIndex).attr('src');
+    $('#pdtLgImage img').eq(prevIndex).addClass('active')  
+    $('#pdtLgImage .active').attr('src', prevSrc);  
+    $('.pdt-thumbs ul li').removeClass('active');  
+    $('.pdt-thumbs ul li').eq(prevIndex).addClass('active');
+}
+
+function nextBtn(e) {  
+    let currentIndex = $('#pdtLgImage img').index($('#pdtLgImage .active'));
+    $('#pdtLgImage .active').removeClass('active') 
+    let nextIndex = (currentIndex + 1) % $('#pdtLgImage img').length; 
+    let nextSrc = $('#pdtLgImage img').eq(nextIndex).attr('src');
+    $('#pdtLgImage img').eq(nextIndex).addClass('active')  
+    $('#pdtLgImage .active').attr('src', nextSrc);  
+    $('.pdt-thumbs ul li').removeClass('active');  
+    $('.pdt-thumbs ul li').eq(nextIndex).addClass('active');
+}
+

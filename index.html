@@ -408,7 +408,7 @@
                                         </div>
                                     </div>
                                 </a>
-                            </div>
+                            </div>  
                         </div>
                         <div class="category">
                             <div class="items">
@@ -488,7 +488,7 @@
                         <p>Love the most to bought the most</p>
                         <img src="/assets/images/jewellery/Line-Design.svg" alt="">
                         <div class=" splide2 splide" >
-                            <div class="category-2 splide__track">
+                            <div class="category-2 splide__track"> 
                                 <div class="splide__list">
                                     <div class="card-1 splide__slide">
                                         <div class="wish-list">
@@ -540,7 +540,7 @@
                                             </a>
                                         </div>
                                         <div class="img-1">
-                                            <a href="product.html?sku=diamond_drop_earrings">
+                                            <a href="product.html?sku=diamond_drop_earrings_2">
                                                 <img src="/assets/images/jewellery/earrings-1/earrings-1.jpg">
                                                 <h2>Diamond Drop</h2>
                                             </a>
@@ -897,8 +897,8 @@
             <script>
                 $(document).ready(function() {
                     new Splide(".splide1",{
-                        perPage:5, 
-                        speed: 1600, 
+                        perPage:5,
+                        speed: 2000,
                         breakpoints: {
                             430: {
                             perPage: 2,
@@ -909,11 +909,11 @@
                         speed: 1600,   
                         fixedWidth : '16rem', 
                         gap        : '4rem',
-                        padding: { left: 30, right: 20 },
+                        padding: { left: 30, right: 30 },
                         breakpoints: {
                             430: {   
-                            fixedWidth : '15rem', 
-                            gap:'3rem', 
+                            // fixedWidth : '15rem', 
+                            gap:'3rem',  
                         }, 
                     }}).mount()
                     
@@ -921,13 +921,13 @@
                         speed: 1600,   
                         fixedWidth : '16rem', 
                         gap        : '4rem',
-                        padding: { left: 30, right: 20 },
+                        padding: { left: 30, right: 30 },
                         breakpoints: {
                             430: {  
-                            fixedWidth : '15rem', 
-                            gap:'3rem', 
+                                type:'loop', 
+                                gap:'3rem',     
                         },
-                    }}).mount()
+                    }}).mount() 
                 })
             </script>
         </div>

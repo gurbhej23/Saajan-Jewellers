@@ -328,18 +328,16 @@
                                 </div> 
 
                                 <div class="crousel">
-                                    <span class="material-symbols-outlined"> chevron_left </span>
+                                    <span class="material-symbols-outlined" onclick="prevBtn(this)"> chevron_left </span>
                                 </div>
-
+                                {{#each pdt-lg-img}}
                                 <div id="pdtLgImage" class="pdt-zoom-image">
                                     <!-- large pdt image --> 
-                                    <img class="active" src={{pdt-img-large-1}}> 
-                                    <img src={{pdt-img-large-2}}>
-                                    <img src={{pdt-img-large-3}}>
+                                    <img class="{{this.lgcls}}" src={{this.lg}}>  
                                 </div>
-
+                                {{/each}}
                                 <div class="crousel">
-                                    <span class="material-symbols-outlined"> chevron_right </span>
+                                    <span class="material-symbols-outlined" onclick="nextBtn(this)"> chevron_right </span>
                                 </div>
 
                             </div>

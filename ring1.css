@@ -264,8 +264,12 @@ li, h1, h2, h5, span, p{
 
 .crousel span{
     font-size: 58px;
+    cursor: pointer;
 }
 
+.crousel span:hover{
+    color: #fff;
+}
 .image-sec{
     display: flex;
 }
@@ -431,6 +435,13 @@ li, h1, h2, h5, span, p{
     width: 60%;
 }
 
+#pdtLgImage img{
+    display: none;
+}
+
+#pdtLgImage img.active{
+    display: block;
+}
 .pdt-detail  h2 ,.pdt-price-breakup h2{
     padding: 20px 0; 
     font-size: 30px ;

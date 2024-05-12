@@ -288,9 +288,7 @@ section:nth-of-type(2)
     text-align: center; 
     margin-right:45px;
 }
-
-.card .img-1{
-}
+ 
 .card img{  
     opacity: 0.9;
     border-radius: 25px;
@@ -302,6 +300,11 @@ section:nth-of-type(2)
     font-size: 20px; 
     color: #490000;     
 }
+
+section:nth-of-type(1) .splide__arrows button{
+    transform: translateY(-60px);
+}
+
 
 .splide__arrows:hover{
     color: #490000;
@@ -1072,8 +1075,8 @@ footer .copyright-text{
  
 
     .category-2 img {
-        width: 215px;
-        height: 215px;
+        width: 240px;
+        height: 240px;
     }
     .category-2 h2{
         font-size: 4vw;
@@ -1106,7 +1109,7 @@ footer .copyright-text{
         display: flex;
         flex-direction: column; 
         margin-top: 70px;
-        
+
     }
 
     .footer-res{
