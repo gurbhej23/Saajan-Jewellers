@@ -299,12 +299,7 @@ section:nth-of-type(2)
     padding: 9px;
     font-size: 20px; 
     color: #490000;     
-}
-
-section:nth-of-type(1) .splide__arrows button{
-    transform: translateY(-60px);
-}
-
+} 
 
 .splide__arrows:hover{
     color: #490000;
@@ -780,6 +775,7 @@ footer .copyright-text{
     .nav-bar2.active{
         display: block;
     }
+    
     .nav-bar2 .active{
         display: none;
         box-shadow: none;
@@ -889,8 +885,7 @@ footer .copyright-text{
 
     .banner-section img{
         width: 100%;
-        border-radius: 0px; 
-        height: 228px;
+        border-radius: 0px;  
     }
 
     .banner-section-2{
@@ -943,7 +938,7 @@ footer .copyright-text{
     }
 
     .text-container p{
-        font-size: 5vw; 
+        font-size: 4vw; 
         padding: 10px ;
     }
     

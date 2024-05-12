@@ -451,11 +451,7 @@ li, h1, h2, h5, span, p{
 .pdt-detail p{
     margin: 15px 0px;
     font-weight: 600;
-}
-
-.pdt-detail .pdt-detail-list li{
-    padding: 10px 0;
-}
+} 
 
 .pdt-price-table table{
     width: 90%;
@@ -593,12 +589,14 @@ footer .copyright-text{
     .nav-bar{
         display: none;
     }
+
     .nav-bar2{
-        /* display: none; */
+        display: none;
         padding: 0px;
         position: absolute;
-        z-index: 1;
+        z-index: 999;
     }
+
     .nav-bar2 .active{
         display: none;
         box-shadow: none;
@@ -608,6 +606,10 @@ footer .copyright-text{
         text-align: center;
     } 
 
+    .nav-bar2.active{
+        display: block;
+    }
+    
     .dropdown:hover .nav-bar2 .active{
         display: block;
     }
@@ -723,28 +725,15 @@ footer .copyright-text{
 
     .pdt-rightside .pdt-price span {
         font-size: 19px;
-    }
-
-    .pdt-rightside .pdt-para h5{
-        font-size: 18px;
-    }
-
-    .pdt-rightside .pdt-star{
-        display: block;
-    }
+    } 
 
     .pdt-rightside .pdt-star span{
-        font-size: 40px;
-        margin-left: -10px;
+        font-size: 30px;
+        margin-left: -5px;
     }
     .pdt-rightside .pdt-star p{
-        font-weight: 700;
-        margin-left: -10px;
-        font-size: 18px;
-    }
-    .pdt-guranteed{
-        font-size: 20px;
-    }
+        font-weight: 700; 
+    } 
     
     .pdt-wishlist input{
         width: 37%;
@@ -758,14 +747,11 @@ footer .copyright-text{
     
     .pdt-center-img img{
         width: 100%;
-    }
-
-    .pdt-detail p{
-        font-size: 20px;
-    }
+    } 
 
     .pdt-detail-list{
-        font-size: 20px;
+        font-size: 15px;
+        line-height: 30px;
     }
 
     .pdt-detail h2, .pdt-price-breakup h2 {
