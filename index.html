@@ -53,14 +53,14 @@
                         </nav>        
                     </div>
 
-                    <div class="sj-hamburger">
-                        <i class="fa-solid fa-bars"></i>
+                    <div class="sj-hamburger" id="hamburger">
+                        <i class="fa-solid fa-bars" ></i>
                     </div>
 
                 </div> 
                     
                 <div class="nav-bar2">
-                    <nav> 
+                    <nav id="dropdown"> 
                         <div class="dropdown">
                             <div class="drop-menu-icon"> 
                                 <a href="" class="nav-link">All Jewellery</a> 
@@ -929,6 +929,14 @@
                         },
                     }}).mount() 
                 })
+
+                
+                hamburger = document.querySelector('#hamburger');
+                hamburger.onclick = function(){
+                    navBar = document.querySelector('.nav-bar2');
+                    navBar.classList.toggle("active")
+                }
+
             </script>
         </div>
     </div> 

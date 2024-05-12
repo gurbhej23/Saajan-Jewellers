@@ -770,11 +770,15 @@ footer .copyright-text{
     .nav-bar{
         display: none;
     }
-    .nav-bar2{
-        /* display: none; */
+    .nav-bar2{   
+        display: none;
         padding: 0px;
         position: absolute;
         z-index: 1;
+    }   
+
+    .nav-bar2.active{
+        display: block;
     }
     .nav-bar2 .active{
         display: none;
