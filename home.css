@@ -41,8 +41,7 @@ footer .container{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
-    padding: 0px 10px;
+    justify-content: space-around; 
     flex-wrap: wrap;
 }
 .sj-logo {
@@ -760,16 +759,13 @@ footer .copyright-text{
 
     section:nth-child(9){
         display: none;
-    }
-
-    .nav-bar{
-        display: none;
-    }
+    } 
     .nav-bar2{   
         display: none;
         padding: 0px;
         position: absolute;
         z-index: 999;
+        top: 63px;
     }   
 
     .nav-bar2.active{
@@ -839,17 +835,25 @@ footer .copyright-text{
     }
 
     .nav-bar2 .nav-link{
-        font-size: 13px;
-        padding: 0px;
+        font-size: 14px;
+        padding: 5px;
     }
 
     .search{
         margin: 10px 9px 0px 10px;
         height: 43px;
         width: 80%;
+    } 
+    .sj-links-link{
+        padding: 0;
     }
 
-    .sj-links {
+    .sj-links-link a{    
+        padding: 3vw 10vw;
+        font-size: 4vw;
+    }
+
+    .sj-links-link a span{
         display: none;
     }
     .sj-search {
@@ -972,7 +976,7 @@ footer .copyright-text{
 
     .splide__arrows button{   
         font-size: 10px;
-        transform: translateY(-40px);
+        transform: translateY(-18px);
         margin: 0px -5px;
         background: transparent;
     }

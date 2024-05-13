@@ -36,25 +36,37 @@
                         </div>
                     </div> 
 
+                    <div class="sj-hamburger" id="hamburger" onclick="hamburger()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
                     <div class="sj-links">
                         <nav>
                             <div class="sj-links-link">
-                                <a href="index.html">Home</a>
+                                <a href="index.html">
+                                    <i class="fa fa-home" aria-hidden="true"></i>
+                                    <span>Home</span>
+                                </a>
                             </div>
                             <div class="sj-links-link">
-                                <a href="">Jewellery</a> 
+                                <a href="">
+                                    <i class="fa fa-diamond" aria-hidden="true"></i>
+                                    <span>Jewellery</span>    
+                                </a> 
                             </div>
                             <div class="sj-links-link">
-                                <a href="cart.html">Cart</a>
+                                <a href="cart.html">
+                                    <i class="fa fa-heart" aria-hidden="true"></i>
+                                    <span>Cart</span>
+                                </a>
                             </div>
                             <div class="sj-links-link">
-                                <a href="contact.html">Contact us</a>
+                                <a href="contact.html">
+                                    <i class="fa fa-address-book" aria-hidden="true"></i>
+                                    <span>Contact us</span>
+                                </a>
                             </div>
                         </nav>        
-                    </div>
-
-                    <div class="sj-hamburger" id="hamburger">
-                        <i class="fa-solid fa-bars"></i>
                     </div>
 
                 </div> 
@@ -64,11 +76,11 @@
                         <div class="dropdown">
                             <div class="drop-menu-icon"> 
                                 <a href="" class="nav-link">All Jewellery</a> 
-                                <i class="fa-solid fa-chevron-down "></i>
+                                <i class="fa-solid fa-chevron-down" id="drop-down"></i>
                             </div>
                             <hr class="hr-line">
                             <div class="drop-menu-1 active">
-                                <ul>
+                                <ul class="scroll_bar">
                                     <div> 
                                         <li class="list">Category</li>
                                         <div class="res-list">
@@ -259,7 +271,7 @@
                     <div class="category splide splide1">
                         <div class=" splide__track">
                             <!-- <span class="material-symbols-outlined"> chevron_left </span> -->
-                            <div class=" splide__list" >
+                            <div class=" splide__list" style="align-items:center;">
                                 <div class="card splide__slide">
                                     <a href="product.html?sku=bold_statement_ring">
                                         <div class="img-1">
@@ -931,11 +943,11 @@
                 })
 
                 
-                hamburger = document.querySelector('#hamburger');
-                hamburger.onclick = function(){
+                function hamburger(){
+                let hamburger = document.querySelector('#hamburger');
                     navBar = document.querySelector('.nav-bar2');
                     navBar.classList.toggle("active")
-                }
+                }  
 
             </script>
         </div>
