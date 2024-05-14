@@ -270,7 +270,7 @@ const productsData = {
                 cls:""
             }
         ],
-        "pt-lg-img":[
+        "pdt-lg-img":[
             {
                 lg:"/assets/images/jewellery/gemstone/rings.5.1.jpg",
                 lgcls:'active'
@@ -2233,7 +2233,7 @@ const productsData = {
         "pdt-lg-img":[
             {
                 lg:"/assets/images/jewellery/bangle/bangle.1.1.jpg",
-                lgcls:'activa'
+                lgcls:'active'
             },
             {
                 lg:"/assets/images/jewellery/bangle/bangle.1.2.jpg",
@@ -2326,10 +2326,10 @@ const productsData = {
                 cls:''
             },  
         ],
-        "pdt-lag-img":[
+        "pdt-lg-img":[
             {
                 lg:"/assets/images/jewellery/bangle/bangle3.1.jpg",
-                lgls:'active'
+                lgcls:'active'
             },
             {
                 lg:"/assets/images/jewellery/bangle/bangle3.2.jpg",
@@ -2370,7 +2370,7 @@ const productsData = {
         "pdt-lg-img":[
             { 
                 lg:"/assets/images/jewellery/bangle/bangle4.1.jpg",
-                lgcls:''
+                lgcls:'active'
             },
             {
                 lg:"/assets/images/jewellery/bangle/bangle4.2.jpg",
@@ -3212,7 +3212,7 @@ const productsData = {
         "pdt-center-img": "/assets/images/jewellery/pearl/pearl8.jpg",
         "product-description":"Add to your majestic beauty with this stunning pair of peacock drop earrings crafted in 22 karat yellow gold, with pearl.",
     },
-    "pearl_stud_earrings": { 
+    "pearl_stud_bracelet": { 
         "title":"Pearl Stud Bracelet",  
         "product_name": "Pearl Stud Bracelet",
         "pdt-price":"Rs 40,513", 
@@ -4565,33 +4565,33 @@ const productsData = {
         "grand-total": "Rs 28,709", 
         "pdt-images": [
             {
-                src:"/assets/images/jewellery/Men/Men11.2.jpg", 
+                src:"/assets/images/jewellery/Men/Men12.2.jpg", 
                 cls:'active'
             },
             {
-                src:"/assets/images/jewellery/Men/Men11.jpg",
+                src:"/assets/images/jewellery/Men/Men12.jpg",
                 cls:''
             }, 
         ],
         "pdt-lg-img":[
             {
-                lg:"/assets/images/jewellery/Men/Men11.2.jpg",
+                lg:"/assets/images/jewellery/Men/Men12.2.jpg",
                 lgcls:'active'
             },
             {
-                lg:"/assets/images/jewellery/Men/Men11.jpg",
+                lg:"/assets/images/jewellery/Men/Men12.jpg",
                 lgcls:''
             },
         ],
 
-        "pdt-center-img": "/assets/images/jewellery/Men/Men11.jpg",
+        "pdt-center-img": "/assets/images/jewellery/Men/Men12.jpg",
         "product-description":"Embrace divine blessings with this Lord Ganesha pendant crafted in exquisite 22 karat yellow gold.",
     },
 };
 
 $(document).ready(function() {
     let productSKU = window.location.search.substring(5)
-    document.title = `Saajan Jewellers | ${productSKU}`
+    document.title = ` ${productSKU} | Saajan Jewellers`
     console.log(productSKU)
     // Retrieve the template data from the HTML (jQuery is used here).
     var template = $('#product-page').html();

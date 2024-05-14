@@ -49,7 +49,7 @@
                                 </a>
                             </div>
                             <div class="sj-links-link">
-                                <a href="">
+                                <a href="#category">
                                     <i class="fa fa-diamond" aria-hidden="true"></i>
                                     <span>Jewellery</span>    
                                 </a> 
@@ -359,10 +359,11 @@
                         <h1>Shop By Category</h1>
                         <br>
                         <p>Browse through your favorite categories. We've got them all!</p>
-                        <img src="/assets/images/jewellery/Line-Design.svg" alt="">
+                        <img src="/assets/images/jewellery/Line-Design.svg" alt="" id="category">
                         <div class="category">
                             <div class="items">
-                                <a href="gemstone.html"><img src="/assets/images/jewellery/ring2.jpg">
+                                <a href="category.html?sku=Rings">
+                                    <img src="/assets/images/jewellery/ring2.jpg">
                                     <h2>Rings</h2>  
                                     <div class="cursor">
                                         <div class="pdt-card-footer">
@@ -374,7 +375,8 @@
                                 </a>
                             </div>
                             <div class="items">
-                                <a href="bangle.html"><img src="/assets/images/jewellery/diamonf-bangle.jpg">
+                                <a href="category.html?sku=Bangle">
+                                    <img src="/assets/images/jewellery/diamonf-bangle.jpg">
                                     <h2>Bangle</h2> 
                                     <div class="cursor">
                                         <div class="pdt-card-footer">
@@ -386,7 +388,8 @@
                                 </a>
                             </div>
                             <div class="items">
-                                <a href="bracelets.html"><img src="/assets/images/jewellery/bracelets/bracelets_01.jpg">
+                                <a href="category.html?sku=Bracelets">
+                                    <img src="/assets/images/jewellery/bracelets/bracelets_01.jpg">
                                     <h2>Bracelets</h2>
                                     <div class="cursor">
                                         <div class="pdt-card-footer">
@@ -398,7 +401,8 @@
                                 </a>
                             </div>
                             <div class="items">
-                                <a href="pendant.html"><img src="/assets/images/jewellery/pendant.jpg">
+                                <a href="category.html?sku=Pendant">
+                                    <img src="/assets/images/jewellery/pendant.jpg">
                                     <h2>Pendant</h2>
                                     <div class="cursor">
                                         <div class="pdt-card-footer">
@@ -410,7 +414,8 @@
                                 </a>
                             </div>
                             <div class="items">
-                                <a href="earrings.html"><img src="/assets/images/jewellery/earrings-1.jpg">
+                                <a href="category.html?sku=Earring">
+                                    <img src="/assets/images/jewellery/earrings-1.jpg">
                                     <h2>Earrings</h2> 
                                     <div class="cursor">
                                         <div class="pdt-card-footer">
@@ -424,7 +429,8 @@
                         </div>
                         <div class="category">
                             <div class="items">
-                                <a href="nosepin.html"><img src="/assets/images/jewellery/nosepins.jpg">
+                                <a href="category.html?sku=Nosepin">
+                                    <img src="/assets/images/jewellery/nosepins.jpg">
                                     <h2>Nose Pins </h2>
                                     <div class="cursor">
                                         <div class="pdt-card-footer">
@@ -436,7 +442,8 @@
                                 </a>
                             </div>
                             <div class="items">
-                                <a href="mangalsutra.html"><img src="/assets/images/jewellery/mangalsutra.jpg">
+                                <a href="category.html?sku=Mangalsutra">
+                                    <img src="/assets/images/jewellery/mangalsutra.jpg">
                                     <h2>Mangalsutra</h2>
                                     <div class="cursor">
                                         <div class="pdt-card-footer">
@@ -448,7 +455,8 @@
                                 </a>
                             </div>
                             <div class="items">
-                                <a href="chains.html"><img src="/assets/images/jewellery/chain.jpg">
+                                <a href="category.html?sku=Chain">
+                                    <img src="/assets/images/jewellery/chain.jpg">
                                     <h2>Chains</h2>
                                     <div class="cursor">
                                         <div class="pdt-card-footer">
@@ -460,7 +468,8 @@
                                 </a>
                             </div>
                             <div class="items">
-                                <a href="goldcoins.html"><img src="/assets/images/jewellery/coin.jpg">
+                                <a href="category.html?sku=Gold_Coins">
+                                    <img src="/assets/images/jewellery/coin.jpg">
                                     <h2>Gold Coins</h2>
                                     <div class="cursor">
                                         <div class="pdt-card-footer">
@@ -472,7 +481,8 @@
                                 </a>
                             </div>
                             <div class="items">
-                                <a href="pearl.html"><img src="/assets/images/jewellery/pearl/pearl5.1.jpg">
+                                <a href="category.html?sku=Pearl">
+                                    <img src="/assets/images/jewellery/pearl/pearl5.1.jpg">
                                     <h2>Pearl</h2>
                                     <div class="cursor">
                                         <div class="pdt-card-footer">
@@ -814,7 +824,7 @@
                                     <h6>Connect On <br>Whatsapp</h6>
                                     <i class="fa-brands fa-whatsapp contact-text-icon"></i>
                                 </div>  
-                                <a href="">
+                                <a href="https://wa.me/9780237176">
                                     <div class="btn"> 
                                         <h2>Connect</h2> 
                                         <span class="material-symbols-outlined btn-icon"> arrow_forward </span> 
@@ -941,10 +951,9 @@
                         },
                     }}).mount() 
                 })
-
-                
+ 
                 function hamburger(){
-                let hamburger = document.querySelector('#hamburger');
+                    let hamburger = document.querySelector('#hamburger');
                     navBar = document.querySelector('.nav-bar2');
                     navBar.classList.toggle("active")
                 }  

@@ -142,6 +142,7 @@ footer .container{
 .nav-bar2{
     text-transform: uppercase;
     background: #8d4836; 
+    padding: 16px 0px;
     width: 100%;
 } 
 
@@ -755,17 +756,14 @@ footer .copyright-text{
         display: flex;
         justify-content: space-between;
         align-items: center;
-    }
-
-    section:nth-child(9){
-        display: none;
     } 
+
     .nav-bar2{   
         display: none;
         padding: 0px;
         position: absolute;
         z-index: 999;
-        top: 63px;
+        top: 59px;
     }   
 
     .nav-bar2.active{
@@ -831,7 +829,7 @@ footer .copyright-text{
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        line-height: 37px;
+        line-height: 42px;
     }
 
     .nav-bar2 .nav-link{
@@ -856,6 +854,7 @@ footer .copyright-text{
     .sj-links-link a span{
         display: none;
     }
+    
     .sj-search {
         width: 55vw;
     } 
@@ -888,7 +887,7 @@ footer .copyright-text{
     } 
 
     .banner-section img{
-        width: 100%;
+        height: 188px;
         border-radius: 0px;  
     }
 
@@ -943,7 +942,7 @@ footer .copyright-text{
 
     .text-container p{
         font-size: 4vw; 
-        padding: 10px ;
+        padding: 18px;
     }
     
     section:nth-of-type(3)
@@ -1104,6 +1103,33 @@ footer .copyright-text{
         animation: none;
     } 
 
+    .schedule-card{    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .schedule-card .contact-1{
+        width: 80vw;
+        height: 40vw;
+    }
+
+    .schedule-card h6{
+        font-size: 6vw;
+    }
+
+    .schedule-card .contact-text-icon{
+        font-size: 18vw;
+    }
+
+    .schedule-card .contact-1 .btn{
+        width: 20vw;
+        left: 25px;
+        bottom: 23px;
+        padding: 1vw;
+        font-size: 9px;
+    }
     footer .container{
         width: auto;
     }
