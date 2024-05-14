@@ -674,6 +674,184 @@ const categoryData = {
             },   
         ], 
     },
+
+    "trend_earrings":{
+        "category":"trending-earrings",
+        "category_banner":"/assets/images/jewellery/earrings-1/earrings-banner.jpg", 
+        "category-card": [
+            {
+                href:"diamond_drop_earrings",
+                name:"Diamond Drop",
+                price:"₹ 38595",
+                src1:"/assets/images/jewellery/earrings-1/earrings-2.jpg",
+                src2:"/assets/images/jewellery/earrings-1/earrings-1.jpg", 
+            },
+ 
+            { 
+                href:"gold_multi_layer_jhumkass",
+                name:"Multi Layer Jhumkas",
+                price:"₹ 57621.61",
+                src1:"/assets/images/jewellery/earrings-1/earrings-3.1.jpg",
+                src2:"/assets/images/jewellery/earrings-1/earrings-3.jpg",
+            },
+
+            { 
+                href:"diamond_drop_earrings",
+                name:"Drop Earrings",
+                price:"Out of Stock",
+                src1:"/assets/images/jewellery/earrings-1/earrings-4.1.jpg",
+                src2:"/assets/images/jewellery/earrings-1/earrings-4.jpg",
+            },
+
+            { 
+                href:"diamond_stud_earrings",
+                name:"Diamond Stud",
+                price:"₹ 13162.23",
+                src1:"/assets/images/jewellery/earrings-1/earrings-6.jpg",
+                src2:"/assets/images/jewellery/earrings-1/earrings-6.1.jpg",
+            },
+
+            { 
+                href:"majestic_traditional_stud_earrings",
+                name:"Majestic Traditional",
+                price:"Out of Stock",
+                src1:"/assets/images/jewellery/earrings-1/earrings-7.1.jpg",
+                src2:"/assets/images/jewellery/earrings-1/earrings-7.jpg", 
+            },
+
+            { 
+                href:"diamond_stud_earrings_2",
+                name:"Diamond Earring",
+                price:"₹ 19105.17",
+                src1:"/assets/images/jewellery/earrings-1/earrings-5.jpg",
+                src2:"/assets/images/jewellery/earrings-1/earrings-5.1.jpg",
+            },
+
+            { 
+                href:"traditional_gold_stud_earrings",
+                name:"Traditional Earrings",
+                price:"Out of Stock",
+                src1:"/assets/images/jewellery/earrings-1/earrings-8.1.jpg",
+                src2:"/assets/images/jewellery/earrings-1/earrings-8.jpg", 
+            },  
+
+            { 
+                href:"pearl_earrings",
+                name:"Pearl Earrings",
+                price:"₹ 132084",
+                src1:"/assets/images/jewellery/earrings-1/earrings-9.1.jpg",
+                src2:"/assets/images/jewellery/earrings-1/earrings-9.jpg", 
+            },   
+        ], 
+    },
+
+    "pretty_pink":{
+        "category":"Pretty In Pinks",
+        "category_banner":"/assets/images/jewellery/prettypink/prettyinpink-ban.png", 
+        "category-card": [
+            {
+                href:"pink_diamond_ring",
+                name:"Pink Diamond Ring",
+                price:"₹ 36089.95",
+                src1:"/assets/images/jewellery/moderndesign/mod1.1.jpg",
+                src2:"/assets/images/jewellery/prettypink/pink1.jpg", 
+            },
+ 
+            { 
+                href:"love_diamond_ring",
+                name:"Love Diamond Ring",
+                price:"₹ 52662.09",
+                src1:"/assets/images/jewellery/prettypink/pink2.1.jpg",
+                src2:"/assets/images/jewellery/prettypink/pink2.jpg",
+            },
+
+            { 
+                href:"love_diamond_pendant",
+                name:"Diamond Pendant",
+                price:"₹ 41745.37",
+                src1:"/assets/images/jewellery/prettypink/pink1.3.jpg",
+                src2:"/assets/images/jewellery/prettypink/pink3.jpg",
+            },
+
+            { 
+                href:"gold_diamond_bracelet",
+                name:"Diamond Bracelet",
+                price:"₹ 40513.40",
+                src1:"/assets/images/jewellery/prettypink/pink1.4.jpg",
+                src2:"/assets/images/jewellery/prettypink/pink4.jpg",
+            },
+
+            { 
+                href:"woman_diamond_ring",
+                name:"Diamond Ring",
+                price:"₹ 42754",
+                src1:"/assets/images/jewellery/prettypink/pink1.5.jpg",
+                src2:"/assets/images/jewellery/prettypink/pink5.jpg", 
+            },
+
+            { 
+                href:"pink_diamond_earring",
+                name:"Stud Earring",
+                price:"Out of Stock",
+                src1:"/assets/images/jewellery/prettypink/pink1.6.jpg",
+                src2:"/assets/images/jewellery/prettypink/pink6.jpg",
+            },
+
+            { 
+                href:"warm_glow_diamond_pendant",
+                name:"Warm Glow Diamond",
+                price:"Out of Stock",
+                src1:"/assets/images/jewellery/prettypink/pink1.7.jpg",
+                src2:"/assets/images/jewellery/prettypink/pink7.jpg", 
+            },  
+
+            { 
+                href:"rosiamond_stud_earrings",
+                name:"Rosiamond Stud",
+                price:"₹ 63217",
+                src1:"/assets/images/jewellery/prettypink/pink1.8.jpg",
+                src2:"/assets/images/jewellery/prettypink/pink8.jpg", 
+            },   
+        ], 
+    },
+
+    "modern_designs":{
+        "category":"Modern Designs",
+        "category_banner":"/assets/images/jewellery/moderndesign/moderndes-ban.png", 
+        "category-card": [
+            {
+                href:"magic_diamond_pendant",
+                name:"Magic Diamond Pendant",
+                price:"₹ 91,670",
+                src1:"/assets/images/jewellery/moderndesign/mod1.1.jpg",
+                src2:"/assets/images/jewellery/moderndesign/mod1.jpg", 
+            },
+ 
+            { 
+                href:"trouble_necklace_set",
+                name:"Trouble Neclace Set",
+                price:"₹1,49,038.59",
+                src1:"/assets/images/jewellery/moderndesign/mod1.2.jpg",
+                src2:"/assets/images/jewellery/moderndesign/mod2.jpg",
+            },
+
+            { 
+                href:"candy_crush_necklace",
+                name:"Candy Crush Necklace",
+                price:"$1,529.71",
+                src1:"/assets/images/jewellery/moderndesign/mod1.3.jpg",
+                src2:"/assets/images/jewellery/moderndesign/mod3.jpg",
+            },
+
+            { 
+                href:"yig_and_yang_necklace",
+                name:"Yig And Yang Necklace",
+                price:"Out of Stock",
+                src1:"/assets/images/jewellery/moderndesign/mod1.4.jpg",
+                src2:"/assets/images/jewellery/moderndesign/mod4.jpg",
+            },
+        ], 
+    },
 }
 
 
