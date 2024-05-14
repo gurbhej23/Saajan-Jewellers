@@ -18,6 +18,9 @@ a {
     border: 1px solid #490000;
 }
 
+section:nth-of-type(2) .splide__arrows button{
+    display: none;
+}
 /* Cintainer */ 
 section .container{ 
     width: 1280px;
@@ -317,6 +320,16 @@ section:nth-of-type(2)
 
 .splide__pagination li button{
    display: none;
+} 
+
+section:nth-of-type(3)
+.splide__arrows button{
+    transform: translateY(-18px);
+}
+
+section:nth-of-type(7)
+.splide__arrows button{
+    transform: translateY(-18px);
 }
 
 .image-sec{  
@@ -329,11 +342,7 @@ section:nth-of-type(2)
                                         /* section-2 */
 
 .category{
-    text-align: center;
-    /* margin-bottom: 40px; */
-    display: flex;
-    justify-content: space-evenly;
-    /* width: 80%; */
+    text-align: center; 
     height: 280px;
 }
 
@@ -946,15 +955,17 @@ footer .copyright-text{
         display: none;
     }   
 
-    section:nth-of-type(3) .splide__pagination{
+    section:nth-of-type(3) 
+    .splide__pagination{
         bottom: -1.89rem;
     }
 
-    section:nth-of-type(3) .splide__pagination li button{
+    section:nth-of-type(3) 
+    .splide__pagination li button{
         display: block;
         background-color: #490000;
     }
-    
+
     section:nth-of-type(7)
     .splide__arrows button{
         display: none;
@@ -970,22 +981,22 @@ footer .copyright-text{
     }
 
     .splide__arrows button{   
-        font-size: 10px;
-        transform: translateY(-18px);
-        margin: 0px -5px;
-        background: transparent;
+        font-size: 14px;
+        transform: translateY(-23px);
+        margin: 0px -5px; 
+        background-color: #c59a60;
     }
     
     .splide__arrows button svg{
-        font-size: 15px;
+        font-size: 12px;
     }
 
     .image-sec{
         padding: 0px; 
     } 
+
     .card img {
-        width: 36vw;
-        height: 140px;
+        width: 36vw; 
     }
 
     .card h2{
@@ -999,10 +1010,9 @@ footer .copyright-text{
         overflow: hidden; 
     }
     
-    .category .items{
-        width: 38vw;
+    .category .items{ 
         height: 40vw;
-        padding-left: 5vw;
+        padding-left: 3vw;
         padding-right: 7vw;
     }
 
@@ -1104,6 +1114,7 @@ footer .copyright-text{
         flex-direction: column;
         align-items: center;
         gap: 20px;
+        margin-top: 20px;
     }
 
     .schedule-card .contact-1{
@@ -1112,28 +1123,32 @@ footer .copyright-text{
     }
 
     .schedule-card h6{
-        font-size: 6vw;
+        font-size: 7vw;
     }
 
     .schedule-card .contact-text-icon{
-        font-size: 18vw;
+        font-size: 25vw;
     }
 
     .schedule-card .contact-1 .btn{
         width: 20vw;
-        left: 25px;
+        left: 35px;
         bottom: 23px;
         padding: 1vw;
         font-size: 9px;
     }
+
+    .schedule-card .contact-1 .btn-icon{
+        font-size: 18px;
+    }
+
     footer .container{
         width: auto;
     }
 
     .footer-sec{
         display: flex;
-        flex-direction: column; 
-        margin-top: 70px;
+        flex-direction: column;  
 
     }
 
