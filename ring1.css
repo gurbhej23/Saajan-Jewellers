@@ -427,6 +427,9 @@ li, h1, h2, h5, span, p{
     box-shadow: 2px 2px 4px #53433e
 }
 
+.pdt-detail-list{
+    line-height: 43px;
+}
 .pdt-center{
     display: flex;
 }
@@ -751,7 +754,7 @@ footer .copyright-text{
 
     .pdt-detail-list{
         font-size: 15px;
-        line-height: 30px;
+        line-height: 40px;
     }
 
     .pdt-detail h2, .pdt-price-breakup h2 {

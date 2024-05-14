@@ -852,6 +852,216 @@ const categoryData = {
             },
         ], 
     },
+
+    "Men":{
+        "category":"Men Collection",
+        "category_banner":"assets/images/jewellery/Men/men-ban.jpg",
+        "category-card": [  
+            { 
+                href:"hanuman_pendant",
+                name:"Hanuman Pendant",
+                price:"₹ 50100",
+                src1:"/assets/images/jewellery/Men/Men9.2.jpg",
+                src2:"/assets/images/jewellery/Men/Men9.jpg", 
+            }, 
+
+            { 
+                href:"veer_hanuman_pendant",
+                name:"Veer Hanuman",
+                price:"₹ 21445",
+                src1:"/assets/images/jewellery/Men/Men10.2.jpg",
+                src2:"/assets/images/jewellery/Men/Men10.jpg", 
+            }, 
+
+            { 
+                href:"lord_ganesha_pendant",
+                name:"Lord Ganesha",
+                price:"₹ 127621",
+                src1:"/assets/images/jewellery/Men/Men11.2.jpg",
+                src2:"/assets/images/jewellery/Men/Men11.jpg", 
+            }, 
+
+            { 
+                href:"lord_ganesha_gold_pendant",
+                name:"Lord Ganesha",
+                price:"₹ 28709",
+                src1:"/assets/images/jewellery/Men/Men12.2.jpg",
+                src2:"/assets/images/jewellery/Men/Men12.jpg", 
+            }, 
+
+            { 
+                href:"gold_ring_men",
+                name:"Gold Ring Men",
+                price:"₹ 37952.75",
+                src1: "/assets/images/jewellery/Men/Men2.2.jpg",
+                src2:"/assets/images/jewellery/Men/Men2.jpg", 
+            },
+
+            { 
+                href:"swanky_opulence_bracelet",
+                name:"Swanky Bracelet",
+                price:"₹ 197207",
+                src1:"/assets/images/jewellery/bracelets/bracelets2.jpg",
+                src2:"/assets/images/jewellery/bracelets/bracelets2.1.jpg",
+            },
+
+            { 
+                href:"love_bracelet",
+                name:"Love Bracelets",
+                price:"₹ 129722",
+                src1:"/assets/images/jewellery/bracelets/bracelets3.1.jpg",
+                src2:"/assets/images/jewellery/bracelets/bracelets3.jpg",
+            },
+
+            { 
+                href:"modern_sophistication_bracelet",
+                name:"Modern Sophisticated",
+                price:"₹ 121192",
+                src1:"/assets/images/jewellery/bracelets/bracelets4.1.jpg",
+                src2:"/assets/images/jewellery/bracelets/bracelets4.jpg",
+            },
+        ], 
+    }, 
+
+    "Kid":{
+        "category":"Kid Collection",
+        "category_banner":"assets/images/jewellery/kids/kids-ban.jpg",
+        "category-card": [  
+            { 
+                href:"playful_elegance_earrings",
+                name:"Playful Elegance",
+                price:"Out of Stock",
+                src1:"/assets/images/jewellery/kids/kids1.1.jpg",
+                src2:"/assets/images/jewellery/kids/kids1.jpg", 
+            }, 
+
+            { 
+                href:"florance_vibrance_earrings",
+                name:"Floral Vibrance",
+                price:"₹ 17740",
+                src1:"/assets/images/jewellery/kids/kids2.1.jpg",
+                src2:"/assets/images/jewellery/kids/kida2.jpg", 
+            }, 
+
+            { 
+                href:"kids_diamond_earrings",
+                name:"Kids Diamond",
+                price:"₹ 22883",
+                src1:"/assets/images/jewellery/kids/kids3.1.jpg",
+                src2:"/assets/images/jewellery/kids/kids3.jpg", 
+            }, 
+
+            { 
+                href:"kids_bangles",
+                name:"Kids Bangles",
+                price:"₹ 77403.25",
+                src1:"/assets/images/jewellery/kids/kids4.1.jpg",
+                src2:"/assets/images/jewellery/kids/kids4.jpg", 
+            },
+        ], 
+    }, 
+
+    "Women":{
+        "category":"women Collection",
+        "category_banner":"assets/images/jewellery/women-ban.jpg",
+        "category-card": [  
+            { 
+                href:"sophisticated_diamond_ring",
+                name:"Sophisticated Ring",
+                price:"₹ 2,32,444",
+                src1:"/assets/images/jewellery/gemstone/rings8.jpg",
+                src2:"/assets/images/jewellery/gemstone/rings8.1.jpg", 
+            },
+
+            { 
+                href:"regal_intricate_ring",
+                name:"Regal Intricate Ring",
+                price:"₹ 72,541",
+                src1:"/assets/images/jewellery/gemstone/rings9.jpg",
+                src2:"/assets/images/jewellery/gemstone/rings9.1.jpg", 
+            },
+
+            { 
+                href:"ruby_gold_ring",
+                name:"Ruby Gold Ring",
+                price:"OUT OF STOCK",
+                src1:"/assets/images/jewellery/gemstone/rings10.jpg",
+                src2:"/assets/images/jewellery/gemstone/rings10.1.jpg", 
+            },
+
+            { 
+                href:"majestic_traditional_stud_earrings",
+                name:"Majestic Traditional",
+                price:"Out of Stock",
+                src1:"/assets/images/jewellery/earrings-1/earrings-7.1.jpg",
+                src2:"/assets/images/jewellery/earrings-1/earrings-7.jpg", 
+            },
+
+            { 
+                href:"diamond_stud_earrings_2",
+                name:"Diamond Earring",
+                price:"₹ 19105.17",
+                src1:"/assets/images/jewellery/earrings-1/earrings-5.jpg",
+                src2:"/assets/images/jewellery/earrings-1/earrings-5.1.jpg",
+            },
+
+            { 
+                href:"traditional_gold_stud_earrings",
+                name:"Traditional Earrings",
+                price:"Out of Stock",
+                src1:"/assets/images/jewellery/earrings-1/earrings-8.1.jpg",
+                src2:"/assets/images/jewellery/earrings-1/earrings-8.jpg", 
+            },  
+
+            { 
+                href:"diamond_stud_earrings",
+                name:"Diamond Stud",
+                price:"₹ 13162.23",
+                src1:"/assets/images/jewellery/earrings-1/earrings-6.jpg",
+                src2:"/assets/images/jewellery/earrings-1/earrings-6.1.jpg",
+            },
+
+            { 
+                href:"majestic_traditional_stud_earrings",
+                name:"Majestic Traditional",
+                price:"Out of Stock",
+                src1:"/assets/images/jewellery/earrings-1/earrings-7.1.jpg",
+                src2:"/assets/images/jewellery/earrings-1/earrings-7.jpg", 
+            },
+
+            { 
+                href:"diamond_stud_earrings_2",
+                name:"Diamond Earring",
+                price:"₹ 19105.17",
+                src1:"/assets/images/jewellery/earrings-1/earrings-5.jpg",
+                src2:"/assets/images/jewellery/earrings-1/earrings-5.1.jpg",
+            },
+
+            { 
+                href:"leafy-sparkle-diamond-mangalsutra",
+                name:"Sparkle Diamond",
+                price:"₹ 45161",
+                src1:"/assets/images/jewellery/mangal/M2.jpg",
+                src2:"/assets/images/jewellery/mangal/M2.1.jpg",
+            },
+
+            { 
+                href:"infinity-swirls-diamond-mangalsutra",
+                name:"Floral Diamond",
+                price:"₹ 50726",
+                src1:"/assets/images/jewellery/mangal/M3.1.jpg",
+                src2:"/assets/images/jewellery/mangal/M3.jpg",
+            },
+
+            { 
+                href:"fancy_gold_and_diamond_nose_pin",
+                name:"Fancy Gold",
+                price:"Out of Stock",
+                src1:"/assets/images/jewellery/nosepin/nosepins5.1.jpg",
+                src2:"/assets/images/jewellery/nosepin/nosepins5.jpg",
+            },
+        ], 
+    },
 }
 
 

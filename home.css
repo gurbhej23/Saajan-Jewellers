@@ -41,7 +41,7 @@ footer .container{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around; 
+    justify-content: space-between; 
     flex-wrap: wrap;
 }
 .sj-logo {
@@ -141,8 +141,7 @@ footer .container{
 
 .nav-bar2{
     text-transform: uppercase;
-    background: #8d4836; 
-    padding: 16px 0px;
+    background: #8d4836;  
     width: 100%;
 } 
 
@@ -872,22 +871,19 @@ footer .copyright-text{
         color: #fff;
         font-size: 6vw;
         position: relative;
+        margin-right: 10px;
     }
 
     section .container{
         width: 100%;
-    }
-    .ban-cont{
-        width: 85%;
-    }
+    } 
 
     .ban-cont h1{
         font-size: 15px;
         margin: 5px;
     } 
 
-    .banner-section img{
-        height: 188px;
+    .banner-section img{ 
         border-radius: 0px;  
     }
 
