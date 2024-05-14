@@ -708,14 +708,24 @@ footer .copyright-text{
     .product-wrapper{
         display: flex;
         flex-direction: column; 
+        margin: 5px 0;
     }
 
     .product-wrapper .pdt-thumbs{
         display: none;
     }
 
-    .crousel{
-        display: none;
+    .crousel span{
+        font-size: 30px;
+        background-color: #490000;
+        color: antiquewhite;
+        border-radius: 40px;
+        z-index: 99;
+        margin: 0 -13px;
+    }
+
+    .pdt-leftside img{
+        border-radius: 50%;
     }
 
     .pdt-rightside{
@@ -749,6 +759,7 @@ footer .copyright-text{
     }
     
     .pdt-center-img img{
+        border-radius: 50%;
         width: 100%;
     } 
 
