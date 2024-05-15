@@ -3,8 +3,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,1,0" />
     <link rel="shortcut icon" href="/assets/images/jewellery/logo2-removebg-preview.png" type="image/x-icon">
     <link rel="stylesheet" href="home.css">
+    <script src="https://kit.fontawesome.com/b55fccd070.js" crossorigin="anonymous"></script>   
     <script src="https://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
@@ -53,9 +55,9 @@
                                 </a> 
                             </div>
                             <div class="sj-links-link">
-                                <a href="cart.html">
+                                <a href="wishlist.html">
                                     <i class="fa fa-heart" aria-hidden="true"></i>
-                                    <span>Cart</span>
+                                    <span>Wishlist</span>
                                 </a>
                             </div>
                             <div class="sj-links-link">
@@ -71,68 +73,72 @@
                     
                 <div class="nav-bar2">
                     <nav id="dropdown"> 
-                        <div class="dropdown">
+                        <div class="dropdown" id="drop-menu" onclick="dropmenu()">
                             <div class="drop-menu-icon"> 
                                 <a href="#category" class="nav-link">All Jewellery</a> 
-                                <i class="fa-solid fa-chevron-down" id="drop-down"></i>
+                                <i class="fa-solid fa-chevron-down"></i>
                             </div>
                             <hr class="hr-line">
-                            <div class="drop-menu-1 active">
-                                <ul class="scroll_bar">
-                                    <div> 
-                                        <li class="list">Category</li>
-                                        <div class="res-list"> 
-                                            <li><a href="category.html?sku=Bracelets">Bracelets</a></li>
-                                            <li><a href="category.html?sku=Earring">Earrings</a></li>
-                                            <li><a href="category.html?sku=Pendant">Pendants</a></li>
-                                            <li><a href="category.html?sku=Rings">Rings</a></li>
-                                            <li><a href="category.html?sku=Bangle">Bangle</a></li>
-                                            <li><a href="category.html?sku=Pearl">Pearl</a></li>
-                                            <li><a href="category.html?sku=Nosepin">Nose Pin</a></li> 
+                            <div class="drop-down">
+                                <div class="drop-menu-1 active">
+                                    <ul >
+                                        <div> 
+                                            <li class="list">Category</li>
+                                            <div class="res-list"> 
+                                                <li><a href="category.html?sku=Bracelets">Bracelets</a></li>
+                                                <li><a href="category.html?sku=Earring">Earrings</a></li>
+                                                <li><a href="category.html?sku=Pendant">Pendants</a></li>
+                                                <li><a href="category.html?sku=Rings">Rings</a></li>
+                                                <li><a href="category.html?sku=Bangle">Bangle</a></li>
+                                                <li><a href="category.html?sku=Pearl">Pearl</a></li>
+                                                <li><a href="category.html?sku=Nosepin">Nose Pin</a></li> 
+                                            </div>
+                                        </div> 
+                                        <div> 
+                                            <li class="list">Gender</li>
+                                            <li><a href="category.html?sku=Women">Women</a></li>
+                                            <li><a href="category.html?sku=Men">Men</a></li>
+                                            <li><a href="category.html?sku=Kid">Kids</a></li> 
                                         </div>
-                                    </div> 
-                                    <div> 
-                                        <li class="list">Gender</li>
-                                        <li><a href="category.html?sku=Women">Women</a></li>
-                                        <li><a href="category.html?sku=Men">Men</a></li>
-                                        <li><a href="category.html?sku=Kid">Kids</a></li> 
-                                    </div>
-                                    <div> 
-                                        <li class="list">Price Brand</li>
-                                        <li><a href="product.html?sku=beaming_button_pearl_stud_earrings">10k-25k</a></li>
-                                        <li><a href="product.html?sku=sleek_gold_foxtail_chain">25k-50k</a></li>
-                                        <li><a href="product.html?sku=gold_stud_earring">50k-1L</a></li>
-                                        <li><a href="product.html?sku=willow_diamond_ring">1L & Above</a></li> 
-                                    </div>
-                                </ul>
+                                        <div> 
+                                            <li class="list">Price Brand</li>
+                                            <li><a href="product.html?sku=beaming_button_pearl_stud_earrings">10k-25k</a></li>
+                                            <li><a href="product.html?sku=sleek_gold_foxtail_chain">25k-50k</a></li>
+                                            <li><a href="product.html?sku=gold_stud_earring">50k-1L</a></li>
+                                            <li><a href="product.html?sku=willow_diamond_ring">1L & Above</a></li> 
+                                        </div>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
-                        <div class="dropdown">
+                        <div class="dropdown" id="drop-menu" onclick="dropmenu1()">
                             <div class="drop-menu-icon"> 
                                 <a href="" class="nav-link">Gold</a> 
                                 <i class="fa-solid fa-chevron-down "></i>
                             </div>
                             <hr class="hr-line">
-                            <div class="drop-menu-1 active">
-                                <ul>
-                                    <div> 
-                                        <li class="list">Category</li>  
-                                        <li><a href="product.html?sku=swanky_opulence_bracelet">Bracelets</a></li>
-                                        <li><a href="product.html?sku=traditional_yellow_gold_semicircle_pendant">Pendants</a></li>
-                                        <li><a href="product.html?sku=gold_ring_men">Gold Ring</a></li>
-                                        <li><a href="product.html?sku=slender_gold_bangles">Bangle</a></li>
-                                        <li><a href="product.html?sku=majestic_peacock_pearl_drop_earrings">Pearl</a></li>
-                                        <li><a href="product.html?sku=dainty_sphere_mangalsutra">Mangalsutra</a></li>
-                                        <li><a href="product.html?sku=bows_of_beauty_chain">gold chains</a></li> 
-                                    </div> 
-                                    <div> 
-                                        <li class="list">Gender</li>
-                                        <li><a href="product.html?sku=majestic_traditional_stud_earrings">Women</a></li>
-                                        <li><a href="product.html?sku=gold_ring_men">Men</a></li>
-                                        <li><a href="product.html?sku=florance_vibrance_earrings">Kids</a></li> 
-                                    </div>   
-                                </ul>
-                            </div> 
+                            <div class="drop-down1">
+                                <div class="drop-menu-1 active">
+                                    <ul>
+                                        <div> 
+                                            <li class="list">Category</li>  
+                                            <li><a href="product.html?sku=swanky_opulence_bracelet">Bracelets</a></li>
+                                            <li><a href="product.html?sku=traditional_yellow_gold_semicircle_pendant">Pendants</a></li>
+                                            <li><a href="product.html?sku=gold_ring_men">Gold Ring</a></li>
+                                            <li><a href="product.html?sku=slender_gold_bangles">Bangle</a></li>
+                                            <li><a href="product.html?sku=majestic_peacock_pearl_drop_earrings">Pearl</a></li>
+                                            <li><a href="product.html?sku=dainty_sphere_mangalsutra">Mangalsutra</a></li>
+                                            <li><a href="product.html?sku=bows_of_beauty_chain">gold chains</a></li> 
+                                        </div> 
+                                        <div> 
+                                            <li class="list">Gender</li>
+                                            <li><a href="product.html?sku=majestic_traditional_stud_earrings">Women</a></li>
+                                            <li><a href="product.html?sku=gold_ring_men">Men</a></li>
+                                            <li><a href="product.html?sku=florance_vibrance_earrings">Kids</a></li> 
+                                        </div>   
+                                    </ul>
+                                </div> 
+                            </div>
                         </div>
                         <div class="dropdown">
                             <div class="drop-menu-icon"> 
@@ -202,22 +208,19 @@
                         </div>
                         <div class="dropdown">
                             <div class="drop-menu-icon"> 
-                                <a href="bestseller.html" class="nav-link">Bestsellers</a> 
-                                <i class="fa-solid fa-chevron-down "></i>
+                                <a href="category.html?sku=Bestsellers" class="nav-link">Bestsellers</a>  
                             </div>
                             <hr class="hr-line">
                         </div> 
                         <div class="dropdown">
                             <div class="drop-menu-icon"> 
-                                <a href="gift.html" class="nav-link">Gift</a> 
-                                <i class="fa-solid fa-chevron-down "></i>
+                                <a href="gift.html" class="nav-link">Gift</a>  
                             </div>
                             <hr class="hr-line"> 
                         </div>
                         <div class="dropdown">
                             <div class="drop-menu-icon"> 
-                                <a href="wedding.html" class="nav-link">Wedding</a> 
-                                <i class="fa-solid fa-chevron-down "></i>
+                                <a href="wedding.html" class="nav-link">Wedding</a>  
                             </div>
                             <hr class="hr-line">
                         </div> 
@@ -495,7 +498,7 @@
                                 <div class="splide__list">
                                     <div class="card-1 splide__slide">
                                         <div class="wish-list">
-                                            <a href="">
+                                            <a href="/">
                                                 <span class="material-symbols-outlined wish-list-icon">favorite</span>
                                             </a>
                                         </div>
@@ -509,7 +512,7 @@
                                     </div>
                                     <div class="card-1 splide__slide"> 
                                         <div class="wish-list">
-                                        <a href="">
+                                        <a href="cart.html">
                                             <span class="material-symbols-outlined wish-list-icon">favorite</span>
                                         </a>
                                     </div>
@@ -900,71 +903,87 @@
                 </div>
             </footer>
 
-            <script src="https://kit.fontawesome.com/b55fccd070.js" crossorigin="anonymous"></script>  
-            <script src="script.js"> 
-            </script> 
-            <script>
-                $(document).ready(function() {
-                    new Splide(".splide1",{
-                        perPage:5,
-                        speed: 2000,
-                        breakpoints: {
-                            430: {
-                            perPage: 2,
-                        },
-                    }}).mount()
-                    
-                    new Splide(".splide2",{ 
-                        speed: 1600,   
-                        fixedWidth : '16rem', 
-                        gap        : '4rem',
-                        padding: { left: 30, right: 30 },
-                        breakpoints: {
-                            430: {   
-                            // fixedWidth : '15rem', 
-                            gap:'3rem',  
-                        }, 
-                    }}).mount()
-                    
-                    new Splide(".splide3",{ 
-                        speed: 1600,   
-                        fixedWidth : '16rem', 
-                        gap        : '4rem',
-                        padding: { left: 30, right: 30 },
-                        breakpoints: {
-                            430: {  
-                                type:'loop', 
-                                gap:'3rem',     
-                        },
-                    }}).mount() 
-
-                    new Splide(".splide5",{ 
-                        speed: 1600,   
-                        perPage:5, 
-                        breakpoints: {
-                            430: {   
-                                perPage:2,  
-                        },
-                    }}).mount() 
-                    new Splide(".splide6",{ 
-                        speed: 1600,   
-                        perPage:5, 
-                        breakpoints: {
-                            430: {   
-                                perPage:2,    
-                        },
-                    }}).mount() 
-                })
- 
-                function hamburger(){
-                    let hamburger = document.querySelector('#hamburger');
-                    navBar = document.querySelector('.nav-bar2');
-                    navBar.classList.toggle("active")
-                }  
-
-            </script>
+            
         </div>
     </div> 
+    <script>
+        $(document).ready(function() {
+            new Splide(".splide1",{
+                perPage:5,
+                speed: 2000,
+                breakpoints: {
+                    430: {
+                    perPage: 2,
+                },
+            }}).mount()
+            
+            new Splide(".splide2",{ 
+                speed: 1600,   
+                fixedWidth : '16rem', 
+                gap        : '4rem',
+                padding: { left: 30, right: 30 },
+                breakpoints: {
+                    430: {   
+                    // fixedWidth : '15rem', 
+                    gap:'3rem',  
+                }, 
+            }}).mount()
+            
+            new Splide(".splide3",{ 
+                speed: 1600,   
+                fixedWidth : '16rem', 
+                gap        : '4rem',
+                padding: { left: 30, right: 30 },
+                breakpoints: {
+                    430: {  
+                        type:'loop', 
+                        gap:'3rem',     
+                },
+            }}).mount() 
+
+            new Splide(".splide5",{ 
+                speed: 1600,   
+                perPage:5, 
+                breakpoints: {
+                    430: {   
+                        perPage:2,  
+                },
+            }}).mount() 
+            new Splide(".splide6",{ 
+                speed: 1600,   
+                perPage:5, 
+                breakpoints: {
+                    430: {   
+                        perPage:2,    
+                },
+            }}).mount() 
+        })
+
+        function hamburger(){
+            let hamburger = document.querySelector('#hamburger');
+            navBar = document.querySelector('.nav-bar2');
+            navBar.classList.toggle("active")
+        }  
+
+        function dropmenu(){
+            let dropmenu = document.querySelector('#drop-menu');
+            navBar1 = document.querySelector('.drop-down');
+            navBar1.classList.toggle("active")
+        }  
+
+        function dropmenu1(){
+            let dropmenu = document.querySelector('#drop-menu');
+            navBar1 = document.querySelector('.drop-down1');
+            navBar1.classList.toggle("active")
+        }   
+
+        $('.wish-list').on('click', function(e){
+            e.preventDefault()
+            $(this).children().children().toggleClass('wish-list-icon');
+            $(this).children().children().toggleClass('color-class');
+        });  
+
+    </script>
 </body>
 
 </html>
