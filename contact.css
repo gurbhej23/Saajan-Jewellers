@@ -1,7 +1,8 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    font-family: 'Gill Sans', 'Gill Sans MT',  'Trebuchet MS', sans-serif; 
+    font-weight: normal; 
 }
 a {
     text-decoration: none;
@@ -29,8 +30,7 @@ section .container{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
-    padding: 0px 10px;
+    justify-content: space-between; 
     flex-wrap: wrap;
 }
 .sj-logo {
@@ -278,6 +278,15 @@ section .container{
     padding: 7px 8px;
     margin: 15px 0;
     width: 100%;
+    border-radius: 10px;
+}
+
+.contact-form .form-sec input::placeholder{
+    color: #490000;
+    border: none;
+}
+.contact-form .form-sec input:focus{
+    outline: none;
 }
 
 .contact-form .form-sec textarea { 
@@ -287,8 +296,15 @@ section .container{
     padding: 7px 8px;
     margin: 15px 0;
     width: 100%;
+    border-radius: 5px;
 }
 
+.contact-form .form-sec textarea::placeholder{
+    color: #490000;
+}
+.contact-form .form-sec textarea:focus{
+    outline: none;
+}
 .contact-form .form-sec button{
     padding: 10px 20px ;
     border: 1px solid #490000;
@@ -401,6 +417,9 @@ footer .copyright-text{
         width: 100%; 
     }
     
+    .img-fluid{
+        width: 70%;
+    }
     .hr-line{
         display: block;
     }
@@ -418,15 +437,21 @@ footer .copyright-text{
         align-items: center;
     }
 
+    section:nth-child(9){
+        display: none;
+    }
+
     .nav-bar{
         display: none;
     }
+
     .nav-bar2{
-        /* display: none; */
+        display: none;
         padding: 0px;
         position: absolute;
-        z-index: 1;
+        z-index: 999; 
     }
+
     .nav-bar2 .active{
         display: none;
         box-shadow: none;
@@ -436,6 +461,10 @@ footer .copyright-text{
         text-align: center;
     } 
 
+    .nav-bar2.active{
+        display: block;
+    }
+    
     .dropdown:hover .nav-bar2 .active{
         display: block;
     }
@@ -486,7 +515,7 @@ footer .copyright-text{
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        line-height: 37px;
+        line-height: 55px;
     }
 
     .nav-bar2 .nav-link{
@@ -499,10 +528,7 @@ footer .copyright-text{
         height: 43px;
         width: 80%;
     }
-
-    .sj-links {
-        display: none;
-    }
+ 
     .sj-search {
         width: 55vw;
     } 
@@ -515,24 +541,33 @@ footer .copyright-text{
     .sj-search-input input{
         width: 36vw;
     }
+
     .sj-hamburger {
         display: block;
         color: #fff;
         font-size: 6vw;
         position: relative;
+        margin-right: 10px;
+    } 
+
+    .sj-links-link{
+        padding: 11px 0;
+    }
+
+    .sj-links-link a{
+        padding: 3vw 10vw;
+        font-size: 4vw;
+    }
+
+    .sj-links-link a span{
+        display: none;
     }
 
     section .container{
         width: 100%;
-    }
-
-    .about-class h1{
-        font-size: 25px;
-    }
-
+    } 
     .about-class p{
-        width: 100%;
-        font-size: 15px;
+        width: 100%; 
     }
 
     .contact-form{
