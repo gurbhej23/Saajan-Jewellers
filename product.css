@@ -295,15 +295,20 @@ li, h1, h2, h5, p{
     display: flex;
     justify-content: space-between;
 }
-
-.pdt-rightside .pdt-name .pdt-share span{
-    font-size: 28px; 
-    cursor: pointer;
+    
+.pdt-share .material-symbols-outlined{
+    font-size: 30px; 
+    color: #490000;
+    padding: 4px;
 }
 
-.pdt-rightside .pdt-name .pdt-share span:hover{
-    color: #fff;
-}
+.color-class {   
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24 
+}  
 
 .pdt-rightside .pdt-name h1{
     font-size: 28px;
@@ -313,28 +318,32 @@ li, h1, h2, h5, p{
 .pdt-rightside .pdt-star{
     display: flex;
     align-items: center;
-    padding-bottom: 15px;
+    padding: 11px 0 8px;
     border-bottom: 1px solid #490000;
 }
 
-.pdt-rightside .pdt-star span{
-    font-weight: 100;
-    font-size: 30px;
-    letter-spacing: -10px;
+.pdt-rightside .pdt-star span{ 
+    font-size: 15px;
+    letter-spacing: 0px;
+    color: #fff;
 }
 
+.pdt-rightside .pdt-star .checked{
+    color: #490000;
+}
 .pdt-rightside .pdt-star p{
     padding-left: 10px;
 }
 
 .pdt-rightside .pdt-para h5{
-    font-size: 14px;
-    font-weight: 500;
+    font-size: 15px;
+    font-weight: 600;
     padding: 15px 0px;
 }
 
 .pdt-rightside .pdt-price span{
     font-size: 30px;
+    color: #490000;
 }
 
 .pdt-attr{
@@ -364,10 +373,10 @@ li, h1, h2, h5, p{
     height: 43px;
 }
 
-.pdt-attr .pdt-qnt select::placeholder{
-    background-color: #490000;
-}
-
+.pdt-attr .pdt-qnt select:focus{
+     outline: none;
+} 
+ 
 .pdt-purity-sec{
     color: #490000;
     font-weight: 600;
@@ -389,7 +398,7 @@ li, h1, h2, h5, p{
 }
 
 .pdt-guranteed{
-    margin: 10px 0;
+    margin: 17px 0;
 }
 
 .pdt-guranteed li{
@@ -435,7 +444,7 @@ li, h1, h2, h5, p{
 }
 
 .pdt-center-img img{
-    width: 60%;
+    width: 70%;
 }
 
 #pdtLgImage img{
@@ -568,6 +577,9 @@ footer .copyright-text{
         width: 100%; 
     }
     
+    .img-fluid{
+        width: 70%;
+    }
     .hr-line{
         display: block;
     }
@@ -597,8 +609,7 @@ footer .copyright-text{
         display: none;
         padding: 0px;
         position: absolute;
-        z-index: 999;
-        top: 59px;
+        z-index: 999; 
     }
 
     .nav-bar2 .active{
@@ -746,12 +757,7 @@ footer .copyright-text{
 
     .pdt-rightside .pdt-price span {
         font-size: 19px;
-    } 
-
-    .pdt-rightside .pdt-star span{
-        font-size: 30px;
-        margin-left: -5px;
-    }
+    }  
     .pdt-rightside .pdt-star p{
         font-weight: 700; 
     } 
@@ -764,12 +770,7 @@ footer .copyright-text{
 
     .pdt-center{
         flex-direction: column;
-    }
-    
-    .pdt-center-img img{ 
-        width: 100%;
     } 
-
     .pdt-detail-list{
         font-size: 15px;
         line-height: 40px;

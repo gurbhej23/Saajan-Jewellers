@@ -6,7 +6,8 @@
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="shortcut icon" href="/assets/images/jewellery/logo2-removebg-preview.png" type="image/x-icon">
-    <link rel="stylesheet" href="product.css"> 
+    <link rel="stylesheet" href="product.css">  
+    <script src="https://kit.fontawesome.com/b55fccd070.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
     <script src="https://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
     <title id="siteTitle">Saajan Jewellers</title>
@@ -54,9 +55,9 @@
                                 </a> 
                             </div>
                             <div class="sj-links-link">
-                                <a href="cart.html">
+                                <a href="wishlist.html">
                                     <i class="fa fa-heart" aria-hidden="true"></i>
-                                    <span>Cart</span>
+                                    <span>Wishlist</span>
                                 </a>
                             </div>
                             <div class="sj-links-link">
@@ -295,8 +296,6 @@
                 </div>
             </footer>
 
-            <script src="https://kit.fontawesome.com/b55fccd070.js" crossorigin="anonymous"></script>
-
             <script id="product-page" type="text/x-handlebars-template">
                 <section>                
                     <div class="container">
@@ -336,17 +335,19 @@
                                     <div class="pdt-name">
                                         <h1>{{product_name}}</h1>
                                         <div class="pdt-share">
-                                            <span class="material-symbols-outlined"> favorite </span> 
+                                            <a href="/">
+                                                <span class="material-symbols-outlined wish-list-icon"> favorite </span> 
+                                            </a>
                                         </div>
                                     </div>
-                                    <div class="pdt-star">
-                                        <span class="material-symbols-outlined">star</span>
-                                        <span class="material-symbols-outlined">star</span>
-                                        <span class="material-symbols-outlined">star</span>
-                                        <span class="material-symbols-outlined">star</span>
-                                        <span class="material-symbols-outlined">star</span>
+                                    <div class="pdt-star"> 
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star "></span> 
                                         <div>
-                                            <p> Write a Review </p>
+                                            <p>Review </p>
                                         </div>
                                     </div> 
                                     <div class="pdt-para">
@@ -445,55 +446,57 @@
                         <div class="pdt-price">
 
                             <div class="pdt-price-breakup">
-                                <h2>Price Breakup</h2>
+                                <h2>{{pricebreakup}}</h2>
                             </div>
 
                             <div class="pdt-price-table">
-                                <table>
-                                    <tr>
-                                        <th style="text-align: left;">Component</th>
-                                        <th>Gold Rate</th>
-                                        <th>Weight(g)</th>
-                                        <th>Discount</th>
-                                        <th>Final Value</th>
-                                    </tr>
-                                    <tr>
-                                        <td style="text-align: left;">Plain Gold</td>
-                                        <td>{{gold-rate}}</td>
-                                        <td>{{gold-weight}}</td>
-                                        <td>-</td>
-                                        <td>{{final-value}}</td>
-                                    </tr>
-                                    <tr>
-                                        <td style="text-align: left;">Stone Detail</td>
-                                        <td> - </td>
-                                        <td> - </td>
-                                        <td> - </td>
-                                        <td>{{stone-detail}}</td>
-                                    </tr>
-                                    <tr style="border-bottom: 1px solid #490000;">
-                                        <td style="text-align: left;">Making Charges</td>
-                                        <td> - </td>
-                                        <td> - </td>
-                                        <td> - </td>
-                                        <td>{{making-charges}}</td>
-                                    </tr>
-                                    <tr>
-                                        <td style="text-align: left;">Sub Total</td>
-                                        <td> - </td>
-                                        <td>{{gold-weight}} <br>
-                                        (gross-weight) </td>
-                                        <td> - </td>
-                                        <td>{{sub-total}}</td>
-                                    </tr>
-                                    <tr>
-                                        <td style="text-align: left;"><b>Grand Total</b></td>
-                                        <td> </td>
-                                        <td> </td>
-                                        <td> </td>
-                                        <td><b>{{grand-total}}</b></td>
-                                    </tr>
-                                </table>
+                                {{#each table}}
+                                    <table>
+                                        <tr>
+                                            <th style="text-align: left;">Component</th>
+                                            <th>Gold Rate</th>
+                                            <th>Weight(g)</th>
+                                            <th>Discount</th>
+                                            <th>Final Value</th>
+                                        </tr>
+                                        <tr>
+                                            <td style="text-align: left;">Plain Gold</td>
+                                            <td>{{gold-rate}}</td>
+                                            <td>{{gold-weight}}</td>
+                                            <td>-</td>
+                                            <td>{{final-value}}</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="text-align: left;">Stone Detail</td>
+                                            <td> - </td>
+                                            <td> - </td>
+                                            <td> - </td>
+                                            <td>{{this.stone-detail}}</td>
+                                        </tr>
+                                        <tr style="border-bottom: 1px solid #490000;">
+                                            <td style="text-align: left;">Making Charges</td>
+                                            <td> - </td>
+                                            <td> - </td>
+                                            <td> - </td>
+                                            <td>{{this.making-charges}}</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="text-align: left;">Sub Total</td>
+                                            <td> - </td>
+                                            <td>{{this.gold-weight}} <br>
+                                            (gross-weight) </td>
+                                            <td> - </td>
+                                            <td>{{this.sub-total}}</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="text-align: left;"><b>Grand Total</b></td>
+                                            <td> </td>
+                                            <td> </td>
+                                            <td> </td>
+                                            <td><b>{{this.grand-total}}</b></td>
+                                        </tr>
+                                    </table>
+                                {{/each}}
                             </div>
 
                         </div>
