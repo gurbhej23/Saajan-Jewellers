@@ -33,70 +33,75 @@
                         </div>
                     </div> 
 
+                    <div class="sj-hamburger" id="hamburger" onclick="hamburger()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
                     <div class="sj-links">
                         <nav>
                             <div class="sj-links-link">
-                                <a href="index.html">Home</a>
+                                <a href="index.html">
+                                    <i class="fa fa-home" aria-hidden="true"></i>
+                                    <span>Home</span>
+                                </a>
                             </div>
                             <div class="sj-links-link">
-                                <a href="">Jewellery</a> 
+                                <a href="#category">
+                                    <i class="fa fa-diamond" aria-hidden="true"></i>
+                                    <span>Jewellery</span>    
+                                </a> 
                             </div>
                             <div class="sj-links-link">
-                                <a href="cart.html">Cart</a>
+                                <a href="wishlist.html">
+                                    <i class="fa fa-heart" aria-hidden="true"></i>
+                                    <span>wishlist</span>
+                                </a>
                             </div>
                             <div class="sj-links-link">
-                                <a href="contact.html">Contact us</a>
+                                <a href="contact.html">
+                                    <i class="fa fa-address-book" aria-hidden="true"></i>
+                                    <span>Contact us</span>
+                                </a>
                             </div>
                         </nav>        
-                    </div>
-
-                    <div class="sj-hamburger">
-                        <i class="fa-solid fa-bars"></i>
                     </div>
 
                 </div> 
                     
                 <div class="nav-bar2">
-                    <nav> 
+                    <nav id="dropdown"> 
                         <div class="dropdown">
                             <div class="drop-menu-icon"> 
-                                <a href="" class="nav-link">All Jewellery</a> 
-                                <i class="fa-solid fa-chevron-down "></i>
+                                <a href="#category" class="nav-link">All Jewellery</a> 
+                                <i class="fa-solid fa-chevron-down" id="drop-down"></i>
                             </div>
                             <hr class="hr-line">
                             <div class="drop-menu-1 active">
-                                <ul>
+                                <ul class="scroll_bar">
                                     <div> 
                                         <li class="list">Category</li>
-                                        <div class="res-list">
-                                            <li><a href="">All Jewellery</a></li>
-                                            <li><a href="bracelets.html">Bracelets</a></li>
-                                            <li><a href="earrings.html">Earrings</a></li>
-                                            <li><a href="pendant.html">Pendants</a></li>
-                                            <li><a href="goldring1.html">Gold Ring</a></li>
-                                            <li><a href="bangle.html">Bangle</a></li>
-                                            <li><a href="pearl.html">Pearl</a></li>
-                                            <li><a href="gemstone.html">Gemstone-Ring</a></li> 
+                                        <div class="res-list"> 
+                                            <li><a href="category.html?sku=Bracelets">Bracelets</a></li>
+                                            <li><a href="category.html?sku=Earring">Earrings</a></li>
+                                            <li><a href="category.html?sku=Pendant">Pendants</a></li>
+                                            <li><a href="category.html?sku=Rings">Rings</a></li>
+                                            <li><a href="category.html?sku=Bangle">Bangle</a></li>
+                                            <li><a href="category.html?sku=Pearl">Pearl</a></li>
+                                            <li><a href="category.html?sku=Nosepin">Nose Pin</a></li> 
                                         </div>
-                                    </div>
-                                    <div> 
-                                        <li style="visibility: hidden;" class="list">.</li> 
-                                        <li><a href="bracelets.html">Bracelets</a></li>
-                                        <li><a href="earrings.html">Earrings</a></li>
-                                        <li><a href="pendant.html">Pendants</a></li> 
-                                    </div>
+                                    </div> 
                                     <div> 
                                         <li class="list">Gender</li>
-                                        <li><a href="women.html">Women</a></li>
-                                        <li><a href="men.hmtl">Men</a></li>
-                                        <li><a href="kids.html">Kids</a></li> 
+                                        <li><a href="category.html?sku=Women">Women</a></li>
+                                        <li><a href="category.html?sku=Men">Men</a></li>
+                                        <li><a href="category.html?sku=Kid">Kids</a></li> 
                                     </div>
                                     <div> 
                                         <li class="list">Price Brand</li>
-                                        <li><a href="">25k</a></li>
-                                        <li><a href="">25k-50k</a></li>
-                                        <li><a href="">50k-1L</a></li>
-                                        <li><a href="">1L & Above</a></li> 
+                                        <li><a href="product.html?sku=beaming_button_pearl_stud_earrings">10k-25k</a></li>
+                                        <li><a href="product.html?sku=sleek_gold_foxtail_chain">25k-50k</a></li>
+                                        <li><a href="product.html?sku=gold_stud_earring">50k-1L</a></li>
+                                        <li><a href="product.html?sku=willow_diamond_ring">1L & Above</a></li> 
                                     </div>
                                 </ul>
                             </div>
@@ -110,35 +115,27 @@
                             <div class="drop-menu-1 active">
                                 <ul>
                                     <div> 
-                                        <li class="list">Category</li>
-                                        <li><a href="necklace.html">Necklace</a></li>
-                                        <li><a href="bracelets.html">Bracelets</a></li>
-                                        <li><a href="earrings.html">Earrings</a></li>
-                                        <li><a href="pendant.html">Pendants</a></li>
-                                        <li><a href="goldring1.html">Gold Ring</a></li>
-                                        <li><a href="bangle.html">Bangle</a></li>
-                                        <li><a href="pearl.html">Pearl</a></li>
-                                        <li><a href="mangalsutra.html">Mangalsutra</a></li>
-                                        <li><a href="chains.html">gold chains</a></li> 
-                                    </div>
-                                    <div> 
-                                        <li style="visibility: hidden;" class="list">.</li> 
-                                        <li><a href="bracelets.html">Bracelets</a></li>
-                                        <li><a href="earrings.html">Earrings</a></li>
-                                        <li><a href="pendant.html">Pendants</a></li> 
-                                    </div>
+                                        <li class="list">Category</li>  
+                                        <li><a href="product.html?sku=swanky_opulence_bracelet">Bracelets</a></li>
+                                        <li><a href="product.html?sku=traditional_yellow_gold_semicircle_pendant">Pendants</a></li>
+                                        <li><a href="product.html?sku=gold_ring_men">Gold Ring</a></li>
+                                        <li><a href="product.html?sku=slender_gold_bangles">Bangle</a></li>
+                                        <li><a href="product.html?sku=majestic_peacock_pearl_drop_earrings">Pearl</a></li>
+                                        <li><a href="product.html?sku=dainty_sphere_mangalsutra">Mangalsutra</a></li>
+                                        <li><a href="product.html?sku=bows_of_beauty_chain">gold chains</a></li> 
+                                    </div> 
                                     <div> 
                                         <li class="list">Gender</li>
-                                        <li><a href="women.html">Women</a></li>
-                                        <li><a href="men.html">Men</a></li>
-                                        <li><a href="kid.html">Kids</a></li> 
+                                        <li><a href="product.html?sku=majestic_traditional_stud_earrings">Women</a></li>
+                                        <li><a href="product.html?sku=gold_ring_men">Men</a></li>
+                                        <li><a href="product.html?sku=florance_vibrance_earrings">Kids</a></li> 
                                     </div>   
                                 </ul>
                             </div> 
                         </div>
                         <div class="dropdown">
                             <div class="drop-menu-icon"> 
-                                <a href="" class="nav-link">Diamond</a> 
+                                <a href="#disabled" class="nav-link">Diamond</a> 
                                 <i class="fa-solid fa-chevron-down "></i>
                             </div>
                             <hr class="hr-line">
@@ -146,26 +143,25 @@
                                 <ul>
                                     <div> 
                                         <li class="list">Category</li>
-                                        <li><a href="nosepin.html">Nosepins</a></li>
-                                        <li><a href="bracelets.html">Bracelets</a></li>
-                                        <li><a href="earrings.html">Earrings</a></li> 
-                                        <li><a href="bangle.html">Bangle</a></li>  
+                                        <li><a href="product.html?sku=petite_geometric_diamond_nose_pin">Nosepins</a></li>
+                                        <li><a href="/product.html?sku=minimal-sparkle-diamond-bracelet">Bracelets</a></li>
+                                        <li><a href="product.html?sku=diamond_stud_earrings_2">Earrings</a></li>  
                                     </div>
                                     <div> 
                                         <li class="list">earrings</li> 
-                                        <li><a href="earrings.html">drop earrings</a></li>
-                                        <li><a href="earrings.html">stud earrings</a></li> 
+                                        <li><a href="product.html?sku=diamond_drop_earrings">drop earrings</a></li>
+                                        <li><a href="product.html?sku=diamond_stud_earrings">stud earrings</a></li> 
                                     </div>
                                     <div> 
                                         <li class="list">Rings</li>
-                                        <li><a href="gemstone.html">engagement rings</a></li> 
+                                        <li><a href="product.html?sku=pink_saphire_ring">engagement rings</a></li> 
                                     </div> 
                                 </ul>
                             </div>
                         </div>
                         <div class="dropdown">
                             <div class="drop-menu-icon"> 
-                                <a href="" class="nav-link">Earrings</a> 
+                                <a href="category.html?sku=Earring" class="nav-link">Earrings</a> 
                                 <i class="fa-solid fa-chevron-down "></i>
                             </div>
                             <hr class="hr-line">
@@ -173,19 +169,18 @@
                                 <ul>
                                     <div> 
                                         <li class="list">Category</li>
-                                        <li><a href="earrings.html">all earrings</a></li>   
+                                        <li><a href="category.html?sku=Earring">all earrings</a></li>   
                                     </div>  
                                     <div> 
                                         <li class="list">Gender</li>
-                                        <li><a href="women.html">Women</a></li> 
-                                        <li><a href="kid.html">Kids</a></li> 
+                                        <li><a href="category.html?sku=Women">Women</a></li>  
                                     </div>
                                 </ul>
                             </div>
                         </div>
                         <div class="dropdown">
                             <div class="drop-menu-icon"> 
-                                <a href="gemstone.html" class="nav-link">Rings</a> 
+                                <a href="category.html?sku=Rings" class="nav-link">Rings</a> 
                                 <i class="fa-solid fa-chevron-down "></i>
                             </div>
                             <hr class="hr-line">
@@ -193,14 +188,13 @@
                                 <ul>
                                     <div> 
                                         <li class="list">Category</li>
-                                        <li><a href="gemstone.html">all Rings</a></li> 
+                                        <li><a href="category.html?sku=Rings">all Rings</a></li> 
                                     </div>
                                     <div> 
                                         <li class="list">stones</li> 
-                                        <li><a href="gemstone.html">diamond</a></li>
-                                        <li><a href="gemstone.html">gemstone</a></li>
-                                        <li><a href="gemstone.html">gold</a></li> 
-                                        <li><a href="gemstone.html">platinum</a></li>  
+                                        <li><a href="product.html?sku=floral_ring_diamond">diamond</a></li>
+                                        <li><a href="product.html?sku=ruby_gold_ring">gemstone</a></li>
+                                        <li><a href="product.html?sku=gold_ring_men">gold</a></li>  
                                     </div>      
                                 </ul>
                             </div>
@@ -211,14 +205,7 @@
                                 <i class="fa-solid fa-chevron-down "></i>
                             </div>
                             <hr class="hr-line">
-                        </div>
-                        <div class="dropdown">
-                            <div class="drop-menu-icon"> 
-                                <a href="collection.html" class="nav-link">Collections</a> 
-                                <i class="fa-solid fa-chevron-down "></i>
-                            </div>
-                            <hr class="hr-line">
-                        </div>
+                        </div> 
                         <div class="dropdown">
                             <div class="drop-menu-icon"> 
                                 <a href="gift.html" class="nav-link">Gift</a> 
@@ -387,5 +374,12 @@
             </footer>
         </div>
     </div>
+    <script>
+        function hamburger(){
+            let hamburger = document.querySelector('#hamburger');
+            navBar = document.querySelector('.nav-bar2');
+            navBar.classList.toggle("active")
+        }  
+        </script>
 </body>
 </html>
