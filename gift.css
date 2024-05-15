@@ -1,8 +1,8 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
-    /* font-weight: normal; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: normal;
 }
 a {
     text-decoration: none;
@@ -31,8 +31,7 @@ section .container{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
-    padding: 0px 10px;
+    justify-content: space-between; 
     flex-wrap: wrap;
 }
 .sj-logo {
@@ -62,7 +61,7 @@ section .container{
     flex-direction: row;
 }
 .sj-links-link {
-    padding: 10px 30px;
+    padding: 24px 30px;
     text-transform: uppercase;
 }
 
@@ -347,8 +346,11 @@ footer .copyright-text{
 
 @media screen and (max-width:430px) {
     .content{
-        width: 100%
-        ;
+        width: 100%; 
+    }
+    
+    .img-fluid{
+        width: 70%;
     }
     .hr-line{
         display: block;
@@ -375,11 +377,16 @@ footer .copyright-text{
         display: none;
     }
     .nav-bar2{
-        /* display: none; */
+        display: none;
         padding: 0px;
         position: absolute;
-        z-index: 99;
+        z-index: 999; 
     }
+
+    .nav-bar2.active{
+        display: block;
+    }
+    
     .nav-bar2 .active{
         display: none;
         box-shadow: none;
@@ -439,7 +446,7 @@ footer .copyright-text{
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        line-height: 37px;
+        line-height: 55px;
     }
 
     .nav-bar2 .nav-link{
@@ -451,11 +458,21 @@ footer .copyright-text{
         margin: 10px 9px 0px 10px;
         height: 43px;
         width: 80%;
+    }  
+
+    .sj-links-link{
+        padding: 11px 0;
     }
 
-    .sj-links {
+    .sj-links-link a{    
+        padding: 3vw 10vw;
+        font-size: 4vw;
+    }
+
+    .sj-links-link a span{
         display: none;
     }
+
     .sj-search {
         width: 55vw;
     } 
@@ -473,6 +490,7 @@ footer .copyright-text{
         color: #fff;
         font-size: 6vw;
         position: relative;
+        margin-right: 10px;
     }
 
     section .container{
