@@ -18,6 +18,11 @@ $(document).ready(function() {
     // Insert the HTML code into the page
     $('#product-html').append(html);
     
+    $('.pdt-share').on('click', function(e){
+        e.preventDefault()  
+        $(this).children().children().toggleClass('wish-list-icon');
+        $(this).children().children().toggleClass('color-class');
+    }); 
 });
 // requirejs(["products.json"], function() {
 // })

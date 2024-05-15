@@ -1062,6 +1062,108 @@ const categoryData = {
             },
         ], 
     },
+    
+    "Bestsellers":{
+        "category":"Bestsellers",
+        "category_banner":"assets/images/jewellery/Men/men-ban.jpg",
+        "category-card": [  
+            { 
+                href:"hanuman_pendant",
+                name:"Hanuman Pendant",
+                price:"₹ 50100",
+                src1:"/assets/images/jewellery/Men/Men9.2.jpg",
+                src2:"/assets/images/jewellery/Men/Men9.jpg", 
+            }, 
+
+            { 
+                href:"veer_hanuman_pendant",
+                name:"Veer Hanuman",
+                price:"₹ 21445",
+                src1:"/assets/images/jewellery/Men/Men10.2.jpg",
+                src2:"/assets/images/jewellery/Men/Men10.jpg", 
+            }, 
+
+            { 
+                href:"lord_ganesha_pendant",
+                name:"Lord Ganesha",
+                price:"₹ 127621",
+                src1:"/assets/images/jewellery/Men/Men11.2.jpg",
+                src2:"/assets/images/jewellery/Men/Men11.jpg", 
+            }, 
+
+            { 
+                href:"lord_ganesha_gold_pendant",
+                name:"Lord Ganesha",
+                price:"₹ 28709",
+                src1:"/assets/images/jewellery/Men/Men12.2.jpg",
+                src2:"/assets/images/jewellery/Men/Men12.jpg", 
+            }, 
+
+            { 
+                href:"gold_ring_men",
+                name:"Gold Ring Men",
+                price:"₹ 37952.75",
+                src1: "/assets/images/jewellery/Men/Men2.2.jpg",
+                src2:"/assets/images/jewellery/Men/Men2.jpg", 
+            },
+
+            { 
+                href:"bows_of_beauty_chain",
+                name:"Beauty Chain",
+                price:"₹ 216106",
+                src1:"/assets/images/jewellery/chains/chains3.1.jpg",
+                src2:"/assets/images/jewellery/chains/chains3.jpg",
+            },
+
+            { 
+                href:"beads_and_blocks_chain",
+                name:"Block Chain",
+                price:"₹ 248860",
+                src1:"/assets/images/jewellery/chains/chains4.1.jpg",
+                src2:"/assets/images/jewellery/chains/chains4.jpg",
+            },
+
+            { 
+                href:"delightful_surprise_beaded_layers_chain",
+                name:"Beaded Layers Chain",
+                price:"₹ 146446",
+                src1:"/assets/images/jewellery/chains/chains5.1.jpg",
+                src2:"/assets/images/jewellery/chains/chains5.jpg", 
+            },
+
+            { 
+                href:"sublime_gold_and_diamond_nose_pin",
+                name:"Gold & Diamond",
+                price:"₹ 24724",
+                src1:"/assets/images/jewellery/nosepin/nosepins3.1.jpg",
+                src2:"/assets/images/jewellery/nosepin/nosepins3.jpg",
+            },
+
+            { 
+                href:"elegant_diamond_nose_pin",
+                name:"Diamond Nose Pin",
+                price:"₹ 10864",
+                src1:"/assets/images/jewellery/nosepin/nosepins4.1.jpg",
+                src2:"/assets/images/jewellery/nosepin/nosepins4.jpg", 
+            },
+
+            { 
+                href:"fancy_gold_and_diamond_nose_pin",
+                name:"Fancy Gold",
+                price:"Out of Stock",
+                src1:"/assets/images/jewellery/nosepin/nosepins5.1.jpg",
+                src2:"/assets/images/jewellery/nosepin/nosepins5.jpg",
+            },
+
+            { 
+                href:"stunning_diamond_nose_pin",
+                name:"Stunning Diamond",
+                price:"₹ 14675",
+                src1:"/assets/images/jewellery/nosepin/nosepins6.1.jpg",
+                src2:"/assets/images/jewellery/nosepin/nosepins6.jpg", 
+            },
+        ], 
+    },
 }
 
 
@@ -1078,6 +1180,12 @@ $(document).ready(function() {
     var html = templateScript(context);
     // Insert the HTML code into the page
     $('#category-html').append(html);
+
+    $('.wish-list').on('click', function(e){
+        e.preventDefault()  
+        $(this).children().children().toggleClass('wish-list-icon');
+        $(this).children().children().toggleClass('color-class');
+    }); 
     
 }); 
 
@@ -1085,4 +1193,6 @@ function hamburger(){
     let hamburger = document.querySelector('#hamburger');
     navBar = document.querySelector('.nav-bar2');
     navBar.classList.toggle("active")
-} 
+}  
+
+ 
