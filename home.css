@@ -1088,7 +1088,7 @@ footer .copyright-text{
     } 
 
     .category-2{
-        margin: 35px 0;
+        margin: 8vw 13vw 8vw 13vw; 
     }
 
     .category-2 .wish-list{
@@ -1104,11 +1104,11 @@ footer .copyright-text{
  
 
     .category-2 img {
-        width: 240px;
-        height: 240px;
+        width: 55vw;
+        height: 55vw;
     }
     .category-2 h2{
-        font-size: 4vw;
+        font-size: 3vw;
         font-weight: 600; 
     }
 

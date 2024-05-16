@@ -923,9 +923,11 @@
                 gap        : '4rem',
                 padding: { left: 30, right: 30 },
                 breakpoints: {
-                    430: {   
-                    // fixedWidth : '15rem', 
-                    gap:'3rem',  
+                    430: {    
+                padding: { left: 23, right: 23 },
+                        type:'loop',
+                        fixedWidth : '60vw', 
+                    // gap:'5rem',  
                 }, 
             }}).mount()
             
@@ -936,8 +938,10 @@
                 padding: { left: 30, right: 30 },
                 breakpoints: {
                     430: {  
-                        type:'loop', 
-                        gap:'3rem',     
+                padding: { left: 23, right: 23 },
+                        type:'loop',
+                        fixedWidth : '60vw', 
+                    // gap:'5rem',     
                 },
             }}).mount() 
 
@@ -949,6 +953,7 @@
                         perPage:2,  
                 },
             }}).mount() 
+
             new Splide(".splide6",{ 
                 speed: 1600,   
                 perPage:5, 
@@ -959,8 +964,7 @@
             }}).mount() 
         })
 
-        function hamburger(){
-            let hamburger = document.querySelector('#hamburger');
+        function hamburger(){ 
             navBar = document.querySelector('.nav-bar2');
             navBar.classList.toggle("active")
         }  
