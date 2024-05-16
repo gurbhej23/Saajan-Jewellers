@@ -310,6 +310,14 @@ li, h1, h2, h5, p{
     'opsz' 24 
 }  
 
+.pdt-star .checked{ 
+    color: #ffffff; 
+}
+
+.color-id {   
+    color: #490000; 
+}  
+
 .pdt-rightside .pdt-name h1{
     font-size: 28px;
     font-weight: 600; 
@@ -324,13 +332,12 @@ li, h1, h2, h5, p{
 
 .pdt-rightside .pdt-star span{ 
     font-size: 15px;
-    letter-spacing: 0px;
-    color: #fff;
+    letter-spacing: 0px; 
 }
 
-.pdt-rightside .pdt-star .checked{
+/* .pdt-rightside .pdt-star .checked{
     color: #490000;
-}
+} */
 .pdt-rightside .pdt-star p{
     padding-left: 10px;
 }

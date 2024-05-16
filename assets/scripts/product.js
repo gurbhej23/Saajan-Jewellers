@@ -23,9 +23,30 @@ $(document).ready(function() {
         $(this).children().children().toggleClass('wish-list-icon');
         $(this).children().children().toggleClass('color-class');
     }); 
-});
-// requirejs(["products.json"], function() {
-// })
+    
+    $(document).ready(function(){
+        $('.pdt-star .fa-star').on('click', function(e){  
+            e.preventDefault()   
+            $(this).toggleClass('checked');
+            $(this).toggleClass('color-id');
+        });  
+    });
+    // $(document).ready(function(){
+    //     $('.pdt-star .fa-star').on('click', function(e){  
+    //         var index = $(this).data('index');
+    //         $(this).toggleClass('color-id');
+    //         $(this).prevAll().addClass('color-id');
+    //         $(this).nextAll().removeClass('color-id');
+    //         $('.pdt-star .fa-star').each(function(i){
+    //             if(i < index) {
+    //                 $(this).addClass('color-id');
+    //             } else {
+    //                 $(this).removeClass('color-id');
+    //             }
+    //         });
+    //     });  
+    // });
+}); 
 
 
 
