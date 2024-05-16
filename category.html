@@ -311,10 +311,8 @@
                         <div class="category-2"> 
                             {{#each category-card}}
                                 <div class="card-1">
-                                    <div class="wish-list">
-                                        <a href="/">
-                                            <span class="material-symbols-outlined wish-list-icon">favorite</span>
-                                        </a>
+                                    <div class="wish-list" onclick="handleWishlist(this, '{{this.href}}')" data-key="{{this.href}}">
+                                        <span class="material-symbols-outlined">favorite</span>
                                     </div>
                                     <a href="product.html?sku={{this.href}}">
                                         <div class="img-1">

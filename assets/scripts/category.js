@@ -1181,13 +1181,40 @@ $(document).ready(function() {
     // Insert the HTML code into the page
     $('#category-html').append(html);
 
-    $('.wish-list').on('click', function(e){
-        e.preventDefault()  
-        $(this).children().children().toggleClass('wish-list-icon');
-        $(this).children().children().toggleClass('color-class');
-    }); 
-    
+    $('.wish-list').each(function() {
+        let key = $(this).attr('data-key')
+        if( getKeyValue(key) !== null) {
+            $(this).children().addClass('color-class');        
+        }
+    })  
 }); 
+
+function handleWishlist(elem, key){
+    $(elem).children().toggleClass('color-class');
+    
+    if($(elem).children().hasClass('color-class')){
+        saveKey(key)
+    } else {
+        removeKey(key)
+    }
+
+}
+
+function handleWishlistLoad () {
+    console.log('handleWishlistLoad')
+}
+
+function saveKey(key, value) {
+    localStorage.setItem(key, value)
+}
+
+function getKeyValue(key) {
+    return localStorage.getItem(key)
+}
+
+function removeKey(key) {
+    return localStorage.removeItem(key)
+}
 
 function hamburger(){
     let hamburger = document.querySelector('#hamburger');
