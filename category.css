@@ -304,6 +304,8 @@ section .container{
 .category-2 .wish-list .material-symbols-outlined{ 
     color: #490000;
     padding: 5px;
+    font-size: 26px;
+
 }
 
 .color-class {   
@@ -697,6 +699,7 @@ footer .copyright-text{
 
     .category-2 .wish-list .material-symbols-outlined{ 
         padding: 3px;
+        font-size: 21px;
     }
     
     .category-2 .wish-list{
