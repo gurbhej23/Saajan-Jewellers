@@ -60,7 +60,7 @@ section .container{
     flex-direction: row;
 }
 .sj-links-link {
-    padding: 10px 30px;
+    padding: 24px 30px;
     text-transform: uppercase;
 }
 
@@ -565,10 +565,7 @@ footer .copyright-text{
 
     section .container{
         width: 100%;
-    } 
-    .about-class p{
-        width: 100%; 
-    }
+    }  
 
     .contact-form{
         margin: 20px 15px;
@@ -583,11 +580,13 @@ footer .copyright-text{
         justify-content: center;
     }
     .contact-form .address-sec address{
-        display: none;
+        font-weight: 700;
+        text-align: center;
+        font-family: monospace;
     }
 
     .contact-form .address-sec img{
-        width: 80vw;
+        display: none;
     }
     footer .container{
         width: auto;
