@@ -1,5 +1,5 @@
 const categoryData = {
-    "Rings":{
+    "rings":{
         "category":"Ring",
         "category_banner":"assets/images/jewellery/gemstone/gemstone-banner.jpg",
         "category-card": [
@@ -101,7 +101,7 @@ const categoryData = {
         ], 
     }, 
 
-    "Bangle":{
+    "bangles":{
         "category":"Bangle",
         "category_banner":"assets/images/jewellery/bangle/bangles-banner.jpg",
         "category-card": [
@@ -163,7 +163,7 @@ const categoryData = {
         ], 
     }, 
 
-    "Bracelets":{
+    "bracelets":{
         "category":"Bracelets",
         "category_banner":"assets/images/jewellery/bracelets/bracelet-banner.jpg",
         "category-card": [
@@ -233,7 +233,7 @@ const categoryData = {
         ], 
     }, 
 
-    "Pendant":{
+    "pendants":{
         "category":"Pendants",
         "category_banner":"/assets/images/jewellery/pendant/pendant-banner.jpg", 
         "category-card": [
@@ -335,7 +335,7 @@ const categoryData = {
         ], 
     }, 
 
-    "Earring":{
+    "earrings":{
         "category":"Earrings",
         "category_banner":"/assets/images/jewellery/earrings-1/earrings-banner.jpg", 
         "category-card": [
@@ -405,7 +405,7 @@ const categoryData = {
         ], 
     }, 
 
-    "Nosepin":{
+    "nosepins":{
         "category":"Nosepins",
         "category_banner":"/assets/images/jewellery/nosepin/nosepins-ban.jpg", 
         "category-card": [
@@ -475,7 +475,7 @@ const categoryData = {
         ], 
     }, 
 
-    "Mangalsutra":{
+    "mangalsutra":{
         "category":"Mangalsutra", 
         "category_banner":"/assets/images/jewellery/mangal-ban.jpg", 
         "category-card": [
@@ -513,7 +513,7 @@ const categoryData = {
         ], 
     }, 
 
-    "Chain":{
+    "chains":{
         "category":"chains",
         "category_banner":"/assets/images/jewellery/chains/chain-ban.jpg", 
         "category-card": [
@@ -583,7 +583,7 @@ const categoryData = {
         ], 
     },
 
-    "Gold_Coins":{
+    "gold_coins":{
         "category":"Gold Coins",
         "category_banner":"/assets/images/jewellery/mangal-ban.jpg", 
         "category-card": [
@@ -605,7 +605,7 @@ const categoryData = {
         ], 
     },
 
-    "Pearl":{
+    "pearls":{
         "category":"Pearls",
         "category_banner":"/assets/images/jewellery/pearl/pearl-banner.jpg", 
         "category-card": [
@@ -853,7 +853,7 @@ const categoryData = {
         ], 
     },
 
-    "Men":{
+    "men":{
         "category":"Men Collection",
         "category_banner":"assets/images/jewellery/Men/men-ban.jpg",
         "category-card": [  
@@ -923,7 +923,7 @@ const categoryData = {
         ], 
     }, 
 
-    "Kid":{
+    "kid":{
         "category":"Kid Collection",
         "category_banner":"assets/images/jewellery/kids/kids-ban.jpg",
         "category-card": [  
@@ -959,9 +959,9 @@ const categoryData = {
                 src2:"/assets/images/jewellery/kids/kids4.jpg", 
             },
         ], 
-    }, 
+    },
 
-    "Women":{
+    "women":{
         "category":"women Collection",
         "category_banner":"assets/images/jewellery/women-ban.jpg",
         "category-card": [  
@@ -1063,7 +1063,7 @@ const categoryData = {
         ], 
     },
     
-    "Bestsellers":{
+    "bestsellers":{
         "category":"Bestsellers",
         "category_banner":"assets/images/jewellery/Men/men-ban.jpg",
         "category-card": [  
@@ -1169,7 +1169,10 @@ const categoryData = {
 
 $(document).ready(function() {
     let categorySKU = window.location.search.substring(5)
-    document.title = `${categorySKU} | Saajan Jewellers`
+    let title = categorySKU.split('_').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
+    // ToDo: make title capitalized ex 'gold ring men' 'Gold Ring Men' 
+
+    document.title = ` ${title} | Saajan Jewellers`
     console.log(categorySKU)
     // Retrieve the template data from the HTML (jQuery is used here).
     var template = $('#category-page').html();
