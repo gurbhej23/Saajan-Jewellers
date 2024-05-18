@@ -58,6 +58,7 @@ $(document).ready(function () {
             },
         }
     }).mount()
+    
 })
 
 function hamburger() {
@@ -65,25 +66,16 @@ function hamburger() {
     navBar.classList.toggle("active")
 }
 
-function dropmenu() {
-    let dropmenu = document.querySelector('#drop-menu');
+function dropmenu() { 
     navBar1 = document.querySelector('.drop-down');
     navBar1.classList.toggle("active")
 }
 
-function dropmenu1() {
-    let dropmenu = document.querySelector('#drop-menu');
+function dropmenu1() { 
     navBar1 = document.querySelector('.drop-down1');
     navBar1.classList.toggle("active")
 }
-
-
-$('.wish-list').each(function () {
-    let key = $(this).attr('data-key')
-    if (getKeyValue(key) !== null) {
-        $(this).children().addClass('color-class');
-    }
-})
+ 
 
 function handleWishlist(elem, key) {
     $(elem).children().toggleClass('color-class');

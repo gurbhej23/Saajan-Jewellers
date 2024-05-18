@@ -23,6 +23,9 @@ section:nth-of-type(2) .splide__arrows button {
     display: none;
 }
 
+.sj-hamburger1 {
+    display: none;
+}
 /* Cintainer */
 section .container {
     width: 1280px;
@@ -505,7 +508,7 @@ section:nth-of-type(7) .splide__arrows button {
 .category-2 .wish-list .material-symbols-outlined {
     font-size: 26px;
     color: #490000;
-    padding: 5px;
+    padding: 4px;
 }
 
 .color-class {
@@ -792,19 +795,27 @@ footer .copyright-text {
 
     .nav-bar2 {
         display: none;
-        padding: 0px;
-        position: absolute;
+        padding: 7px 0;
+        position: fixed;
         z-index: 999;
+        top: 0; 
+        width: 75%;
+        height: 100%;
+        right: 0;
+        transition: 0.5s ease;
+        transform: translateX(321px);
     }
 
     .nav-bar2.active {
-        display: block;
-    }
-
+        display: block;   
+        transform: translateX(0%);
+    }  
+     
     .drop-down {
         display: none;
     }
 
+    
     .drop-down.active {
         display: block;
     }
@@ -838,6 +849,7 @@ footer .copyright-text {
 
     .drop-menu-icon i {
         display: block;
+        font-size: 3vw;
     }
 
     .drop-menu-1 ul {
@@ -851,17 +863,18 @@ footer .copyright-text {
     }
 
     .drop-menu-1 .list {
-        font-size: 20px;
+        font-size: 5vw;
         text-align: center;
     }
 
     .drop-menu-1 li {
-        line-height: 25px;
+        line-height: 5vw;
         width: auto;
+        text-transform: capitalize;
     }
 
     .drop-menu-1 li a {
-        font-size: 15px;
+        font-size: 4vw;
         padding: 0px;
     }
 
@@ -873,8 +886,8 @@ footer .copyright-text {
     }
 
     .nav-bar2 .nav-link {
-        font-size: 14px;
-        padding: 5px;
+        font-size: 3vw;
+        padding: 0px;
     }
 
     .search {
@@ -917,6 +930,12 @@ footer .copyright-text {
         margin-right: 10px;
     }
 
+    .sj-hamburger1 { 
+        display: inline-block; 
+        color: #490000;
+        font-size: 8vw; 
+        margin: 6px 6px;
+    }
     section .container {
         width: 100%;
     }
@@ -1120,7 +1139,7 @@ footer .copyright-text {
 
     .category-2 .wish-list .material-symbols-outlined {
         padding: 3px;
-        font-size: 21px;
+        font-size: 20px;
     }
 
 

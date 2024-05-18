@@ -315,6 +315,7 @@ p {
     font-size: 30px;
     color: #490000;
     padding: 4px;
+    cursor: pointer;
 }
 
 .color-class {
@@ -326,7 +327,7 @@ p {
 }
 
 .pdt-star .checked {
-    color: #ffffff;
+    color: #490000;
 }
 
 .color-id {
