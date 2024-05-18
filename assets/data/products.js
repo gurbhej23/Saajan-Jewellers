@@ -1,6 +1,6 @@
 export const productsData = {
-    "floral_ring_diamond": { 
-        "title":"Striking Floral Ring Diamond",  
+    "floral_ring_diamond": {    
+        "title":"Floral Ring Diamond",  
         "product_name": "Striking Floral Ring Diamond ",
         "pdt-price":"₹33,579", 
         "pdt-purity": "22 Karat", 
@@ -21,16 +21,18 @@ export const productsData = {
         }],
         "pdt-images": [
             { 
-                "src": "assets/images/jewellery/gemstone/rings.1.1.jpg",
+                "src": "/assets/images/jewellery/gemstone/rings.1.1.jpg",
                 "cls": "active"
             },  
 
-            { "src": "assets/images/jewellery/gemstone/rings.1.2.jpg", 
-            "cls": ""
+            { 
+                "src": "/assets/images/jewellery/gemstone/rings.1.2.jpg", 
+                "cls": ""
             },
 
-            { "src": "assets/images/jewellery/gemstone/rings.1.jpg", 
-            "cls": ""
+            { 
+                "src": "/assets/images/jewellery/gemstone/rings.1.jpg", 
+                "cls": ""
             }
         ],
         "pdt-lg-img":[

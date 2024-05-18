@@ -349,7 +349,7 @@
                                 <div class="pdt-detail-sec"> 
                                     <div class="pdt-name">
                                         <h1>{{product_name}}</h1>
-                                        <div class="pdt-share" onclick="handleWishlist(this, '{{product_name}}' )" data-key="{{product_name}}"> 
+                                        <div class="pdt-share" onclick="handleWishlist(this, '{{product_key}}' )" data-key="{{product_key}}"> 
                                                 <span class="material-symbols-outlined"> favorite </span>  
                                         </div>
                                     </div>
@@ -556,14 +556,6 @@
             $('.pdt-thumbs ul li').eq(nextIndex).addClass('active');
         }
 
-
-        $('.pdt-share').each(function () {
-            let key = $(this).attr('data-key')
-            if (getKeyValue(key) !== null) {
-                $(this).children().addClass('color-class');
-            }
-        })
-
         function handleWishlist(elem, key) {
             $(elem).children().toggleClass('color-class');
 
@@ -585,11 +577,10 @@
         function getKeyValue(key) {
             return localStorage.getItem(key)
         }
-
+        
         function removeKey(key) {
             return localStorage.removeItem(key)
         }
-
     </script>
 </body>
 
