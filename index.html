@@ -29,22 +29,8 @@
                             <a href="index.html" class="sj-logo">
                                 <img src="/assets/images/jewellery/logo2-removebg-preview.png" class="img-fluid" />
                             </a>
-                        </div>
-
-                        <div class="sj-search">
-                            <div class="sj-search-input">
-                                <span class="material-symbols-outlined"> search </span>
-                                <input type="text" placeholder="Search">
-                                <div class="icon2">
-                                    <span class="material-symbols-outlined arrow_forward"> arrow_forward </span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="sj-hamburger" id="hamburger" onclick="hamburger()">
-                            <i class="fa-solid fa-bars"></i>
-                        </div>
-
+                        </div> 
+                         
                         <div class="sj-links">
                             <nav>
                                 <div class="sj-links-link">
@@ -72,6 +58,10 @@
                                     </a>
                                 </div>
                             </nav>
+                        </div>
+                        
+                        <div class="sj-hamburger" id="hamburger" onclick="hamburger()">
+                            <i class="fa-solid fa-bars"></i>
                         </div>
 
                     </div>
@@ -158,74 +148,80 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="dropdown">
+                            <div class="dropdown" id="drop-menu" onclick="dropmenu2()">
                                 <div class="drop-menu-icon">
                                     <a href="" class="nav-link">Diamond</a>
                                     <i class="fa-solid fa-chevron-down "></i>
                                 </div>
                                 <hr class="hr-line">
-                                <div class="drop-menu-1 active">
-                                    <ul>
-                                        <div>
-                                            <li class="list">Category</li>
-                                            <li><a
-                                                    href="product.html?sku=petite_geometric_diamond_nose_pin">Nosepins</a>
-                                            </li>
-                                            <li><a
-                                                    href="/product.html?sku=minimal-sparkle-diamond-bracelet">Bracelets</a>
-                                            </li>
-                                            <li><a href="product.html?sku=diamond_stud_earrings_2">Earrings</a></li>
-                                        </div>
-                                        <div>
-                                            <li class="list">earrings</li>
-                                            <li><a href="product.html?sku=diamond_drop_earrings">drop earrings</a></li>
-                                            <li><a href="product.html?sku=diamond_stud_earrings">stud earrings</a></li>
-                                        </div>
-                                        <div>
-                                            <li class="list">Rings</li>
-                                            <li><a href="product.html?sku=pink_saphire_ring">engagement rings</a></li>
-                                        </div>
-                                    </ul>
+                                <div class="drop-down2">
+                                    <div class="drop-menu-1 active">
+                                        <ul>
+                                            <div>
+                                                <li class="list">Category</li>
+                                                <li><a
+                                                        href="product.html?sku=petite_geometric_diamond_nose_pin">Nosepins</a>
+                                                </li>
+                                                <li><a
+                                                        href="/product.html?sku=minimal-sparkle-diamond-bracelet">Bracelets</a>
+                                                </li>
+                                                <li><a href="product.html?sku=diamond_stud_earrings_2">Earrings</a></li>
+                                            </div>
+                                            <div>
+                                                <li class="list">earrings</li>
+                                                <li><a href="product.html?sku=diamond_drop_earrings">drop earrings</a></li>
+                                                <li><a href="product.html?sku=diamond_stud_earrings">stud earrings</a></li>
+                                            </div>
+                                            <div>
+                                                <li class="list">Rings</li>
+                                                <li><a href="product.html?sku=pink_saphire_ring">engagement rings</a></li>
+                                            </div>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="dropdown">
+                            <div class="dropdown" id="drop-menu" onclick="dropmenu3()">
                                 <div class="drop-menu-icon">
                                     <a href="category.html?sku=earrings" class="nav-link">Earrings</a>
                                     <i class="fa-solid fa-chevron-down "></i>
                                 </div>
                                 <hr class="hr-line">
-                                <div class="drop-menu-1 active">
-                                    <ul>
-                                        <div>
-                                            <li class="list">Category</li>
-                                            <li><a href="category.html?sku=earrings">all earrings</a></li>
-                                        </div>
-                                        <div>
-                                            <li class="list">Gender</li>
-                                            <li><a href="category.html?sku=women">Women</a></li>
-                                        </div>
-                                    </ul>
+                                <div class="drop-down3">
+                                    <div class="drop-menu-1 active">
+                                        <ul>
+                                            <div>
+                                                <li class="list">Category</li>
+                                                <li><a href="category.html?sku=earrings">all earrings</a></li>
+                                            </div>
+                                            <div>
+                                                <li class="list">Gender</li>
+                                                <li><a href="category.html?sku=women">Women</a></li>
+                                            </div>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="dropdown">
+                            <div class="dropdown" id="drop-menu" onclick="dropmenu4()">
                                 <div class="drop-menu-icon">
                                     <a href="category.html?sku=rings" class="nav-link">Rings</a>
                                     <i class="fa-solid fa-chevron-down "></i>
                                 </div>
                                 <hr class="hr-line">
-                                <div class="drop-menu-1 active">
-                                    <ul>
-                                        <div>
-                                            <li class="list">Category</li>
-                                            <li><a href="category.html?sku=rings">all Rings</a></li>
-                                        </div>
-                                        <div>
-                                            <li class="list">stones</li>
-                                            <li><a href="product.html?sku=floral_ring_diamond">diamond</a></li>
-                                            <li><a href="product.html?sku=ruby_gold_ring">gemstone</a></li>
-                                            <li><a href="product.html?sku=gold_ring_men">gold</a></li>
-                                        </div>
-                                    </ul>
+                                <div class="drop-down4">
+                                    <div class="drop-menu-1 active">
+                                        <ul>
+                                            <div>
+                                                <li class="list">Category</li>
+                                                <li><a href="category.html?sku=rings">all Rings</a></li>
+                                            </div>
+                                            <div>
+                                                <li class="list">stones</li>
+                                                <li><a href="product.html?sku=floral_ring_diamond">diamond</a></li>
+                                                <li><a href="product.html?sku=ruby_gold_ring">gemstone</a></li>
+                                                <li><a href="product.html?sku=gold_ring_men">gold</a></li>
+                                            </div>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                             <div class="dropdown">
@@ -941,6 +937,5 @@
         </div>
     </div>
     <script src="/assets/scripts/index.js"></script>
-</body>
-
+</body> 
 </html>

@@ -9,6 +9,10 @@ a {
     text-decoration: none;
 }
 
+.sj-hamburger1 {
+    display: none;
+}
+
 /* Cintainer */
 section .container {
 
@@ -42,8 +46,7 @@ p {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    justify-content: space-between; 
 }
 
 .sj-logo {
@@ -198,6 +201,9 @@ p {
     color: #ffffff;
 }
 
+.sj-hamburger1{
+    display: none;
+}
 .dropdown {
     position: relative;
 }
@@ -433,19 +439,14 @@ p {
     border: 0px solid;
     border-radius: 5px;
     background-color: #490000;
-    color: #fff;
+    color: #ffffff;
     font-weight: 600;
     width: 35%;
     height: 55px;
     font-size: 17px;
-}
-
-.pdt-wishlist input:hover {
-    outline: #490000 solid 2px;
-    background: transparent;
-    color: #490000;
-}
-
+    outline: 1px solid #490000;
+    cursor: pointer;
+} 
 .product-wrapper .pdt-thumbs ul li img {
     width: 118px;
 }
@@ -606,13 +607,9 @@ footer .copyright-text {
         width: 100%;
     }
 
-    .img-fluid {
-        width: 70%;
-    }
-
     .hr-line {
         display: block;
-    }
+    } 
 
     section:nth-of-type(9) {
         display: none;
@@ -626,38 +623,72 @@ footer .copyright-text {
         display: flex;
         justify-content: space-between;
         align-items: center;
-    }
-
-    section:nth-child(9) {
-        display: none;
-    }
-
-    .nav-bar {
-        display: none;
-    }
-
+    } 
     .nav-bar2 {
-        display: none;
-        padding: 0px;
-        position: absolute;
+        display: none; 
+        position: fixed;
         z-index: 999;
+        top: 0; 
+        width: 75%;
+        height: 100%;
+        right: 0;
+        padding: 0;
+        transition: 0.5s ease;
+        transform: translateX(321px);
     }
 
-    .nav-bar2 .active {
+    .nav-bar2.active {
+        display: block;   
+        transform: translateX(0%);
+        box-shadow: 6px 0 25px 12px #490000;
+    }  
+     
+    .drop-down {
         display: none;
+    }
+
+    
+    .drop-down.active {
+        display: block;
+    }
+
+    .drop-down1 {
+        display: none;
+    }
+
+    .drop-down1.active {
+        display: block;
+    }
+
+    .drop-down2 {
+        display: none;
+    }
+
+    .drop-down2.active {
+        display: block;
+    }
+
+    .drop-down3 {
+        display: none;
+    }
+
+    .drop-down3.active {
+        display: block;
+    }
+
+    .drop-down4 {
+        display: none;
+    }
+
+    .drop-down4.active {
+        display: block;
+    }
+    .nav-bar2 .active {
         box-shadow: none;
         border-radius: 0px;
         position: inherit;
         top: 0;
         text-align: center;
-    }
-
-    .nav-bar2.active {
-        display: block;
-    }
-
-    .dropdown:hover .nav-bar2 .active {
-        display: block;
     }
 
     .dropdown {
@@ -673,10 +704,7 @@ footer .copyright-text {
 
     .drop-menu-icon i {
         display: block;
-    }
-
-    .drop-menu-1 ul>div:nth-of-type(2)>li:nth-of-type(1) {
-        display: none;
+        font-size: 3vw;
     }
 
     .drop-menu-1 ul {
@@ -690,17 +718,18 @@ footer .copyright-text {
     }
 
     .drop-menu-1 .list {
-        font-size: 20px;
+        font-size: 5vw;
         text-align: center;
     }
 
     .drop-menu-1 li {
-        line-height: 25px;
+        line-height: 5vw;
         width: auto;
+        text-transform: capitalize;
     }
 
     .drop-menu-1 li a {
-        font-size: 15px;
+        font-size: 4vw;
         padding: 0px;
     }
 
@@ -708,11 +737,11 @@ footer .copyright-text {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        line-height: 55px;
+        line-height: 42px;
     }
 
     .nav-bar2 .nav-link {
-        font-size: 13px;
+        font-size: 3vw;
         padding: 0px;
     }
 
@@ -720,6 +749,19 @@ footer .copyright-text {
         margin: 10px 9px 0px 10px;
         height: 43px;
         width: 80%;
+    }
+
+    .sj-links-link {
+        padding: 0;
+    }
+
+    .sj-links-link a {
+        padding: 3vw 7vw;
+        font-size: 4vw;
+    }
+
+    .sj-links-link a span {
+        display: none;
     }
 
     .sj-search {
@@ -738,22 +780,16 @@ footer .copyright-text {
     .sj-hamburger {
         display: block;
         color: #fff;
-        font-size: 6vw;
+        font-size: 7vw;
         position: relative;
         margin-right: 10px;
     }
 
-    .sj-links-link {
-        padding: 11px 0;
-    }
-
-    .sj-links-link a {
-        padding: 3vw 10vw;
-        font-size: 4vw;
-    }
-
-    .sj-links-link a span {
-        display: none;
+    .sj-hamburger1 { 
+        display: inline-block; 
+        color: #490000;
+        font-size: 8vw; 
+        margin: 10px 6px;
     }
 
     section .container {

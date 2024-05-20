@@ -76,6 +76,20 @@ function dropmenu1() {
     navBar1.classList.toggle("active")
 }
  
+function dropmenu2() { 
+    navBar1 = document.querySelector('.drop-down2');
+    navBar1.classList.toggle("active")
+}
+
+function dropmenu3() { 
+    navBar1 = document.querySelector('.drop-down3');
+    navBar1.classList.toggle("active")
+}
+
+function dropmenu4() { 
+    navBar1 = document.querySelector('.drop-down4');
+    navBar1.classList.toggle("active")
+} 
 
 function handleWishlist(elem, key) {
     $(elem).children().toggleClass('color-class');

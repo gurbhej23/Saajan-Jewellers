@@ -7,6 +7,9 @@
 a {
     text-decoration: none;
 }
+.sj-hamburger1 {
+    display: none;
+}
 
 /* Cintainer */ 
 section .container{
@@ -279,7 +282,7 @@ section .container{
 .card-1{
     cursor: pointer;
     position: relative;
-    margin: 10px auto;
+    margin: 10px 30px;
     padding: 8px;
     border: 1px solid #490000; 
     background-color: #fff;
@@ -696,6 +699,14 @@ footer .copyright-text{
         height: 35px;
     } 
 
+    .category-2{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .category-2 .card-1{
+        margin: 2vw;
+    }
     .category-2 .wish-list .material-symbols-outlined{ 
         padding: 3px;
         font-size: 20px;

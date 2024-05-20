@@ -21,22 +21,8 @@
                         <a href="index.html" class="sj-logo">
                             <img src="/assets/images/jewellery/logo2-removebg-preview.png" class="img-fluid" />
                         </a>
-                    </div>
-
-                    <div class="sj-search">
-                        <div class="sj-search-input">
-                            <span class="material-symbols-outlined"> search </span>
-                            <input type="text" placeholder="Search">
-                            <div class="icon2">
-                                <span class="material-symbols-outlined arrow_forward"> arrow_forward </span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="sj-hamburger" id="hamburger" onclick="hamburger()">
-                        <i class="fa-solid fa-bars"></i>
-                    </div>
-
+                    </div> 
+                     
                     <div class="sj-links">
                         <nav>
                             <div class="sj-links-link">
@@ -46,7 +32,7 @@
                                 </a>
                             </div>
                             <div class="sj-links-link">
-                                <a href="index.html#category">
+                                <a href="#category">
                                     <i class="fa fa-diamond" aria-hidden="true"></i>
                                     <span>Jewellery</span>
                                 </a>
@@ -65,10 +51,17 @@
                             </div>
                         </nav>
                     </div>
+                    
+                    <div class="sj-hamburger" id="hamburger" onclick="hamburger()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
 
                 </div>
 
-                <div class="nav-bar2">
+                <div class="nav-bar2"> 
+                    <div class="sj-hamburger1" id="hamburger" onclick="hamburger()">
+                        <i class="fa fa-times" aria-hidden="true" class="cross-icon"></i>
+                    </div>
                     <nav id="dropdown">
                         <div class="dropdown" id="drop-menu" onclick="dropmenu()">
                             <div class="drop-menu-icon">
@@ -147,74 +140,80 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="dropdown">
+                        <div class="dropdown" id="drop-menu" onclick="dropmenu2()">
                             <div class="drop-menu-icon">
                                 <a href="" class="nav-link">Diamond</a>
                                 <i class="fa-solid fa-chevron-down "></i>
                             </div>
                             <hr class="hr-line">
-                            <div class="drop-menu-1 active">
-                                <ul>
-                                    <div>
-                                        <li class="list">Category</li>
-                                        <li><a
-                                                href="product.html?sku=petite_geometric_diamond_nose_pin">Nosepins</a>
-                                        </li>
-                                        <li><a
-                                                href="/product.html?sku=minimal-sparkle-diamond-bracelet">Bracelets</a>
-                                        </li>
-                                        <li><a href="product.html?sku=diamond_stud_earrings_2">Earrings</a></li>
-                                    </div>
-                                    <div>
-                                        <li class="list">earrings</li>
-                                        <li><a href="product.html?sku=diamond_drop_earrings">drop earrings</a></li>
-                                        <li><a href="product.html?sku=diamond_stud_earrings">stud earrings</a></li>
-                                    </div>
-                                    <div>
-                                        <li class="list">Rings</li>
-                                        <li><a href="product.html?sku=pink_saphire_ring">engagement rings</a></li>
-                                    </div>
-                                </ul>
+                            <div class="drop-down2">
+                                <div class="drop-menu-1 active">
+                                    <ul>
+                                        <div>
+                                            <li class="list">Category</li>
+                                            <li><a
+                                                    href="product.html?sku=petite_geometric_diamond_nose_pin">Nosepins</a>
+                                            </li>
+                                            <li><a
+                                                    href="/product.html?sku=minimal-sparkle-diamond-bracelet">Bracelets</a>
+                                            </li>
+                                            <li><a href="product.html?sku=diamond_stud_earrings_2">Earrings</a></li>
+                                        </div>
+                                        <div>
+                                            <li class="list">earrings</li>
+                                            <li><a href="product.html?sku=diamond_drop_earrings">drop earrings</a></li>
+                                            <li><a href="product.html?sku=diamond_stud_earrings">stud earrings</a></li>
+                                        </div>
+                                        <div>
+                                            <li class="list">Rings</li>
+                                            <li><a href="product.html?sku=pink_saphire_ring">engagement rings</a></li>
+                                        </div>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
-                        <div class="dropdown">
+                        <div class="dropdown" id="drop-menu" onclick="dropmenu3()">
                             <div class="drop-menu-icon">
                                 <a href="category.html?sku=earrings" class="nav-link">Earrings</a>
                                 <i class="fa-solid fa-chevron-down "></i>
                             </div>
                             <hr class="hr-line">
-                            <div class="drop-menu-1 active">
-                                <ul>
-                                    <div>
-                                        <li class="list">Category</li>
-                                        <li><a href="category.html?sku=earrings">all earrings</a></li>
-                                    </div>
-                                    <div>
-                                        <li class="list">Gender</li>
-                                        <li><a href="category.html?sku=women">Women</a></li>
-                                    </div>
-                                </ul>
+                            <div class="drop-down3">
+                                <div class="drop-menu-1 active">
+                                    <ul>
+                                        <div>
+                                            <li class="list">Category</li>
+                                            <li><a href="category.html?sku=earrings">all earrings</a></li>
+                                        </div>
+                                        <div>
+                                            <li class="list">Gender</li>
+                                            <li><a href="category.html?sku=women">Women</a></li>
+                                        </div>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
-                        <div class="dropdown">
+                        <div class="dropdown" id="drop-menu" onclick="dropmenu4()">
                             <div class="drop-menu-icon">
                                 <a href="category.html?sku=rings" class="nav-link">Rings</a>
                                 <i class="fa-solid fa-chevron-down "></i>
                             </div>
                             <hr class="hr-line">
-                            <div class="drop-menu-1 active">
-                                <ul>
-                                    <div>
-                                        <li class="list">Category</li>
-                                        <li><a href="category.html?sku=rings">all Rings</a></li>
-                                    </div>
-                                    <div>
-                                        <li class="list">stones</li>
-                                        <li><a href="product.html?sku=floral_ring_diamond">diamond</a></li>
-                                        <li><a href="product.html?sku=ruby_gold_ring">gemstone</a></li>
-                                        <li><a href="product.html?sku=gold_ring_men">gold</a></li>
-                                    </div>
-                                </ul>
+                            <div class="drop-down4">
+                                <div class="drop-menu-1 active">
+                                    <ul>
+                                        <div>
+                                            <li class="list">Category</li>
+                                            <li><a href="category.html?sku=rings">all Rings</a></li>
+                                        </div>
+                                        <div>
+                                            <li class="list">stones</li>
+                                            <li><a href="product.html?sku=floral_ring_diamond">diamond</a></li>
+                                            <li><a href="product.html?sku=ruby_gold_ring">gemstone</a></li>
+                                            <li><a href="product.html?sku=gold_ring_men">gold</a></li>
+                                        </div>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                         <div class="dropdown">
@@ -248,23 +247,28 @@
                         <p>Please do not hesitate to reach out to us for any queries or feedback. We are here to create effective solutions for any of your concerns. Kindly fill out the form below, and one of our representatives will get back to you.</p>
                     </div> 
                     <div class="contact-form">
-                        <form action="">
-                            <div class="form-sec">
-                                <input type="text" name="contact" placeholder="Full Name">
-                            </div>
-                            <div class="form-sec">
-                                <input type="email" name="contact" placeholder="Email">
-                            </div>
-                            <div class="form-sec">
-                                <input type="text" name="contact" placeholder="Phone Number">
-                            </div>
-                            <div class="form-sec">
-                                <textarea name="contact" placeholder="Message" cols="40" rows="5"></textarea>
-                            </div>
-                            <div class="form-sec"> 
-                                <button type="submit">Submit</button>
-                            </div>
-                        </form>
+                        <div id="contactFormContainer">
+                            <form action="" id="contactForm">
+                                <div class="form-sec">
+                                    <input type="text" name="contact" id="fullname" placeholder="Full Name">
+                                </div>
+                                <div class="form-sec">
+                                    <input type="email" name="contact" id="email" placeholder="Email">
+                                </div>
+                                <div class="form-sec">
+                                    <input type="text" name="contact" id="phone" placeholder="Phone Number">
+                                </div>
+                                <div class="form-sec">
+                                    <textarea name="contact" id="message" placeholder="Message" cols="40" rows="5"></textarea>
+                                </div>
+                                <div class="form-sec"> 
+                                    <button type="submit">Submit</button>
+                                </div>
+                            </form>
+                        </div>
+                        <div id="successMessage" style="display: none;">
+                            <p>Message submitted successfully!</p>
+                        </div>
                         <div class="address-sec">
                             <address>
                                 Bhandari Market, Saraafa Bazaar, <br>
@@ -343,13 +347,53 @@
                 </div>
             </footer>
         </div>
-    </div>
+    </div> 
     <script>
-        let hamburger = document.querySelector('#hamburger');
-        hamburger.onclick = function () {
-            navBar = document.querySelector('.nav-bar2');
-            navBar.classList.toggle("active")
-        }    
-        </script>
+    function hamburger() {
+        navBar = document.querySelector('.nav-bar2');
+        navBar.classList.toggle("active")
+    }
+    
+    function dropmenu() { 
+        navBar1 = document.querySelector('.drop-down');
+        navBar1.classList.toggle("active")
+    }
+    
+    function dropmenu1() { 
+        navBar1 = document.querySelector('.drop-down1');
+        navBar1.classList.toggle("active")
+    }
+     
+    function dropmenu2() { 
+        navBar1 = document.querySelector('.drop-down2');
+        navBar1.classList.toggle("active")
+    }
+    
+    function dropmenu3() { 
+        navBar1 = document.querySelector('.drop-down3');
+        navBar1.classList.toggle("active")
+    }
+    
+    function dropmenu4() { 
+        navBar1 = document.querySelector('.drop-down4');
+        navBar1.classList.toggle("active")
+    } 
+
+    document.addEventListener('DOMContentLoaded', function() {
+            document.getElementById('contactForm').addEventListener('submit', function(event) {
+                event.preventDefault(); // Prevent default form submission
+
+                // Get form values
+                var fullName = document.querySelector('input[name="fullname"]');
+                var email = document.querySelector('input[name="email"]');
+                var phone = document.querySelector('input[name="phone"]');
+                var message = document.querySelector('textarea[name="message"]');
+
+                document.getElementById('contactFormContainer').style.display = 'none';
+                // Display success message
+                document.getElementById('successMessage').style.display = 'block'; 
+            });
+        });
+    </script>
 </body>
 </html>
