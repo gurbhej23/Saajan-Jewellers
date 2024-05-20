@@ -240,6 +240,7 @@
                     </nav>
                 </div>
             </header>
+
             <section>                
                 <div class="container">  
                     <div class="text-container"> 
@@ -317,8 +318,8 @@
                 </div>
             </footer>
 
-            <script id="wishlist-page" type="text/x-handlebars-template">
-             
+            <script id="wishlist-page" type="text/x-handlebars-template"> 
+
                         <div class="card-1">
                             <div class="wish-list" onclick="handleWishlist(this, '{{product_key}}')" data-key="{{product_key}}">
                                 <span class="material-symbols-outlined">favorite</span>
@@ -329,7 +330,7 @@
                                     <h2>{{title}}</h2>
                                 </div>
                                 <div class="img-2">
-                                    <img src={{pdt-images.2.src}}>
+                                    <img src={{pdt-images.1.src}}>
                                 </div>
                             </a>
                             <div class="price">
@@ -350,19 +351,19 @@
                         </div>   
                   
             </script>
-        </div>
+        </div> 
     </div>
     <script src="/assets/scripts/wishlist.js" type="module"></script>
     <script>
     function handleWishlist(elem, key){
         $(elem).children().toggleClass('color-class');
+        $(elem).parent().hide()
         
         if($(elem).children().hasClass('color-class')){
             saveKey(key)
         } else {
             removeKey(key)
         }
-    
     }
     
     function handleWishlistLoad () {

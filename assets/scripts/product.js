@@ -22,5 +22,13 @@ $(document).ready(function () {
             $(this).children().addClass('color-class');       
             console.log('this product in wishlist') 
         }
-    })  
+    })
+    
+    $('.pdt-wishlist').each(function () {
+        let key = $(this).attr('data-key')
+        if( getKeyValue(productSKU) !== null) {
+            $(this).children().addClass('color-class');       
+            console.log('this product in wishlist') 
+        }
+    }) 
 }); 

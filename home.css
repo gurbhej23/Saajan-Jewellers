@@ -50,8 +50,7 @@ footer .container {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    justify-content: space-between; 
 }
 
 .sj-logo {
@@ -773,11 +772,7 @@ footer .copyright-text {
 
     .hr-line {
         display: block;
-    }
-
-    .img-fluid {
-        width: 70%;
-    }
+    } 
 
     section:nth-of-type(9) {
         display: none;
@@ -791,11 +786,9 @@ footer .copyright-text {
         display: flex;
         justify-content: space-between;
         align-items: center;
-    }
-
+    } 
     .nav-bar2 {
-        display: none;
-        padding: 7px 0;
+        display: none; 
         position: fixed;
         z-index: 999;
         top: 0; 
@@ -809,6 +802,7 @@ footer .copyright-text {
     .nav-bar2.active {
         display: block;   
         transform: translateX(0%);
+        box-shadow: 6px 0 25px 12px #490000;
     }  
      
     .drop-down {
@@ -828,6 +822,29 @@ footer .copyright-text {
         display: block;
     }
 
+    .drop-down2 {
+        display: none;
+    }
+
+    .drop-down2.active {
+        display: block;
+    }
+
+    .drop-down3 {
+        display: none;
+    }
+
+    .drop-down3.active {
+        display: block;
+    }
+
+    .drop-down4 {
+        display: none;
+    }
+
+    .drop-down4.active {
+        display: block;
+    }
     .nav-bar2 .active {
         box-shadow: none;
         border-radius: 0px;
@@ -901,7 +918,7 @@ footer .copyright-text {
     }
 
     .sj-links-link a {
-        padding: 3vw 10vw;
+        padding: 3vw 7vw;
         font-size: 4vw;
     }
 
@@ -925,7 +942,7 @@ footer .copyright-text {
     .sj-hamburger {
         display: block;
         color: #fff;
-        font-size: 6vw;
+        font-size: 7vw;
         position: relative;
         margin-right: 10px;
     }
@@ -934,7 +951,7 @@ footer .copyright-text {
         display: inline-block; 
         color: #490000;
         font-size: 8vw; 
-        margin: 6px 6px;
+        margin: 10px 6px;
     }
     section .container {
         width: 100%;

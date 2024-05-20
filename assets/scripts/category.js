@@ -1197,7 +1197,7 @@ function handleWishlist(elem, key){
     
     if($(elem).children().hasClass('color-class')){
         saveKey(key)
-    } else {
+    } else {    
         removeKey(key)
     }
 
@@ -1219,10 +1219,34 @@ function removeKey(key) {
     return localStorage.removeItem(key)
 }
 
-function hamburger(){
-    let hamburger = document.querySelector('#hamburger');
+function hamburger() {
     navBar = document.querySelector('.nav-bar2');
     navBar.classList.toggle("active")
-}  
+}
+
+function dropmenu() { 
+    navBar1 = document.querySelector('.drop-down');
+    navBar1.classList.toggle("active")
+}
+
+function dropmenu1() { 
+    navBar1 = document.querySelector('.drop-down1');
+    navBar1.classList.toggle("active")
+}
+
+function dropmenu2() { 
+    navBar1 = document.querySelector('.drop-down2');
+    navBar1.classList.toggle("active")
+}
+
+function dropmenu3() { 
+    navBar1 = document.querySelector('.drop-down3');
+    navBar1.classList.toggle("active")
+}
+
+function dropmenu4() { 
+    navBar1 = document.querySelector('.drop-down4');
+    navBar1.classList.toggle("active")
+} 
 
  
