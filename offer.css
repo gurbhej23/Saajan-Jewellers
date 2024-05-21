@@ -259,7 +259,7 @@ section .container{
 } 
 
 .deals-sec .deals h2{   
-    display: inline;
+    display: inline; 
 } 
 
 .deals-sec table{
@@ -285,6 +285,7 @@ section .container{
     font-size: 20px;
     line-height: 40px;
 }
+
 
 
                                     /* footer section */
@@ -580,11 +581,19 @@ footer .copyright-text{
     }
 
     .deals-sec .terms-condition{
-        font-size: 12px;
+        font-size: 16px;
         line-height: 22px;
         margin: 10px;
     }
 
+    .deals-sec h1{ 
+        font-size: 30px;
+        line-height: 64px;
+    }
+
+    .deals-sec .deals h2{
+        font-size: 20px;
+    }
     footer .container{
         width: auto;
     }

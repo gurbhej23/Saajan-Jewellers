@@ -375,6 +375,9 @@ footer .copyright-text{
         display: block;
     } 
 
+    section .container{ 
+        width: 100%;
+    }
     section:nth-of-type(9) {
         display: none;
     }
